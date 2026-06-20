@@ -1,8 +1,6 @@
 name: Daily Market Briefing
 
 on:
-  push:
-    branches: [main]
   schedule:
     - cron: '0 1 * * *'   # 매일 01:00 UTC = 10:00 KST
   workflow_dispatch:        # GitHub 웹에서 수동 실행 버튼
