@@ -9,7 +9,10 @@ def _get_krx_index(ticker_code: str) -> dict:
     for days_back in range(0, 5):
         date = today - datetime.timedelta(days=days_back)
         date_str = date.strftime("%Y%m%d")
-        df = stock.get_index_ohlcv_by_date(date_str, date_str, ticker_code)
+        try:
+            df = stock.get_index_ohlcv_by_date(date_str, date_str, ticker_code)
+        except Exception:
+            continue
         if not df.empty:
             close = float(df["종가"].iloc[-1])
             prev_close = float(df["전일종가"].iloc[-1])
