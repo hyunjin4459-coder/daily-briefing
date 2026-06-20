@@ -1,3 +1,4 @@
+import pytest
 from unittest.mock import patch, MagicMock
 from src.kakao import refresh_access_token, send_message
 
@@ -31,8 +32,5 @@ def test_send_message_raises_on_error():
     mock_response.raise_for_status.side_effect = Exception("401 Unauthorized")
 
     with patch("src.kakao.requests.post", return_value=mock_response):
-        try:
+        with pytest.raises(Exception):
             send_message("bad_token", "메시지")
-            assert False, "예외 발생 필요"
-        except Exception:
-            pass
