@@ -17,6 +17,8 @@ def refresh_access_token(rest_api_key: str, refresh_token: str) -> str:
         },
         timeout=10,
     )
+    if not response.ok:
+        print(f"[Kakao 토큰 오류] status={response.status_code} body={response.text}")
     response.raise_for_status()
     data = response.json()
     if "refresh_token" in data:
