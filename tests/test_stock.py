@@ -3,34 +3,29 @@ from unittest.mock import patch, MagicMock
 from src.stock import get_stock_data
 
 
-def _make_krx_df(close, prev_close):
-    """PyKRX get_index_ohlcv_by_date 반환값 모사."""
-    return pd.DataFrame(
-        {"종가": [close], "전일종가": [prev_close]},
-        index=["20260620"],
-    )
+def _make_stooq_csv(rows: list[tuple]) -> str:
+    lines = ["Date,Open,High,Low,Close,Volume"]
+    for date, close in rows:
+        lines.append(f"{date},0,0,0,{close},0")
+    return "\n".join(lines)
 
 
-def _make_yf_history(close, prev_close):
-    """yfinance Ticker.history() 반환값 모사."""
-    return pd.DataFrame(
-        {"Close": [prev_close, close]},
-    )
+def _mock_get(csv_text):
+    mock = MagicMock()
+    mock.status_code = 200
+    mock.text = csv_text
+    mock.raise_for_status = MagicMock()
+    return mock
+
+
+CSV_5_ROWS = _make_stooq_csv([
+    ("2026-06-18", 2637.84),
+    ("2026-06-19", 2650.34),
+])
 
 
 def test_get_stock_data_returns_all_keys():
-    krx_patch = patch(
-        "src.stock.stock.get_index_ohlcv_by_date",
-        side_effect=[
-            _make_krx_df(2650.34, 2637.84),   # KOSPI
-            _make_krx_df(870.21, 873.31),      # KOSDAQ
-        ],
-    )
-    yf_ticker_mock = MagicMock()
-    yf_ticker_mock.history.return_value = _make_yf_history(5302.10, 5273.70)
-    yf_patch = patch("src.stock.yf.Ticker", return_value=yf_ticker_mock)
-
-    with krx_patch, yf_patch:
+    with patch("src.stock.requests.get", return_value=_mock_get(CSV_5_ROWS)):
         data = get_stock_data()
 
     assert set(data.keys()) == {"KOSPI", "KOSDAQ", "SP500", "NASDAQ", "DOW"}
@@ -40,20 +35,10 @@ def test_get_stock_data_returns_all_keys():
         assert "pct" in data[key]
 
 
-def test_kospi_change_calculation():
-    krx_patch = patch(
-        "src.stock.stock.get_index_ohlcv_by_date",
-        side_effect=[
-            _make_krx_df(2650.34, 2637.84),
-            _make_krx_df(870.21, 873.31),
-        ],
-    )
-    yf_ticker_mock = MagicMock()
-    yf_ticker_mock.history.return_value = _make_yf_history(5302.10, 5273.70)
-    yf_patch = patch("src.stock.yf.Ticker", return_value=yf_ticker_mock)
-
-    with krx_patch, yf_patch:
+def test_change_calculation():
+    with patch("src.stock.requests.get", return_value=_mock_get(CSV_5_ROWS)):
         data = get_stock_data()
 
-    assert abs(data["KOSPI"]["change"] - 12.50) < 0.01
+    assert data["KOSPI"]["close"] == 2650.34
+    assert abs(data["KOSPI"]["change"] - 12.5) < 0.01
     assert abs(data["KOSPI"]["pct"] - 0.47) < 0.01

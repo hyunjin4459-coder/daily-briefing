@@ -1,28 +1,37 @@
-import yfinance as yf
+import io
+import requests
+import pandas as pd
 
-SYMBOLS = {
-    "KOSPI":  "^KS11",
-    "KOSDAQ": "^KQ11",
-    "SP500":  "^GSPC",
-    "NASDAQ": "^IXIC",
-    "DOW":    "^DJI",
+STOOQ_SYMBOLS = {
+    "KOSPI":  "^kos11",
+    "KOSDAQ": "^kq11",
+    "SP500":  "^spx",
+    "NASDAQ": "^ndq",
+    "DOW":    "^dji",
+}
+
+_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0"
 }
 
 
-def get_stock_data() -> dict:
-    """국내외 주요 지수 데이터를 한 번의 요청으로 반환한다."""
-    tickers = list(SYMBOLS.values())
-    data = yf.download(tickers, period="5d", progress=False, auto_adjust=True)
-    close_df = data["Close"]
+def _get_stooq(name: str, symbol: str) -> dict:
+    resp = requests.get(
+        f"https://stooq.com/q/d/l/?s={symbol}&i=d",
+        headers=_HEADERS,
+        timeout=15,
+    )
+    resp.raise_for_status()
+    df = pd.read_csv(io.StringIO(resp.text))
+    df = df.dropna(subset=["Close"]).sort_values("Date")
+    if len(df) < 2:
+        raise RuntimeError(f"Stooq 데이터 부족: {name} ({symbol})")
+    close = round(float(df["Close"].iloc[-1]), 2)
+    prev = round(float(df["Close"].iloc[-2]), 2)
+    change = round(close - prev, 2)
+    pct = round((change / prev) * 100, 2)
+    return {"close": close, "change": change, "pct": pct}
 
-    result = {}
-    for name, symbol in SYMBOLS.items():
-        series = close_df[symbol].dropna()
-        if len(series) < 2:
-            raise RuntimeError(f"yfinance 데이터 부족: {symbol}")
-        close = round(float(series.iloc[-1]), 2)
-        prev_close = round(float(series.iloc[-2]), 2)
-        change = round(close - prev_close, 2)
-        pct = round((change / prev_close) * 100, 2)
-        result[name] = {"close": close, "change": change, "pct": pct}
-    return result
+
+def get_stock_data() -> dict:
+    return {name: _get_stooq(name, sym) for name, sym in STOOQ_SYMBOLS.items()}
