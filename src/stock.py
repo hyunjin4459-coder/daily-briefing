@@ -25,6 +25,8 @@ def _get_yf_index(symbol: str) -> dict:
     hist = ticker.history(period="2d")
     if len(hist) < 2:
         hist = ticker.history(period="5d")
+    if len(hist) < 2:
+        raise RuntimeError(f"yfinance 데이터 부족: {symbol} (rows={len(hist)})")
     close = float(hist["Close"].iloc[-1])
     prev_close = float(hist["Close"].iloc[-2])
     change = round(close - prev_close, 2)

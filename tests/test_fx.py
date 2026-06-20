@@ -1,3 +1,4 @@
+import pytest
 from unittest.mock import patch, MagicMock
 from src.fx import get_exchange_rates
 
@@ -24,8 +25,5 @@ def test_get_exchange_rates_raises_on_api_error():
     mock_response.raise_for_status.side_effect = Exception("API Error")
 
     with patch("src.fx.requests.get", return_value=mock_response):
-        try:
+        with pytest.raises(Exception):
             get_exchange_rates()
-            assert False, "예외가 발생해야 한다"
-        except Exception:
-            pass

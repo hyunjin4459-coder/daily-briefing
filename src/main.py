@@ -61,6 +61,8 @@ def format_message(stocks: dict, fx: dict, news: dict) -> str:
 
 
 def run():
+    from dotenv import load_dotenv
+    load_dotenv()
     rest_api_key = os.environ["KAKAO_REST_API_KEY"]
     refresh_token = os.environ["KAKAO_REFRESH_TOKEN"]
 
