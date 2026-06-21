@@ -1,8 +1,12 @@
+import os
 import anthropic
 
 
 def summarize_news(news: dict) -> str:
-    """Claude Haiku로 뉴스 헤드라인을 2문장으로 요약한다."""
+    """Claude Haiku로 뉴스 헤드라인을 2문장으로 요약한다. API 키 없으면 빈 문자열 반환."""
+    if not os.environ.get("ANTHROPIC_API_KEY"):
+        return ""
+
     economy = "\n".join(f"- {h}" for h in news.get("economy", []))
     realestate = "\n".join(f"- {h}" for h in news.get("realestate", []))
 
