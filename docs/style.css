@@ -578,4 +578,42 @@ body {
   .num-xl { font-size: 1.4rem; }
   .num-lg { font-size: 1.1rem; }
   .news-item { font-size: 0.8rem; }
+
+  /* 탭 */
+  .tab-nav { gap: 0.35rem; padding: 0 1rem; }
+  .tab-btn { font-size: 0.78rem; padding: 0.45rem 0.9rem; }
 }
+
+/* ── 탭 내비게이션 ── */
+.tab-nav {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0 1.5rem;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+  margin-bottom: -0.5rem;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  color: #475569;
+  font-size: 0.88rem;
+  font-weight: 600;
+  padding: 0.6rem 1.1rem;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.15s, border-color 0.15s;
+  white-space: nowrap;
+}
+
+.tab-btn:hover { color: #94a3b8; }
+
+.tab-btn.active {
+  color: #818cf8;
+  border-bottom-color: #818cf8;
+}
+
+/* ── 탭 패널 ── */
+.tab-panel { display: none; }
+.tab-panel.active { display: contents; }

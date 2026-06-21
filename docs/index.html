@@ -49,114 +49,126 @@
       <span class="badge">매일 10:00 KST 자동 업데이트</span>
     </header>
 
+    <nav class="tab-nav">
+      <button class="tab-btn active" data-tab="home">📈 시장</button>
+      <button class="tab-btn" data-tab="news">📰 뉴스</button>
+      <button class="tab-btn" data-tab="signal">🤖 AI 신호</button>
+      <button class="tab-btn" data-tab="portfolio">💼 포트폴리오</button>
+    </nav>
+
     <main class="bento">
 
-      <!-- ① 지수 카드 5개 -->
-      <div class="grid-5" id="stock-cards"></div>
+      <!-- ── 탭 1: 시장 개요 ── -->
+      <div class="tab-panel active" data-tab="home">
 
-      <!-- ② 포트폴리오 요약 + 환율 -->
-      <div class="grid-portfolio-row">
-        <div class="card" id="portfolio-total"></div>
+        <div class="grid-5" id="stock-cards"></div>
+
+        <div class="grid-portfolio-row">
+          <div class="card" id="portfolio-total"></div>
+          <div class="grid-2">
+            <div class="card" id="fx-usd"></div>
+            <div class="card" id="fx-jpy"></div>
+          </div>
+        </div>
+
+        <div class="grid-2x2">
+          <div class="card">
+            <p class="card-label">KOSPI</p>
+            <div class="chart-h180"><canvas id="chart-KOSPI"></canvas></div>
+          </div>
+          <div class="card">
+            <p class="card-label">S&amp;P 500</p>
+            <div class="chart-h180"><canvas id="chart-SP500"></canvas></div>
+          </div>
+          <div class="card">
+            <p class="card-label">NASDAQ</p>
+            <div class="chart-h180"><canvas id="chart-NASDAQ"></canvas></div>
+          </div>
+          <div class="card">
+            <p class="card-label">USD / KRW</p>
+            <div class="chart-h180"><canvas id="chart-USD"></canvas></div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ── 탭 2: 뉴스 ── -->
+      <div class="tab-panel" data-tab="news">
+
+        <div class="grid-2x2">
+          <div class="card">
+            <p class="news-section-title">📰 국내 경제</p>
+            <ul id="news-economy" class="news-list"></ul>
+          </div>
+          <div class="card">
+            <p class="news-section-title">🏠 부동산</p>
+            <ul id="news-realestate" class="news-list"></ul>
+          </div>
+          <div class="card">
+            <p class="news-section-title">🌍 글로벌</p>
+            <ul id="news-global" class="news-list"></ul>
+          </div>
+          <div class="card">
+            <p class="news-section-title">🇺🇸 미국 · 달러</p>
+            <ul id="news-usnews" class="news-list"></ul>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="news-section-title">📰 종목별 뉴스</p>
+          <div id="portfolio-news-grid" class="pf-news-grid"></div>
+        </div>
+
+      </div>
+
+      <!-- ── 탭 3: AI 신호 ── -->
+      <div class="tab-panel" data-tab="signal">
+
+        <div class="card">
+          <p class="card-label">📊 섹터 방향 (S&amp;P 500 ETF)</p>
+          <div id="sector-bars"></div>
+        </div>
+
         <div class="grid-2">
-          <div class="card" id="fx-usd"></div>
-          <div class="card" id="fx-jpy"></div>
+          <div class="card">
+            <p class="card-label">🚦 AI 시장 신호</p>
+            <div id="signal-content"></div>
+          </div>
+          <div class="card">
+            <p class="card-label">🤖 AI 검증 (분석가 → 비평가)</p>
+            <div id="ai-verification-content"></div>
+          </div>
         </div>
+
+        <div class="card">
+          <p class="card-label">📈 추천 이력 (트리플 배리어: TP +5% / SL -3% / 10일)</p>
+          <div id="reco-summary"></div>
+          <div class="reco-table-wrap">
+            <table class="reco-table">
+              <thead>
+                <tr>
+                  <th>날짜</th><th>신호</th><th>점수</th>
+                  <th>SP500 진입</th><th>TP</th><th>SL</th>
+                  <th>결과</th><th>수익률</th>
+                </tr>
+              </thead>
+              <tbody id="reco-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+
       </div>
 
-      <!-- ③ 포트폴리오 90일 수익률 -->
-      <div class="card">
-        <p class="card-label">💼 포트폴리오 수익률 추이 (90일)</p>
-        <div class="chart-h300"><canvas id="chart-portfolio"></canvas></div>
-      </div>
+      <!-- ── 탭 4: 포트폴리오 ── -->
+      <div class="tab-panel" data-tab="portfolio">
 
-      <!-- ④ 종목별 카드 -->
-      <div class="grid-5" id="holdings-cards"></div>
+        <div class="card">
+          <p class="card-label">💼 포트폴리오 수익률 추이 (90일)</p>
+          <div class="chart-h300"><canvas id="chart-portfolio"></canvas></div>
+        </div>
 
-      <!-- ⑤ 지수 추세 차트 2×2 -->
-      <div class="grid-2x2">
-        <div class="card">
-          <p class="card-label">KOSPI</p>
-          <div class="chart-h180"><canvas id="chart-KOSPI"></canvas></div>
-        </div>
-        <div class="card">
-          <p class="card-label">S&amp;P 500</p>
-          <div class="chart-h180"><canvas id="chart-SP500"></canvas></div>
-        </div>
-        <div class="card">
-          <p class="card-label">NASDAQ</p>
-          <div class="chart-h180"><canvas id="chart-NASDAQ"></canvas></div>
-        </div>
-        <div class="card">
-          <p class="card-label">USD / KRW</p>
-          <div class="chart-h180"><canvas id="chart-USD"></canvas></div>
-        </div>
-      </div>
+        <div class="grid-5" id="holdings-cards"></div>
 
-      <!-- ⑥ 뉴스 2×2 -->
-      <div class="grid-2x2">
-        <div class="card">
-          <p class="news-section-title">📰 국내 경제</p>
-          <ul id="news-economy" class="news-list"></ul>
-        </div>
-        <div class="card">
-          <p class="news-section-title">🏠 부동산</p>
-          <ul id="news-realestate" class="news-list"></ul>
-        </div>
-        <div class="card">
-          <p class="news-section-title">🌍 글로벌</p>
-          <ul id="news-global" class="news-list"></ul>
-        </div>
-        <div class="card">
-          <p class="news-section-title">🇺🇸 미국 · 달러</p>
-          <ul id="news-usnews" class="news-list"></ul>
-        </div>
-      </div>
-
-      <!-- ⑦ 종목별 뉴스 -->
-      <div class="card">
-        <p class="news-section-title">📰 종목별 뉴스</p>
-        <div id="portfolio-news-grid" class="pf-news-grid"></div>
-      </div>
-
-      <!-- ⑧ 섹터 방향 -->
-      <div class="card">
-        <p class="card-label">📊 섹터 방향 (S&amp;P 500 ETF)</p>
-        <div id="sector-bars"></div>
-      </div>
-
-      <!-- ⑨ 신호 시스템 + AI 검증 -->
-      <div class="grid-2">
-        <div class="card">
-          <p class="card-label">🚦 AI 시장 신호</p>
-          <div id="signal-content"></div>
-        </div>
-        <div class="card">
-          <p class="card-label">🤖 AI 검증 (분석가 → 비평가)</p>
-          <div id="ai-verification-content"></div>
-        </div>
-      </div>
-
-      <!-- ⑩ 추천 이력 + 트리플 배리어 성과 -->
-      <div class="card">
-        <p class="card-label">📈 추천 이력 (트리플 배리어: TP +5% / SL -3% / 10일)</p>
-        <div id="reco-summary"></div>
-        <div class="reco-table-wrap">
-          <table class="reco-table">
-            <thead>
-              <tr>
-                <th>날짜</th>
-                <th>신호</th>
-                <th>점수</th>
-                <th>SP500 진입</th>
-                <th>TP</th>
-                <th>SL</th>
-                <th>결과</th>
-                <th>수익률</th>
-              </tr>
-            </thead>
-            <tbody id="reco-tbody"></tbody>
-          </table>
-        </div>
       </div>
 
     </main>

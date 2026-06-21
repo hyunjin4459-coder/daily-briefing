@@ -447,6 +447,29 @@ function renderIndexCharts(data) {
   makeLineChart("chart-USD",    labels, data.map(d => d.fx?.USD_KRW           ?? null), "#f59e0b", v => ` ${Number(v).toFixed(2)} 원`);
 }
 
+/* ── 탭 전환 ── */
+function initTabs(data) {
+  const btns   = document.querySelectorAll(".tab-btn");
+  const panels = document.querySelectorAll(".tab-panel");
+
+  btns.forEach(btn => {
+    btn.addEventListener("click", () => {
+      btns.forEach(b => b.classList.remove("active"));
+      panels.forEach(p => p.classList.remove("active"));
+      btn.classList.add("active");
+
+      const panel = document.querySelector(`.tab-panel[data-tab="${btn.dataset.tab}"]`);
+      if (panel) {
+        panel.classList.add("active");
+        if (btn.dataset.tab === "portfolio" && !panel.dataset.rendered) {
+          panel.dataset.rendered = "1";
+          renderPortfolioChart(data);
+        }
+      }
+    });
+  });
+}
+
 /* ── 메인 ── */
 async function main() {
   const [data, recos] = await Promise.all([
@@ -462,7 +485,6 @@ async function main() {
   renderFx(latest);
   renderPortfolioSummary(latest);
   renderHoldings(latest);
-  renderPortfolioChart(data);
   renderIndexCharts(data);
   renderNews(latest);
   renderPortfolioNews(latest);
@@ -470,6 +492,7 @@ async function main() {
   renderSignal(latest);
   renderAiVerification(latest);
   renderRecommendations(recos);
+  initTabs(data);
 }
 
 if (sessionStorage.getItem("db_auth") === "1") {
