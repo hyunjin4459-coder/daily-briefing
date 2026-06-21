@@ -27,6 +27,7 @@
       sessionStorage.setItem("db_auth", "1");
       document.getElementById("pin-screen").style.display = "none";
       document.getElementById("dashboard").style.display = "";
+      main().catch(console.error); // PIN 인증 후 대시보드 표시된 상태에서 실행
     } else {
       err.textContent = "PIN이 틀렸어요";
       input = "";
@@ -186,8 +187,15 @@ const TOOLTIP = {
   backgroundColor: "#1e293b",
   titleColor: "#94a3b8",
   bodyColor: "#e2e8f0",
-  borderColor: "rgba(255,255,255,0.08)",
+  borderColor: "rgba(255,255,255,0.18)",
   borderWidth: 1,
+  padding: 10,
+  caretSize: 5,
+};
+
+const INTERACTION = {
+  mode: "index",
+  intersect: false,
 };
 
 const SCALE_OPTS = (cbY) => ({
@@ -205,7 +213,7 @@ const SCALE_OPTS = (cbY) => ({
   },
 });
 
-function makeLineChart(id, labels, values, color) {
+function makeLineChart(id, labels, values, color, fmtVal) {
   const ctx = document.getElementById(id);
   if (!ctx) return;
   new Chart(ctx, {
@@ -218,7 +226,7 @@ function makeLineChart(id, labels, values, color) {
         backgroundColor: color + "18",
         borderWidth: 2,
         pointRadius: 0,
-        pointHoverRadius: 4,
+        pointHoverRadius: 5,
         fill: true,
         tension: 0.35,
         spanGaps: true,
@@ -228,7 +236,16 @@ function makeLineChart(id, labels, values, color) {
       responsive: true,
       maintainAspectRatio: false,
       animation: { duration: 500 },
-      plugins: { legend: { display: false }, tooltip: { ...TOOLTIP } },
+      interaction: INTERACTION,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          ...TOOLTIP,
+          callbacks: {
+            label: (item) => fmtVal ? fmtVal(item.raw) : ` ${Number(item.raw).toLocaleString("ko-KR")}`,
+          },
+        },
+      },
       scales: SCALE_OPTS(),
     },
   });
@@ -264,7 +281,16 @@ function renderPortfolioChart(data) {
       responsive: true,
       maintainAspectRatio: false,
       animation: { duration: 500 },
-      plugins: { legend: { display: false }, tooltip: { ...TOOLTIP } },
+      interaction: INTERACTION,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          ...TOOLTIP,
+          callbacks: {
+            label: (item) => item.raw !== null ? ` ${item.raw > 0 ? "+" : ""}${Number(item.raw).toFixed(2)}%` : "",
+          },
+        },
+      },
       scales: SCALE_OPTS(v => v.toFixed(1) + "%"),
     },
   });
@@ -273,10 +299,10 @@ function renderPortfolioChart(data) {
 /* ── 지수 추세 차트 4개 ── */
 function renderIndexCharts(data) {
   const labels = data.map(d => d.date.slice(5));
-  makeLineChart("chart-KOSPI",  labels, data.map(d => d.stocks.KOSPI?.close  ?? null), "#818cf8");
-  makeLineChart("chart-SP500",  labels, data.map(d => d.stocks.SP500?.close  ?? null), "#34d399");
-  makeLineChart("chart-NASDAQ", labels, data.map(d => d.stocks.NASDAQ?.close ?? null), "#60a5fa");
-  makeLineChart("chart-USD",    labels, data.map(d => d.fx?.USD_KRW           ?? null), "#f59e0b");
+  makeLineChart("chart-KOSPI",  labels, data.map(d => d.stocks.KOSPI?.close  ?? null), "#818cf8", v => ` ${Number(v).toLocaleString("ko-KR")}`);
+  makeLineChart("chart-SP500",  labels, data.map(d => d.stocks.SP500?.close  ?? null), "#34d399", v => ` ${Number(v).toLocaleString("ko-KR")}`);
+  makeLineChart("chart-NASDAQ", labels, data.map(d => d.stocks.NASDAQ?.close ?? null), "#60a5fa", v => ` ${Number(v).toLocaleString("ko-KR")}`);
+  makeLineChart("chart-USD",    labels, data.map(d => d.fx?.USD_KRW           ?? null), "#f59e0b", v => ` ${Number(v).toFixed(2)} 원`);
 }
 
 /* ── 메인 ── */
@@ -297,4 +323,6 @@ async function main() {
   renderPortfolioNews(latest);
 }
 
-main().catch(console.error);
+if (sessionStorage.getItem("db_auth") === "1") {
+  main().catch(console.error);
+}
