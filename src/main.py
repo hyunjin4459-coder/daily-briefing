@@ -6,7 +6,7 @@ import pathlib
 from src.fx import get_exchange_rates
 from src.stock import get_stock_data
 from src.news import get_news, get_portfolio_news
-from src.summary import summarize_news
+from src.summary import analyze_all
 from src.portfolio import get_portfolio
 from src.kakao import refresh_access_token, send_message
 
@@ -17,18 +17,10 @@ def _arrow(change: float) -> str:
     return "▲" if change >= 0 else "▼"
 
 
-def format_message(stocks: dict, fx: dict, news: dict, summary: str, portfolio: dict | None = None, portfolio_news: dict | None = None) -> str:
+def format_message(stocks: dict, fx: dict, news: dict, portfolio: dict | None = None, portfolio_news: dict | None = None) -> str:
     today = datetime.date.today().strftime("%Y-%m-%d")
 
     lines = [f"📊 오늘의 시장 브리핑 [{today}]", ""]
-
-    if summary:
-        lines.append("🔍 오늘 꼭 알아야 할 뉴스")
-        lines.append("")
-        lines.append(summary)
-        lines.append("")
-        lines.append("─" * 20)
-        lines.append("")
 
     lines.append("📈 국내 증시")
     for name, key in [("KOSPI", "KOSPI"), ("KOSDAQ", "KOSDAQ")]:
@@ -102,22 +94,21 @@ def format_message(stocks: dict, fx: dict, news: dict, summary: str, portfolio: 
     return "\n".join(lines)
 
 
-def save_data(stocks: dict, fx: dict, news: dict, summary: str, portfolio: dict | None = None) -> None:
+def save_data(stocks: dict, fx: dict, news: dict, portfolio: dict | None = None) -> None:
     today = datetime.date.today().isoformat()
     entry = {
         "date": today,
         "stocks": stocks,
         "fx": fx,
         "news": news,
-        "news_summary": summary,
         "portfolio": portfolio,
     }
     existing = json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else []
-    existing = [e for e in existing if e["date"] != today]  # 오늘 날짜 중복 방지
+    existing = [e for e in existing if e["date"] != today]
     existing.append(entry)
-    existing = existing[-90:]  # 최대 90일치만 보관
+    existing = existing[-90:]
     DATA_FILE.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"📁 데이터 저장 완료 ({len(existing)}일치)")
+    print(f"[main] 데이터 저장 완료 ({len(existing)}일치)")
 
 
 def run():
@@ -126,32 +117,36 @@ def run():
     rest_api_key = os.environ["KAKAO_REST_API_KEY"]
     refresh_token = os.environ["KAKAO_REFRESH_TOKEN"]
 
-    print("📡 데이터 수집 중...")
+    print("[main] 데이터 수집 중...")
     stocks = get_stock_data()
     fx = get_exchange_rates()
     news = get_news()
 
-    print("💼 포트폴리오 조회 중...")
+    print("[main] 포트폴리오 조회 중...")
     portfolio = get_portfolio()
 
-    print("📰 종목별 뉴스 조회 중...")
+    print("[main] 종목별 뉴스 조회 중...")
     portfolio_news = get_portfolio_news(portfolio.get("holdings", []))
 
-    print("🤖 Claude AI 뉴스 요약 중...")
-    summary = summarize_news(news)
+    print("[main] 메시지 포맷 중...")
+    message = format_message(stocks, fx, news, portfolio, portfolio_news)
 
-    print("📝 메시지 포맷 중...")
-    message = format_message(stocks, fx, news, summary, portfolio, portfolio_news)
+    print("[main] 대시보드 데이터 저장 중...")
+    save_data(stocks, fx, news, portfolio)
 
-    print("📁 대시보드 데이터 저장 중...")
-    save_data(stocks, fx, news, summary, portfolio)
-
-    print("🔑 카카오 토큰 갱신 중...")
+    print("[main] 카카오 토큰 갱신 중...")
     access_token = refresh_access_token(rest_api_key, refresh_token)
 
-    print("📨 카카오톡 발송 중...")
+    print("[main] 1번 메시지 발송 중...")
     send_message(access_token, message)
-    print("✅ 발송 완료")
+    print("[main] 1번 발송 완료")
+
+    print("[main] AI 심층 분석 중...")
+    analysis = analyze_all(portfolio, portfolio_news, news)
+    if analysis:
+        print("[main] 2번 메시지 발송 중...")
+        send_message(access_token, analysis)
+        print("[main] 2번 발송 완료")
 
 
 if __name__ == "__main__":

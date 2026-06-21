@@ -44,12 +44,24 @@ def _fetch_en(query: str, count: int = 2) -> list[dict]:
     return results
 
 
+_TICKER_KO = {
+    "JOBY":  "조비에비에이션+주가+전망",
+    "QQQ":   "QQQ+ETF+나스닥",
+    "GOOGL": "알파벳+구글+주가+전망",
+    "BLDR":  "빌더스퍼스트소스+BLDR+주가",
+    "NOW":   "서비스나우+NOW+주가",
+}
+
+
 def get_portfolio_news(holdings: list[dict]) -> dict:
-    """보유 종목별 최신 뉴스 2건씩 조회"""
+    """보유 종목별 최신 뉴스 2건씩 조회 (한글 우선)"""
     result = {}
     for h in holdings:
         ticker = h["ticker"]
-        items = _fetch_en(f"{ticker}+stock", count=2)
+        query = _TICKER_KO.get(ticker, f"{ticker}+주가")
+        items = _fetch(query, count=2)
+        if not items:
+            items = _fetch_en(f"{ticker}+stock", count=2)
         if items:
             result[ticker] = {"name": h["name"], "items": items}
     return result
