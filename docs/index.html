@@ -3,191 +3,92 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Daily Market Briefing</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <style>
-    body { background: #0a0f1e; }
-    .glass {
-      background: rgba(255,255,255,0.05);
-      backdrop-filter: blur(12px);
-      border: 1px solid rgba(255,255,255,0.08);
-    }
-    .up   { color: #34d399; }
-    .down { color: #f87171; }
-    .chart-container { position: relative; height: 200px; }
-  </style>
+  <title>Daily Briefing</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" defer></script>
+  <script src="app.js" defer></script>
 </head>
-<body class="text-white min-h-screen p-6">
+<body>
+  <div class="wrapper">
 
-  <!-- Header -->
-  <div class="max-w-5xl mx-auto mb-8">
-    <div class="flex items-center justify-between">
+    <header class="header">
       <div>
-        <h1 class="text-3xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-          📊 Daily Market Briefing
-        </h1>
-        <p id="date-label" class="text-gray-400 mt-1 text-sm"></p>
+        <h1 class="title">Daily Briefing</h1>
+        <p id="date-label" class="subtitle">로딩 중…</p>
       </div>
-      <div class="glass rounded-xl px-4 py-2 text-xs text-gray-400">
-        매일 10:00 KST 자동 업데이트
+      <span class="badge">매일 10:00 KST 자동 업데이트</span>
+    </header>
+
+    <main class="bento">
+
+      <!-- ① 지수 카드 5개 -->
+      <div class="grid-5" id="stock-cards"></div>
+
+      <!-- ② 포트폴리오 요약 + 환율 -->
+      <div class="grid-portfolio-row">
+        <div class="card" id="portfolio-total"></div>
+        <div class="grid-2">
+          <div class="card" id="fx-usd"></div>
+          <div class="card" id="fx-jpy"></div>
+        </div>
       </div>
-    </div>
+
+      <!-- ③ 포트폴리오 90일 수익률 -->
+      <div class="card">
+        <p class="card-label">💼 포트폴리오 수익률 추이 (90일)</p>
+        <div class="chart-h300"><canvas id="chart-portfolio"></canvas></div>
+      </div>
+
+      <!-- ④ 종목별 카드 -->
+      <div class="grid-5" id="holdings-cards"></div>
+
+      <!-- ⑤ 지수 추세 차트 2×2 -->
+      <div class="grid-2x2">
+        <div class="card">
+          <p class="card-label">KOSPI</p>
+          <div class="chart-h180"><canvas id="chart-KOSPI"></canvas></div>
+        </div>
+        <div class="card">
+          <p class="card-label">S&amp;P 500</p>
+          <div class="chart-h180"><canvas id="chart-SP500"></canvas></div>
+        </div>
+        <div class="card">
+          <p class="card-label">NASDAQ</p>
+          <div class="chart-h180"><canvas id="chart-NASDAQ"></canvas></div>
+        </div>
+        <div class="card">
+          <p class="card-label">USD / KRW</p>
+          <div class="chart-h180"><canvas id="chart-USD"></canvas></div>
+        </div>
+      </div>
+
+      <!-- ⑥ 뉴스 2×2 -->
+      <div class="grid-2x2">
+        <div class="card">
+          <p class="news-section-title">📰 국내 경제</p>
+          <ul id="news-economy" class="news-list"></ul>
+        </div>
+        <div class="card">
+          <p class="news-section-title">🏠 부동산</p>
+          <ul id="news-realestate" class="news-list"></ul>
+        </div>
+        <div class="card">
+          <p class="news-section-title">🌍 글로벌</p>
+          <ul id="news-global" class="news-list"></ul>
+        </div>
+        <div class="card">
+          <p class="news-section-title">🇺🇸 미국 · 달러</p>
+          <ul id="news-usnews" class="news-list"></ul>
+        </div>
+      </div>
+
+      <!-- ⑦ 종목별 뉴스 -->
+      <div class="card">
+        <p class="news-section-title">📰 종목별 뉴스</p>
+        <div id="portfolio-news-grid" class="pf-news-grid"></div>
+      </div>
+
+    </main>
   </div>
-
-  <div class="max-w-5xl mx-auto space-y-6">
-
-    <!-- AI Summary -->
-    <div class="glass rounded-2xl p-6">
-      <div class="flex items-center gap-2 mb-3">
-        <span class="text-lg">🤖</span>
-        <span class="text-sm font-semibold text-purple-300">Claude AI 시장 요약</span>
-      </div>
-      <p id="ai-summary" class="text-gray-200 leading-relaxed text-sm">로딩 중...</p>
-    </div>
-
-    <!-- Stock Cards -->
-    <div>
-      <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">주요 지수</h2>
-      <div class="grid grid-cols-2 md:grid-cols-5 gap-3" id="stock-cards"></div>
-    </div>
-
-    <!-- FX Cards -->
-    <div>
-      <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">환율</h2>
-      <div class="grid grid-cols-2 gap-3" id="fx-cards"></div>
-    </div>
-
-    <!-- Charts -->
-    <div>
-      <h2 class="text-xs font-semibold text-gray-400 uppercase tracking-wider mb-3">추세</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="glass rounded-2xl p-4">
-          <p class="text-xs text-gray-400 mb-2">KOSPI</p>
-          <div class="chart-container"><canvas id="chart-KOSPI"></canvas></div>
-        </div>
-        <div class="glass rounded-2xl p-4">
-          <p class="text-xs text-gray-400 mb-2">S&P 500</p>
-          <div class="chart-container"><canvas id="chart-SP500"></canvas></div>
-        </div>
-        <div class="glass rounded-2xl p-4">
-          <p class="text-xs text-gray-400 mb-2">USD/KRW</p>
-          <div class="chart-container"><canvas id="chart-USD"></canvas></div>
-        </div>
-        <div class="glass rounded-2xl p-4">
-          <p class="text-xs text-gray-400 mb-2">NASDAQ</p>
-          <div class="chart-container"><canvas id="chart-NASDAQ"></canvas></div>
-        </div>
-      </div>
-    </div>
-
-    <!-- News -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-      <div class="glass rounded-2xl p-5">
-        <h3 class="text-sm font-semibold text-blue-300 mb-3">📰 경제 뉴스</h3>
-        <ul id="news-economy" class="space-y-2 text-sm text-gray-300"></ul>
-      </div>
-      <div class="glass rounded-2xl p-5">
-        <h3 class="text-sm font-semibold text-green-300 mb-3">🏠 부동산 뉴스</h3>
-        <ul id="news-realestate" class="space-y-2 text-sm text-gray-300"></ul>
-      </div>
-    </div>
-
-  </div>
-
-  <script>
-    const STOCK_LABELS = { KOSPI: "KOSPI", KOSDAQ: "KOSDAQ", SP500: "S&P 500", NASDAQ: "NASDAQ", DOW: "다우" };
-
-    function arrow(v) { return v >= 0 ? "▲" : "▼"; }
-    function cls(v)   { return v >= 0 ? "up" : "down"; }
-    function fmt(v)   { return v.toLocaleString("ko-KR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }); }
-
-    function makeChart(id, labels, data, color) {
-      const ctx = document.getElementById(id);
-      if (!ctx) return;
-      new Chart(ctx, {
-        type: "line",
-        data: {
-          labels,
-          datasets: [{
-            data,
-            borderColor: color,
-            backgroundColor: color + "22",
-            borderWidth: 2,
-            pointRadius: 2,
-            fill: true,
-            tension: 0.4,
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: { legend: { display: false } },
-          scales: {
-            x: { ticks: { color: "#6b7280", font: { size: 9 }, maxTicksLimit: 6 }, grid: { color: "#ffffff0a" } },
-            y: { ticks: { color: "#6b7280", font: { size: 9 } }, grid: { color: "#ffffff0a" } }
-          }
-        }
-      });
-    }
-
-    fetch("data.json")
-      .then(r => r.json())
-      .then(data => {
-        if (!data.length) {
-          document.getElementById("ai-summary").textContent = "아직 데이터가 없습니다. 내일 10시 이후 확인해주세요.";
-          return;
-        }
-
-        const latest = data[data.length - 1];
-        const dates  = data.map(d => d.date.slice(5));  // MM-DD
-
-        // Header date
-        document.getElementById("date-label").textContent = latest.date + " 기준";
-
-        // AI Summary
-        document.getElementById("ai-summary").textContent = latest.news_summary || "-";
-
-        // Stock cards
-        const stockGrid = document.getElementById("stock-cards");
-        for (const [key, label] of Object.entries(STOCK_LABELS)) {
-          const s = latest.stocks[key];
-          stockGrid.innerHTML += `
-            <div class="glass rounded-xl p-4">
-              <p class="text-xs text-gray-400 mb-1">${label}</p>
-              <p class="text-lg font-bold">${fmt(s.close)}</p>
-              <p class="text-xs ${cls(s.change)}">${arrow(s.change)} ${Math.abs(s.change).toFixed(2)} (${s.pct > 0 ? "+" : ""}${s.pct}%)</p>
-            </div>`;
-        }
-
-        // FX cards
-        const fxGrid = document.getElementById("fx-cards");
-        fxGrid.innerHTML = `
-          <div class="glass rounded-xl p-4">
-            <p class="text-xs text-gray-400 mb-1">USD / KRW</p>
-            <p class="text-2xl font-bold">${fmt(latest.fx.USD_KRW)}</p>
-          </div>
-          <div class="glass rounded-xl p-4">
-            <p class="text-xs text-gray-400 mb-1">JPY / KRW</p>
-            <p class="text-2xl font-bold">${latest.fx.JPY_KRW.toFixed(2)}</p>
-          </div>`;
-
-        // Charts
-        makeChart("chart-KOSPI",  dates, data.map(d => d.stocks.KOSPI.close),  "#818cf8");
-        makeChart("chart-SP500",  dates, data.map(d => d.stocks.SP500.close),  "#34d399");
-        makeChart("chart-USD",    dates, data.map(d => d.fx.USD_KRW),          "#f59e0b");
-        makeChart("chart-NASDAQ", dates, data.map(d => d.stocks.NASDAQ.close), "#60a5fa");
-
-        // News
-        const eco = document.getElementById("news-economy");
-        (latest.news?.economy || []).forEach((h, i) => {
-          eco.innerHTML += `<li class="flex gap-2"><span class="text-gray-500">${i+1}.</span>${h}</li>`;
-        });
-        const re = document.getElementById("news-realestate");
-        (latest.news?.realestate || []).forEach((h, i) => {
-          re.innerHTML += `<li class="flex gap-2"><span class="text-gray-500">${i+1}.</span>${h}</li>`;
-        });
-      });
-  </script>
 </body>
 </html>

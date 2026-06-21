@@ -1,0 +1,235 @@
+/* ── Design Tokens ── */
+:root {
+  --bg:         #070d1a;
+  --bg-card:    rgba(255, 255, 255, 0.04);
+  --border:     rgba(255, 255, 255, 0.07);
+  --text:       #e2e8f0;
+  --muted:      #475569;
+  --up:         #10b981;
+  --down:       #f43f5e;
+  --accent:     #818cf8;
+  --gold:       #f59e0b;
+  --r-lg:       1.25rem;
+  --r-md:       0.875rem;
+  --dur:        180ms;
+  --ease:       cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* ── Wrapper ── */
+.wrapper {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 5rem;
+}
+
+/* ── Header ── */
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 2.5rem;
+}
+
+.title {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  background: linear-gradient(135deg, #818cf8 0%, #a78bfa 55%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.subtitle {
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-top: 0.3rem;
+}
+
+.badge {
+  font-size: 0.7rem;
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 2rem;
+  padding: 0.3rem 0.8rem;
+  white-space: nowrap;
+}
+
+/* ── Card ── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 1.2rem;
+  transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.card-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.65rem;
+}
+
+/* ── Color utilities ── */
+.up   { color: var(--up); }
+.down { color: var(--down); }
+
+/* ── Number typography ── */
+.num-xl {
+  font-size: clamp(1.4rem, 2.5vw, 1.9rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+.num-lg {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+
+.num-sm {
+  font-size: 0.76rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Bento layout ── */
+.bento { display: flex; flex-direction: column; gap: 0.85rem; }
+
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.75rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.grid-2x2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.75rem;
+}
+
+.grid-portfolio-row {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+/* ── Index card ── */
+.index-name {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--muted);
+  margin-bottom: 0.4rem;
+}
+
+/* ── Portfolio summary ── */
+.pf-total-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.3rem;
+}
+
+.pf-badge {
+  font-size: 0.76rem;
+  font-weight: 600;
+  padding: 0.18rem 0.55rem;
+  border-radius: 2rem;
+}
+
+.pf-badge.up   { background: rgba(16, 185, 129, 0.12); color: var(--up); }
+.pf-badge.down { background: rgba(244, 63, 94, 0.12);  color: var(--down); }
+
+/* ── Holding card ── */
+.holding-ticker { font-size: 0.76rem; font-weight: 700; color: #a5b4fc; }
+.holding-name   { font-size: 0.68rem; color: var(--muted); margin-top: 0.1rem; }
+.holding-entry  { font-size: 0.68rem; color: var(--muted); margin-top: 0.4rem; }
+
+/* ── Chart containers ── */
+.chart-h300 { position: relative; height: 280px; }
+.chart-h180 { position: relative; height: 160px; }
+
+/* ── News ── */
+.news-section-title {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75rem;
+}
+
+.news-list { list-style: none; display: flex; flex-direction: column; gap: 0.55rem; }
+
+.news-item {
+  display: flex;
+  gap: 0.45rem;
+  font-size: 0.76rem;
+  line-height: 1.4;
+  color: #94a3b8;
+}
+
+.news-num { color: var(--muted); flex-shrink: 0; }
+
+/* ── Portfolio news grid ── */
+.pf-news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(195px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.pf-news-ticker {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #a5b4fc;
+  margin-bottom: 0.5rem;
+}
+
+.pf-news-item {
+  font-size: 0.72rem;
+  color: #64748b;
+  line-height: 1.4;
+  padding: 0.3rem 0;
+  border-top: 1px solid var(--border);
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
+  .grid-5 { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .grid-5              { grid-template-columns: repeat(2, 1fr); }
+  .grid-2x2            { grid-template-columns: 1fr; }
+  .grid-portfolio-row  { grid-template-columns: 1fr; }
+  .header              { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+  .wrapper             { padding: 1rem 0.85rem 3rem; }
+}

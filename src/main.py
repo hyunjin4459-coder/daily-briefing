@@ -94,7 +94,7 @@ def format_message(stocks: dict, fx: dict, news: dict, portfolio: dict | None = 
     return "\n".join(lines)
 
 
-def save_data(stocks: dict, fx: dict, news: dict, portfolio: dict | None = None) -> None:
+def save_data(stocks: dict, fx: dict, news: dict, portfolio: dict | None = None, portfolio_news: dict | None = None) -> None:
     today = datetime.date.today().isoformat()
     entry = {
         "date": today,
@@ -102,6 +102,7 @@ def save_data(stocks: dict, fx: dict, news: dict, portfolio: dict | None = None)
         "fx": fx,
         "news": news,
         "portfolio": portfolio,
+        "portfolio_news": portfolio_news or {},
     }
     existing = json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else []
     existing = [e for e in existing if e["date"] != today]
@@ -132,7 +133,7 @@ def run():
     message = format_message(stocks, fx, news, portfolio, portfolio_news)
 
     print("[main] 대시보드 데이터 저장 중...")
-    save_data(stocks, fx, news, portfolio)
+    save_data(stocks, fx, news, portfolio, portfolio_news)
 
     print("[main] 1번 메시지 발송 중...")
     send_message(tg_token, tg_chat_id, message)
