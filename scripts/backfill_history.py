@@ -141,6 +141,13 @@ def main():
             "portfolio_news": {},
         })
 
+    # Yahoo Finance 날짜 범위 밖에 있는 기존 엔트리도 보존 (예: 장 휴장일에 수집된 당일 데이터)
+    backfilled_dates = {e["date"] for e in new_entries}
+    for date, entry in existing_map.items():
+        if date not in backfilled_dates:
+            new_entries.append(entry)
+            skipped += 1
+
     # 90일 → 365일로 확장 (1년치 보관)
     new_entries = sorted(new_entries, key=lambda e: e["date"])
     new_entries = new_entries[-365:]
