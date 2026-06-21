@@ -221,15 +221,68 @@ body {
   border-top: 1px solid var(--border);
 }
 
-/* ── Responsive ── */
+/* ── Responsive: Tablet ── */
 @media (max-width: 900px) {
   .grid-5 { grid-template-columns: repeat(3, 1fr); }
+  .grid-2x2 { grid-template-columns: repeat(2, 1fr); }
 }
 
+/* ── Responsive: Mobile ── */
 @media (max-width: 640px) {
-  .grid-5              { grid-template-columns: repeat(2, 1fr); }
-  .grid-2x2            { grid-template-columns: 1fr; }
-  .grid-portfolio-row  { grid-template-columns: 1fr; }
-  .header              { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
-  .wrapper             { padding: 1rem 0.85rem 3rem; }
+  .wrapper { padding: 1rem 0.75rem 4rem; }
+
+  .header { flex-direction: column; align-items: flex-start; gap: 0.4rem; }
+  .title  { font-size: 1.5rem; }
+  .badge  { font-size: 0.65rem; }
+
+  /* 지수 카드: 가로 스크롤 */
+  .grid-5 {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 0.6rem;
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  .grid-5::-webkit-scrollbar { display: none; }
+  .grid-5 .card {
+    flex: 0 0 140px;
+    min-width: 140px;
+  }
+
+  /* 포트폴리오+환율 행: 세로 스택 */
+  .grid-portfolio-row { grid-template-columns: 1fr; }
+  .grid-2 { grid-template-columns: repeat(2, 1fr); }
+
+  /* 종목 카드: 가로 스크롤 */
+  #holdings-cards {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 0.6rem;
+    padding-bottom: 0.5rem;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+  #holdings-cards::-webkit-scrollbar { display: none; }
+  #holdings-cards .card {
+    flex: 0 0 150px;
+    min-width: 150px;
+  }
+
+  /* 지수 추세 차트: 1열 */
+  .grid-2x2 { grid-template-columns: 1fr; }
+
+  /* 차트 높이 줄이기 */
+  .chart-h300 { height: 200px; }
+  .chart-h180 { height: 140px; }
+
+  /* 뉴스: 1열 */
+  .grid-2x2 { grid-template-columns: 1fr; }
+
+  /* 숫자 크기 */
+  .num-xl { font-size: 1.4rem; }
+  .num-lg { font-size: 1.1rem; }
+  .news-item { font-size: 0.8rem; }
 }
