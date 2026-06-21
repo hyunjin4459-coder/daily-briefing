@@ -1,0 +1,11 @@
+{
+  "holdings": [
+    {"ticker": "JOBY",  "name": "조비 에비에이션",    "shares": 243.401791, "avg_price": 10.73},
+    {"ticker": "QQQ",   "name": "QQQ",                "shares": 2.916851,   "avg_price": 627.49},
+    {"ticker": "GOOGL", "name": "알파벳 A",            "shares": 5.214141,   "avg_price": 282.56},
+    {"ticker": "BLDR",  "name": "빌더스 퍼스트소스",   "shares": 11.69439,   "avg_price": 92.22},
+    {"ticker": "QQQI",  "name": "QQQI",               "shares": 4.0,        "avg_price": 53.91},
+    {"ticker": "NOW",   "name": "서비스나우",           "shares": 1.0,        "avg_price": 106.55},
+    {"ticker": "ETHU",  "name": "ETHU",               "shares": 0.353245,   "avg_price": 16.70}
+  ]
+}
