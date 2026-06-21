@@ -8,7 +8,7 @@ from src.stock import get_stock_data
 from src.news import get_news, get_portfolio_news
 from src.summary import analyze_all
 from src.portfolio import get_portfolio
-from src.kakao import refresh_access_token, send_message
+from src.telegram_bot import send_message
 
 DATA_FILE = pathlib.Path(__file__).parent.parent / "docs" / "data.json"
 
@@ -114,8 +114,8 @@ def save_data(stocks: dict, fx: dict, news: dict, portfolio: dict | None = None)
 def run():
     from dotenv import load_dotenv
     load_dotenv()
-    rest_api_key = os.environ["KAKAO_REST_API_KEY"]
-    refresh_token = os.environ["KAKAO_REFRESH_TOKEN"]
+    tg_token = os.environ["TELEGRAM_BOT_TOKEN"]
+    tg_chat_id = os.environ["TELEGRAM_CHAT_ID"]
 
     print("[main] 데이터 수집 중...")
     stocks = get_stock_data()
@@ -134,18 +134,15 @@ def run():
     print("[main] 대시보드 데이터 저장 중...")
     save_data(stocks, fx, news, portfolio)
 
-    print("[main] 카카오 토큰 갱신 중...")
-    access_token = refresh_access_token(rest_api_key, refresh_token)
-
     print("[main] 1번 메시지 발송 중...")
-    send_message(access_token, message)
+    send_message(tg_token, tg_chat_id, message)
     print("[main] 1번 발송 완료")
 
     print("[main] AI 심층 분석 중...")
     analysis = analyze_all(portfolio, portfolio_news, news)
     if analysis:
         print("[main] 2번 메시지 발송 중...")
-        send_message(access_token, analysis)
+        send_message(tg_token, tg_chat_id, analysis)
         print("[main] 2번 발송 완료")
 
 
