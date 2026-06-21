@@ -2,6 +2,56 @@
    Reads docs/data.json (90-day rolling history)
    Rendered by GitHub Pages — no build step */
 
+/* ── PIN Guard ── */
+(function () {
+  const H = "2ecefe59ab6ae4e734bb1adec3bbb706be8c6fae0b39500d05f7a6665ffa7390";
+  async function hash(s) {
+    const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
+    return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
+  }
+  if (sessionStorage.getItem("db_auth") === "1") {
+    document.getElementById("pin-screen").style.display = "none";
+    document.getElementById("dashboard").style.display = "";
+    return;
+  }
+  let input = "";
+  const dots = document.querySelectorAll(".dot");
+  const err  = document.getElementById("pin-error");
+
+  function updateDots() {
+    dots.forEach((d, i) => d.classList.toggle("filled", i < input.length));
+  }
+
+  async function submit() {
+    if ((await hash(input)) === H) {
+      sessionStorage.setItem("db_auth", "1");
+      document.getElementById("pin-screen").style.display = "none";
+      document.getElementById("dashboard").style.display = "";
+    } else {
+      err.textContent = "PIN이 틀렸어요";
+      input = "";
+      updateDots();
+      setTimeout(() => { err.textContent = ""; }, 1500);
+    }
+  }
+
+  document.getElementById("pin-keypad").addEventListener("click", async (e) => {
+    const key = e.target.closest(".key");
+    if (!key) return;
+    if (key.id === "key-del") {
+      input = input.slice(0, -1);
+      updateDots();
+      return;
+    }
+    const n = key.dataset.n;
+    if (n === undefined) return;
+    if (input.length >= 4) return;
+    input += n;
+    updateDots();
+    if (input.length === 4) await submit();
+  });
+})();
+
 const STOCK_LABELS = {
   KOSPI:  "KOSPI",
   KOSDAQ: "KOSDAQ",

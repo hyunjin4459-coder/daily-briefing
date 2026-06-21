@@ -9,7 +9,37 @@
   <script src="app.js" defer></script>
 </head>
 <body>
-  <div class="wrapper">
+
+  <!-- PIN 잠금 화면 -->
+  <div id="pin-screen">
+    <div id="pin-box">
+      <p id="pin-title">Daily Briefing</p>
+      <p id="pin-subtitle">PIN을 입력하세요</p>
+      <div id="pin-dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <p id="pin-error"></p>
+      <div id="pin-keypad">
+        <button class="key" data-n="1">1</button>
+        <button class="key" data-n="2">2</button>
+        <button class="key" data-n="3">3</button>
+        <button class="key" data-n="4">4</button>
+        <button class="key" data-n="5">5</button>
+        <button class="key" data-n="6">6</button>
+        <button class="key" data-n="7">7</button>
+        <button class="key" data-n="8">8</button>
+        <button class="key" data-n="9">9</button>
+        <button class="key key-empty"></button>
+        <button class="key" data-n="0">0</button>
+        <button class="key key-del" id="key-del">⌫</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper" id="dashboard" style="display:none">
 
     <header class="header">
       <div>
