@@ -1,17 +1,17 @@
 import feedparser
 
-_BASE_URL = "https://news.google.com/rss/search?hl=ko&gl=KR&ceid=KR:ko&q={query}"
+_BASE = "https://news.google.com/rss/search?hl=ko&gl=KR&ceid=KR:ko&q={q}"
 
 
-def _fetch_headlines(query: str, count: int = 3) -> list:
-    url = _BASE_URL.format(query=query)
-    feed = feedparser.parse(url)
+def _fetch(query: str, count: int = 5) -> list[str]:
+    feed = feedparser.parse(_BASE.format(q=query))
     return [e.title for e in feed.entries[:count]]
 
 
 def get_news() -> dict:
-    """경제 뉴스와 부동산 뉴스 헤드라인을 반환한다."""
     return {
-        "economy": _fetch_headlines("한국+경제+뉴스"),
-        "realestate": _fetch_headlines("부동산+뉴스"),
+        "economy":    _fetch("한국+경제+금리+증시"),
+        "realestate": _fetch("부동산+아파트+가격"),
+        "global":     _fetch("글로벌+경제+미국+유럽+중국+지정학"),
+        "usnews":     _fetch("미국+연준+달러+국제유가+에너지"),
     }

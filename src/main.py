@@ -21,9 +21,11 @@ def format_message(stocks: dict, fx: dict, news: dict, summary: str) -> str:
 
     lines = [f"📊 오늘의 시장 브리핑 [{today}]", ""]
 
-    lines.append("🤖 AI 요약")
-    lines.append(f"  {summary}")
-    lines.append("")
+    if summary:
+        lines.append("🤖 AI 분석")
+        for line in summary.splitlines():
+            lines.append(f"  {line}")
+        lines.append("")
 
     lines.append("📈 국내 증시")
     for name, key in [("KOSPI", "KOSPI"), ("KOSDAQ", "KOSDAQ")]:
@@ -51,15 +53,27 @@ def format_message(stocks: dict, fx: dict, news: dict, summary: str) -> str:
 
     lines.append("")
 
-    lines.append("📰 경제 뉴스")
-    for i, headline in enumerate(news["economy"], 1):
-        lines.append(f"  {i}. {headline}")
+    lines.append("📰 국내 경제")
+    for i, h in enumerate(news.get("economy", []), 1):
+        lines.append(f"  {i}. {h}")
 
     lines.append("")
 
-    lines.append("🏠 부동산 뉴스")
-    for i, headline in enumerate(news["realestate"], 1):
-        lines.append(f"  {i}. {headline}")
+    lines.append("🏠 부동산")
+    for i, h in enumerate(news.get("realestate", []), 1):
+        lines.append(f"  {i}. {h}")
+
+    lines.append("")
+
+    lines.append("🌍 글로벌 이슈")
+    for i, h in enumerate(news.get("global", []), 1):
+        lines.append(f"  {i}. {h}")
+
+    lines.append("")
+
+    lines.append("🇺🇸 미국·달러·에너지")
+    for i, h in enumerate(news.get("usnews", []), 1):
+        lines.append(f"  {i}. {h}")
 
     return "\n".join(lines)
 
