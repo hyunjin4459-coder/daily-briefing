@@ -51,6 +51,19 @@
     updateDots();
     if (input.length === 4) await submit();
   });
+
+  document.addEventListener("keydown", async (e) => {
+    if (document.getElementById("pin-screen").style.display === "none") return;
+    if (e.key >= "0" && e.key <= "9") {
+      if (input.length >= 4) return;
+      input += e.key;
+      updateDots();
+      if (input.length === 4) await submit();
+    } else if (e.key === "Backspace") {
+      input = input.slice(0, -1);
+      updateDots();
+    }
+  });
 })();
 
 const STOCK_LABELS = {
