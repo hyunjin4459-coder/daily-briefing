@@ -55,27 +55,17 @@ def format_message(stocks: dict, fx: dict, news: dict, summary: str) -> str:
 
     lines.append("")
 
-    lines.append("📰 국내 경제")
-    for i, h in enumerate(news.get("economy", []), 1):
-        lines.append(f"  {i}. {h}")
+    def news_section(label: str, items: list):
+        lines.append(label)
+        for i, h in enumerate(items, 1):
+            title = h["title"] if isinstance(h, dict) else h
+            lines.append(f"  {i}. {title}")
+            lines.append("")
 
-    lines.append("")
-
-    lines.append("🏠 부동산")
-    for i, h in enumerate(news.get("realestate", []), 1):
-        lines.append(f"  {i}. {h}")
-
-    lines.append("")
-
-    lines.append("🌍 글로벌 이슈")
-    for i, h in enumerate(news.get("global", []), 1):
-        lines.append(f"  {i}. {h}")
-
-    lines.append("")
-
-    lines.append("🇺🇸 미국·달러·에너지")
-    for i, h in enumerate(news.get("usnews", []), 1):
-        lines.append(f"  {i}. {h}")
+    news_section("📰 국내 경제", news.get("economy", []))
+    news_section("🏠 부동산", news.get("realestate", []))
+    news_section("🌍 글로벌 이슈", news.get("global", []))
+    news_section("🇺🇸 미국·달러·에너지", news.get("usnews", []))
 
     return "\n".join(lines)
 
