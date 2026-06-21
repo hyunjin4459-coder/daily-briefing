@@ -4,7 +4,7 @@
 
 /* ── PIN Guard ── */
 (function () {
-  const H = "2ecefe59ab6ae4e734bb1adec3bbb706be8c6fae0b39500d05f7a6665ffa7390";
+  const H = "e401f2bd399f3456e5348217a7908ca545ea6d179f60f297a1b0133e87d2ff85";
   async function hash(s) {
     const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(s));
     return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, "0")).join("");
@@ -195,6 +195,135 @@ function renderPortfolioNews(latest) {
   }
 }
 
+/* ── 섹터 방향 ── */
+function renderSectors(latest) {
+  const container = document.getElementById("sector-bars");
+  if (!container) return;
+  const sectors = latest.sectors;
+  if (!sectors || !sectors.length) {
+    container.innerHTML = `<p class="num-sm" style="color:var(--muted)">데이터 없음</p>`;
+    return;
+  }
+  const maxAbs = Math.max(...sectors.map(s => Math.abs(s.pct)), 0.01);
+  container.innerHTML = "";
+  sectors.forEach(s => {
+    const isUp = s.pct >= 0;
+    const barW = (Math.abs(s.pct) / maxAbs * 50).toFixed(1);
+    const el = document.createElement("div");
+    el.className = "sector-row";
+    el.innerHTML = `
+      <span class="sector-name">${s.name}</span>
+      <div class="sector-bar-track">
+        <div class="sector-bar-fill ${isUp ? "up" : "down"}" style="width:${barW}%"></div>
+      </div>
+      <span class="sector-pct ${isUp ? "up" : "down"}">${s.pct > 0 ? "+" : ""}${s.pct.toFixed(2)}%</span>`;
+    container.appendChild(el);
+  });
+}
+
+/* ── 신호 시스템 ── */
+function renderSignal(latest) {
+  const el = document.getElementById("signal-content");
+  if (!el) return;
+  const sig = latest.signal;
+  if (!sig || !sig.signal) {
+    el.innerHTML = `<p class="num-sm" style="color:var(--muted)">데이터 없음</p>`;
+    return;
+  }
+  const cls = sig.signal === "BUY" ? "signal-buy" : sig.signal === "SELL" ? "signal-sell" : "signal-hold";
+  const gaugeColor = sig.signal === "BUY" ? "var(--up)" : sig.signal === "SELL" ? "var(--down)" : "var(--gold)";
+  el.innerHTML = `
+    <div class="signal-badge-row">
+      <span class="signal-badge ${cls}">${sig.signal}</span>
+      <span class="signal-score">${sig.score}<span style="font-size:.72em;opacity:.55">/100</span></span>
+    </div>
+    <div class="signal-gauge-wrap">
+      <div class="signal-gauge-bar" style="width:${sig.score}%;background:${gaugeColor}"></div>
+    </div>
+    ${sig.reason ? `<p class="signal-reason">${sig.reason}</p>` : ""}
+    ${sig.top_risk ? `<p class="signal-risk">⚠️ ${sig.top_risk}</p>` : ""}`;
+}
+
+/* ── AI 검증 (분석가 → 비평가) ── */
+function renderAiVerification(latest) {
+  const el = document.getElementById("ai-verification-content");
+  if (!el) return;
+  const sig = latest.signal;
+  if (!sig || !sig.analyst_signal) {
+    el.innerHTML = `<p class="num-sm" style="color:var(--muted)">데이터 없음</p>`;
+    return;
+  }
+  const aCls = sig.analyst_signal === "BUY" ? "signal-buy" : sig.analyst_signal === "SELL" ? "signal-sell" : "signal-hold";
+  const fCls = sig.signal === "BUY" ? "signal-buy" : sig.signal === "SELL" ? "signal-sell" : "signal-hold";
+  el.innerHTML = `
+    <div class="verif-stage">
+      <span class="verif-label">분석가</span>
+      <span class="signal-badge ${aCls} signal-badge-sm">${sig.analyst_signal}</span>
+      <span class="verif-score">${sig.analyst_score}/100</span>
+    </div>
+    ${sig.critique ? `<p class="verif-critique">${sig.critique}</p>` : ""}
+    <div class="verif-stage" style="margin-top:.75rem">
+      <span class="verif-label">비평가 → 최종</span>
+      <span class="signal-badge ${fCls} signal-badge-sm">${sig.signal}</span>
+      <span class="verif-score">${sig.score}/100</span>
+    </div>
+    ${latest.ai_analysis ? `
+    <details class="ai-analysis-details">
+      <summary>AI 심층 분석 보기</summary>
+      <pre class="ai-analysis-text">${latest.ai_analysis}</pre>
+    </details>` : ""}`;
+}
+
+/* ── 추천 이력 + 트리플 배리어 ── */
+function renderRecommendations(recos) {
+  const summary = document.getElementById("reco-summary");
+  const tbody   = document.getElementById("reco-tbody");
+  if (!tbody) return;
+
+  if (!recos || !recos.length) {
+    if (summary) summary.innerHTML = `<p class="num-sm" style="color:var(--muted);margin-bottom:.75rem">아직 추천 이력이 없습니다</p>`;
+    return;
+  }
+
+  const closed   = recos.filter(r => r.outcome);
+  const wins     = closed.filter(r => r.outcome === "WIN").length;
+  const losses   = closed.filter(r => r.outcome === "LOSS").length;
+  const neutrals = closed.filter(r => r.outcome === "NEUTRAL").length;
+  const winRate  = closed.length ? (wins / closed.length * 100).toFixed(0) : "—";
+  const avgRet   = closed.length
+    ? (closed.reduce((s, r) => s + (r.outcome_return ?? 0), 0) / closed.length).toFixed(2)
+    : null;
+
+  if (summary) {
+    summary.innerHTML = `
+      <div class="reco-stats">
+        <div class="reco-stat"><span class="reco-stat-label">승률</span><span class="reco-stat-val">${winRate}%</span></div>
+        <div class="reco-stat"><span class="reco-stat-label">WIN</span><span class="reco-stat-val up">${wins}</span></div>
+        <div class="reco-stat"><span class="reco-stat-label">LOSS</span><span class="reco-stat-val down">${losses}</span></div>
+        <div class="reco-stat"><span class="reco-stat-label">중립</span><span class="reco-stat-val" style="color:var(--gold)">${neutrals}</span></div>
+        ${avgRet !== null ? `<div class="reco-stat"><span class="reco-stat-label">평균 수익률</span><span class="reco-stat-val ${Number(avgRet) >= 0 ? "up" : "down"}">${Number(avgRet) > 0 ? "+" : ""}${avgRet}%</span></div>` : ""}
+      </div>`;
+  }
+
+  tbody.innerHTML = "";
+  recos.slice().reverse().slice(0, 30).forEach(r => {
+    const outCls = r.outcome === "WIN" ? "up" : r.outcome === "LOSS" ? "down" : "";
+    const sigCls = r.signal === "BUY" ? "signal-buy" : r.signal === "SELL" ? "signal-sell" : "signal-hold";
+    const fmtN   = (v) => v != null ? Number(v).toLocaleString("ko-KR", { minimumFractionDigits: 2, maximumFractionDigits: 2 }) : "—";
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${r.date}</td>
+      <td><span class="signal-badge ${sigCls} signal-badge-sm">${r.signal}</span></td>
+      <td>${r.score}</td>
+      <td>${fmtN(r.sp500_entry)}</td>
+      <td class="up">${fmtN(r.sp500_tp)}</td>
+      <td class="down">${fmtN(r.sp500_sl)}</td>
+      <td class="${outCls}">${r.outcome || "—"}</td>
+      <td class="${outCls}">${r.outcome_return != null ? (r.outcome_return > 0 ? "+" : "") + r.outcome_return + "%" : "—"}</td>`;
+    tbody.appendChild(tr);
+  });
+}
+
 /* ── Chart.js 공통 옵션 ── */
 const TOOLTIP = {
   backgroundColor: "#1e293b",
@@ -320,7 +449,10 @@ function renderIndexCharts(data) {
 
 /* ── 메인 ── */
 async function main() {
-  const data = await fetch("data.json").then(r => r.json());
+  const [data, recos] = await Promise.all([
+    fetch("data.json").then(r => r.json()),
+    fetch("recommendations.json").then(r => r.json()).catch(() => []),
+  ]);
   if (!data.length) return;
 
   const latest = data[data.length - 1];
@@ -334,6 +466,10 @@ async function main() {
   renderIndexCharts(data);
   renderNews(latest);
   renderPortfolioNews(latest);
+  renderSectors(latest);
+  renderSignal(latest);
+  renderAiVerification(latest);
+  renderRecommendations(recos);
 }
 
 if (sessionStorage.getItem("db_auth") === "1") {
