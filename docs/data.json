@@ -1,16 +1,8218 @@
 [
   {
-    "date": "2026-06-21",
+    "date": "2025-06-19",
     "stocks": {
       "KOSPI": {
-        "close": 9052.42,
-        "change": -11.42,
-        "pct": -0.13
+        "close": 2977.74,
+        "change": 0.0,
+        "pct": 0.0
       },
       "KOSDAQ": {
-        "close": 966.59,
-        "change": -34.34,
-        "pct": -3.43
+        "close": 782.51,
+        "change": 0.0,
+        "pct": 0.0
+      }
+    },
+    "fx": {
+      "USD_KRW": 1374.89,
+      "JPY_KRW": 9.4363
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-06-23",
+    "stocks": {
+      "KOSPI": {
+        "close": 3014.47,
+        "change": -7.37,
+        "pct": -0.24
+      },
+      "KOSDAQ": {
+        "close": 784.79,
+        "change": -6.74,
+        "pct": -0.85
+      },
+      "SP500": {
+        "close": 6025.17,
+        "change": 57.33,
+        "pct": 0.96
+      },
+      "NASDAQ": {
+        "close": 19630.97,
+        "change": 183.56,
+        "pct": 0.94
+      },
+      "DOW": {
+        "close": 42581.78,
+        "change": 374.96,
+        "pct": 0.89
+      }
+    },
+    "fx": {
+      "USD_KRW": 1361.9399,
+      "JPY_KRW": 9.3419
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-06-24",
+    "stocks": {
+      "KOSPI": {
+        "close": 3103.64,
+        "change": 89.17,
+        "pct": 2.96
+      },
+      "KOSDAQ": {
+        "close": 800.93,
+        "change": 16.14,
+        "pct": 2.06
+      },
+      "SP500": {
+        "close": 6092.18,
+        "change": 67.01,
+        "pct": 1.11
+      },
+      "NASDAQ": {
+        "close": 19912.53,
+        "change": 281.56,
+        "pct": 1.43
+      },
+      "DOW": {
+        "close": 43089.02,
+        "change": 507.24,
+        "pct": 1.19
+      }
+    },
+    "fx": {
+      "USD_KRW": 1353.78,
+      "JPY_KRW": 9.3381
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-06-25",
+    "stocks": {
+      "KOSPI": {
+        "close": 3108.25,
+        "change": 4.61,
+        "pct": 0.15
+      },
+      "KOSDAQ": {
+        "close": 798.21,
+        "change": -2.72,
+        "pct": -0.34
+      },
+      "SP500": {
+        "close": 6092.16,
+        "change": -0.02,
+        "pct": -0.0
+      },
+      "NASDAQ": {
+        "close": 19973.55,
+        "change": 61.02,
+        "pct": 0.31
+      },
+      "DOW": {
+        "close": 42982.43,
+        "change": -106.59,
+        "pct": -0.25
+      }
+    },
+    "fx": {
+      "USD_KRW": 1357.03,
+      "JPY_KRW": 9.3652
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-06-26",
+    "stocks": {
+      "KOSPI": {
+        "close": 3079.56,
+        "change": -28.69,
+        "pct": -0.92
+      },
+      "KOSDAQ": {
+        "close": 787.95,
+        "change": -10.26,
+        "pct": -1.29
+      },
+      "SP500": {
+        "close": 6141.02,
+        "change": 48.86,
+        "pct": 0.8
+      },
+      "NASDAQ": {
+        "close": 20167.91,
+        "change": 194.36,
+        "pct": 0.97
+      },
+      "DOW": {
+        "close": 43386.84,
+        "change": 404.41,
+        "pct": 0.94
+      }
+    },
+    "fx": {
+      "USD_KRW": 1352.76,
+      "JPY_KRW": 9.3468
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-06-30",
+    "stocks": {
+      "KOSPI": {
+        "close": 3071.7,
+        "change": 15.76,
+        "pct": 0.52
+      },
+      "KOSDAQ": {
+        "close": 781.5,
+        "change": -0.06,
+        "pct": -0.01
+      },
+      "SP500": {
+        "close": 6204.95,
+        "change": 31.88,
+        "pct": 0.52
+      },
+      "NASDAQ": {
+        "close": 20369.73,
+        "change": 96.27,
+        "pct": 0.47
+      },
+      "DOW": {
+        "close": 44094.77,
+        "change": 275.5,
+        "pct": 0.63
+      }
+    },
+    "fx": {
+      "USD_KRW": 1348.5,
+      "JPY_KRW": 9.3773
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-01",
+    "stocks": {
+      "KOSPI": {
+        "close": 3089.65,
+        "change": 17.95,
+        "pct": 0.58
+      },
+      "KOSDAQ": {
+        "close": 783.67,
+        "change": 2.17,
+        "pct": 0.28
+      },
+      "SP500": {
+        "close": 6198.01,
+        "change": -6.94,
+        "pct": -0.11
+      },
+      "NASDAQ": {
+        "close": 20202.89,
+        "change": -166.84,
+        "pct": -0.82
+      },
+      "DOW": {
+        "close": 44494.94,
+        "change": 400.17,
+        "pct": 0.91
+      }
+    },
+    "fx": {
+      "USD_KRW": 1355.59,
+      "JPY_KRW": 9.4529
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-02",
+    "stocks": {
+      "KOSPI": {
+        "close": 3075.06,
+        "change": -14.59,
+        "pct": -0.47
+      },
+      "KOSDAQ": {
+        "close": 782.17,
+        "change": -1.5,
+        "pct": -0.19
+      },
+      "SP500": {
+        "close": 6227.42,
+        "change": 29.41,
+        "pct": 0.47
+      },
+      "NASDAQ": {
+        "close": 20393.13,
+        "change": 190.24,
+        "pct": 0.94
+      },
+      "DOW": {
+        "close": 44484.42,
+        "change": -10.52,
+        "pct": -0.02
+      }
+    },
+    "fx": {
+      "USD_KRW": 1354.75,
+      "JPY_KRW": 9.4391
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-03",
+    "stocks": {
+      "KOSPI": {
+        "close": 3116.27,
+        "change": 41.21,
+        "pct": 1.34
+      },
+      "KOSDAQ": {
+        "close": 793.33,
+        "change": 11.16,
+        "pct": 1.43
+      },
+      "SP500": {
+        "close": 6279.35,
+        "change": 51.93,
+        "pct": 0.83
+      },
+      "NASDAQ": {
+        "close": 20601.1,
+        "change": 207.97,
+        "pct": 1.02
+      },
+      "DOW": {
+        "close": 44828.53,
+        "change": 344.11,
+        "pct": 0.77
+      }
+    },
+    "fx": {
+      "USD_KRW": 1357.1,
+      "JPY_KRW": 9.3788
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-07",
+    "stocks": {
+      "KOSPI": {
+        "close": 3059.47,
+        "change": 5.19,
+        "pct": 0.17
+      },
+      "KOSDAQ": {
+        "close": 778.46,
+        "change": 2.66,
+        "pct": 0.34
+      },
+      "SP500": {
+        "close": 6229.98,
+        "change": -49.37,
+        "pct": -0.79
+      },
+      "NASDAQ": {
+        "close": 20412.52,
+        "change": -188.58,
+        "pct": -0.92
+      },
+      "DOW": {
+        "close": 44406.36,
+        "change": -422.17,
+        "pct": -0.94
+      }
+    },
+    "fx": {
+      "USD_KRW": 1374.64,
+      "JPY_KRW": 9.421
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-08",
+    "stocks": {
+      "KOSPI": {
+        "close": 3114.95,
+        "change": 55.48,
+        "pct": 1.81
+      },
+      "KOSDAQ": {
+        "close": 784.24,
+        "change": 5.78,
+        "pct": 0.74
+      },
+      "SP500": {
+        "close": 6225.52,
+        "change": -4.46,
+        "pct": -0.07
+      },
+      "NASDAQ": {
+        "close": 20418.46,
+        "change": 5.94,
+        "pct": 0.03
+      },
+      "DOW": {
+        "close": 44240.76,
+        "change": -165.6,
+        "pct": -0.37
+      }
+    },
+    "fx": {
+      "USD_KRW": 1370.3,
+      "JPY_KRW": 9.3243
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-09",
+    "stocks": {
+      "KOSPI": {
+        "close": 3133.74,
+        "change": 18.79,
+        "pct": 0.6
+      },
+      "KOSDAQ": {
+        "close": 790.36,
+        "change": 6.12,
+        "pct": 0.78
+      },
+      "SP500": {
+        "close": 6263.26,
+        "change": 37.74,
+        "pct": 0.61
+      },
+      "NASDAQ": {
+        "close": 20611.34,
+        "change": 192.88,
+        "pct": 0.94
+      },
+      "DOW": {
+        "close": 44458.3,
+        "change": 217.54,
+        "pct": 0.49
+      }
+    },
+    "fx": {
+      "USD_KRW": 1373.0,
+      "JPY_KRW": 9.3964
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-10",
+    "stocks": {
+      "KOSPI": {
+        "close": 3183.23,
+        "change": 49.49,
+        "pct": 1.58
+      },
+      "KOSDAQ": {
+        "close": 797.7,
+        "change": 7.34,
+        "pct": 0.93
+      },
+      "SP500": {
+        "close": 6280.46,
+        "change": 17.2,
+        "pct": 0.27
+      },
+      "NASDAQ": {
+        "close": 20630.66,
+        "change": 19.32,
+        "pct": 0.09
+      },
+      "DOW": {
+        "close": 44650.64,
+        "change": 192.34,
+        "pct": 0.43
+      }
+    },
+    "fx": {
+      "USD_KRW": 1372.64,
+      "JPY_KRW": 9.3827
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-14",
+    "stocks": {
+      "KOSPI": {
+        "close": 3202.03,
+        "change": 26.26,
+        "pct": 0.83
+      },
+      "KOSDAQ": {
+        "close": 799.37,
+        "change": -1.1,
+        "pct": -0.14
+      },
+      "SP500": {
+        "close": 6268.56,
+        "change": 8.81,
+        "pct": 0.14
+      },
+      "NASDAQ": {
+        "close": 20640.33,
+        "change": 54.8,
+        "pct": 0.27
+      },
+      "DOW": {
+        "close": 44459.65,
+        "change": 88.14,
+        "pct": 0.2
+      }
+    },
+    "fx": {
+      "USD_KRW": 1382.01,
+      "JPY_KRW": 9.3508
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-15",
+    "stocks": {
+      "KOSPI": {
+        "close": 3215.28,
+        "change": 13.25,
+        "pct": 0.41
+      },
+      "KOSDAQ": {
+        "close": 812.88,
+        "change": 13.51,
+        "pct": 1.69
+      },
+      "SP500": {
+        "close": 6243.76,
+        "change": -24.8,
+        "pct": -0.4
+      },
+      "NASDAQ": {
+        "close": 20677.8,
+        "change": 37.47,
+        "pct": 0.18
+      },
+      "DOW": {
+        "close": 44023.29,
+        "change": -436.36,
+        "pct": -0.98
+      }
+    },
+    "fx": {
+      "USD_KRW": 1386.45,
+      "JPY_KRW": 9.3211
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-16",
+    "stocks": {
+      "KOSPI": {
+        "close": 3186.38,
+        "change": -28.9,
+        "pct": -0.9
+      },
+      "KOSDAQ": {
+        "close": 812.23,
+        "change": -0.65,
+        "pct": -0.08
+      },
+      "SP500": {
+        "close": 6263.7,
+        "change": 19.94,
+        "pct": 0.32
+      },
+      "NASDAQ": {
+        "close": 20730.49,
+        "change": 52.69,
+        "pct": 0.25
+      },
+      "DOW": {
+        "close": 44254.78,
+        "change": 231.49,
+        "pct": 0.53
+      }
+    },
+    "fx": {
+      "USD_KRW": 1384.92,
+      "JPY_KRW": 9.3556
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-17",
+    "stocks": {
+      "KOSPI": {
+        "close": 3192.29,
+        "change": 5.91,
+        "pct": 0.19
+      },
+      "KOSDAQ": {
+        "close": 818.27,
+        "change": 6.04,
+        "pct": 0.74
+      },
+      "SP500": {
+        "close": 6297.36,
+        "change": 33.66,
+        "pct": 0.54
+      },
+      "NASDAQ": {
+        "close": 20885.65,
+        "change": 155.16,
+        "pct": 0.75
+      },
+      "DOW": {
+        "close": 44484.49,
+        "change": 229.71,
+        "pct": 0.52
+      }
+    },
+    "fx": {
+      "USD_KRW": 1391.58,
+      "JPY_KRW": 9.3746
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-21",
+    "stocks": {
+      "KOSPI": {
+        "close": 3210.81,
+        "change": 22.74,
+        "pct": 0.71
+      },
+      "KOSDAQ": {
+        "close": 821.69,
+        "change": 1.02,
+        "pct": 0.12
+      },
+      "SP500": {
+        "close": 6305.6,
+        "change": 8.81,
+        "pct": 0.14
+      },
+      "NASDAQ": {
+        "close": 20974.18,
+        "change": 78.53,
+        "pct": 0.38
+      },
+      "DOW": {
+        "close": 44323.07,
+        "change": -19.12,
+        "pct": -0.04
+      }
+    },
+    "fx": {
+      "USD_KRW": 1381.8199,
+      "JPY_KRW": 9.3739
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-22",
+    "stocks": {
+      "KOSPI": {
+        "close": 3169.94,
+        "change": -40.87,
+        "pct": -1.27
+      },
+      "KOSDAQ": {
+        "close": 812.97,
+        "change": -8.72,
+        "pct": -1.06
+      },
+      "SP500": {
+        "close": 6309.62,
+        "change": 4.02,
+        "pct": 0.06
+      },
+      "NASDAQ": {
+        "close": 20892.69,
+        "change": -81.49,
+        "pct": -0.39
+      },
+      "DOW": {
+        "close": 44502.44,
+        "change": 179.37,
+        "pct": 0.4
+      }
+    },
+    "fx": {
+      "USD_KRW": 1379.78,
+      "JPY_KRW": 9.3915
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-23",
+    "stocks": {
+      "KOSPI": {
+        "close": 3183.77,
+        "change": 13.83,
+        "pct": 0.44
+      },
+      "KOSDAQ": {
+        "close": 813.56,
+        "change": 0.59,
+        "pct": 0.07
+      },
+      "SP500": {
+        "close": 6358.91,
+        "change": 49.29,
+        "pct": 0.78
+      },
+      "NASDAQ": {
+        "close": 21020.02,
+        "change": 127.33,
+        "pct": 0.61
+      },
+      "DOW": {
+        "close": 45010.29,
+        "change": 507.85,
+        "pct": 1.14
+      }
+    },
+    "fx": {
+      "USD_KRW": 1373.72,
+      "JPY_KRW": 9.3849
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-24",
+    "stocks": {
+      "KOSPI": {
+        "close": 3190.45,
+        "change": 6.68,
+        "pct": 0.21
+      },
+      "KOSDAQ": {
+        "close": 809.89,
+        "change": -3.67,
+        "pct": -0.45
+      },
+      "SP500": {
+        "close": 6363.35,
+        "change": 4.44,
+        "pct": 0.07
+      },
+      "NASDAQ": {
+        "close": 21057.96,
+        "change": 37.94,
+        "pct": 0.18
+      },
+      "DOW": {
+        "close": 44693.91,
+        "change": -316.38,
+        "pct": -0.7
+      }
+    },
+    "fx": {
+      "USD_KRW": 1372.0,
+      "JPY_KRW": 9.3326
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-28",
+    "stocks": {
+      "KOSPI": {
+        "close": 3209.52,
+        "change": 13.47,
+        "pct": 0.42
+      },
+      "KOSDAQ": {
+        "close": 804.4,
+        "change": -2.55,
+        "pct": -0.32
+      },
+      "SP500": {
+        "close": 6389.77,
+        "change": 1.13,
+        "pct": 0.02
+      },
+      "NASDAQ": {
+        "close": 21178.58,
+        "change": 70.26,
+        "pct": 0.33
+      },
+      "DOW": {
+        "close": 44837.56,
+        "change": -64.36,
+        "pct": -0.14
+      }
+    },
+    "fx": {
+      "USD_KRW": 1388.29,
+      "JPY_KRW": 9.3482
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-29",
+    "stocks": {
+      "KOSPI": {
+        "close": 3230.57,
+        "change": 21.05,
+        "pct": 0.66
+      },
+      "KOSDAQ": {
+        "close": 804.45,
+        "change": 0.05,
+        "pct": 0.01
+      },
+      "SP500": {
+        "close": 6370.86,
+        "change": -18.91,
+        "pct": -0.3
+      },
+      "NASDAQ": {
+        "close": 21098.29,
+        "change": -80.29,
+        "pct": -0.38
+      },
+      "DOW": {
+        "close": 44632.99,
+        "change": -204.57,
+        "pct": -0.46
+      }
+    },
+    "fx": {
+      "USD_KRW": 1388.86,
+      "JPY_KRW": 9.3559
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-30",
+    "stocks": {
+      "KOSPI": {
+        "close": 3254.47,
+        "change": 23.9,
+        "pct": 0.74
+      },
+      "KOSDAQ": {
+        "close": 803.67,
+        "change": -0.78,
+        "pct": -0.1
+      },
+      "SP500": {
+        "close": 6362.9,
+        "change": -7.96,
+        "pct": -0.12
+      },
+      "NASDAQ": {
+        "close": 21129.67,
+        "change": 31.38,
+        "pct": 0.15
+      },
+      "DOW": {
+        "close": 44461.28,
+        "change": -171.71,
+        "pct": -0.38
+      }
+    },
+    "fx": {
+      "USD_KRW": 1392.52,
+      "JPY_KRW": 9.3254
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-07-31",
+    "stocks": {
+      "KOSPI": {
+        "close": 3245.44,
+        "change": -9.03,
+        "pct": -0.28
+      },
+      "KOSDAQ": {
+        "close": 805.24,
+        "change": 1.57,
+        "pct": 0.2
+      },
+      "SP500": {
+        "close": 6339.39,
+        "change": -23.51,
+        "pct": -0.37
+      },
+      "NASDAQ": {
+        "close": 21122.45,
+        "change": -7.22,
+        "pct": -0.03
+      },
+      "DOW": {
+        "close": 44130.98,
+        "change": -330.3,
+        "pct": -0.74
+      }
+    },
+    "fx": {
+      "USD_KRW": 1391.51,
+      "JPY_KRW": 9.2226
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-04",
+    "stocks": {
+      "KOSPI": {
+        "close": 3147.75,
+        "change": 28.34,
+        "pct": 0.91
+      },
+      "KOSDAQ": {
+        "close": 784.06,
+        "change": 11.27,
+        "pct": 1.46
+      },
+      "SP500": {
+        "close": 6329.94,
+        "change": 91.93,
+        "pct": 1.47
+      },
+      "NASDAQ": {
+        "close": 21053.58,
+        "change": 403.45,
+        "pct": 1.95
+      },
+      "DOW": {
+        "close": 44173.64,
+        "change": 585.06,
+        "pct": 1.34
+      }
+    },
+    "fx": {
+      "USD_KRW": 1383.59,
+      "JPY_KRW": 9.4251
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-05",
+    "stocks": {
+      "KOSPI": {
+        "close": 3198.0,
+        "change": 50.25,
+        "pct": 1.6
+      },
+      "KOSDAQ": {
+        "close": 798.6,
+        "change": 14.54,
+        "pct": 1.85
+      },
+      "SP500": {
+        "close": 6299.19,
+        "change": -30.75,
+        "pct": -0.49
+      },
+      "NASDAQ": {
+        "close": 20916.55,
+        "change": -137.03,
+        "pct": -0.65
+      },
+      "DOW": {
+        "close": 44111.74,
+        "change": -61.9,
+        "pct": -0.14
+      }
+    },
+    "fx": {
+      "USD_KRW": 1386.58,
+      "JPY_KRW": 9.398
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-06",
+    "stocks": {
+      "KOSPI": {
+        "close": 3198.14,
+        "change": 0.14,
+        "pct": 0.0
+      },
+      "KOSDAQ": {
+        "close": 803.49,
+        "change": 4.89,
+        "pct": 0.61
+      },
+      "SP500": {
+        "close": 6345.06,
+        "change": 45.87,
+        "pct": 0.73
+      },
+      "NASDAQ": {
+        "close": 21169.42,
+        "change": 252.87,
+        "pct": 1.21
+      },
+      "DOW": {
+        "close": 44193.12,
+        "change": 81.38,
+        "pct": 0.18
+      }
+    },
+    "fx": {
+      "USD_KRW": 1384.39,
+      "JPY_KRW": 9.4056
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-07",
+    "stocks": {
+      "KOSPI": {
+        "close": 3227.68,
+        "change": 29.54,
+        "pct": 0.92
+      },
+      "KOSDAQ": {
+        "close": 805.81,
+        "change": 2.32,
+        "pct": 0.29
+      },
+      "SP500": {
+        "close": 6340.0,
+        "change": -5.06,
+        "pct": -0.08
+      },
+      "NASDAQ": {
+        "close": 21242.7,
+        "change": 73.28,
+        "pct": 0.35
+      },
+      "DOW": {
+        "close": 43968.64,
+        "change": -224.48,
+        "pct": -0.51
+      }
+    },
+    "fx": {
+      "USD_KRW": 1384.97,
+      "JPY_KRW": 9.4323
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-11",
+    "stocks": {
+      "KOSPI": {
+        "close": 3206.77,
+        "change": -3.24,
+        "pct": -0.1
+      },
+      "KOSDAQ": {
+        "close": 811.85,
+        "change": 2.58,
+        "pct": 0.32
+      },
+      "SP500": {
+        "close": 6373.45,
+        "change": -16.0,
+        "pct": -0.25
+      },
+      "NASDAQ": {
+        "close": 21385.4,
+        "change": -64.62,
+        "pct": -0.3
+      },
+      "DOW": {
+        "close": 43975.09,
+        "change": -200.52,
+        "pct": -0.45
+      }
+    },
+    "fx": {
+      "USD_KRW": 1389.79,
+      "JPY_KRW": 9.3825
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-12",
+    "stocks": {
+      "KOSPI": {
+        "close": 3189.91,
+        "change": -16.86,
+        "pct": -0.53
+      },
+      "KOSDAQ": {
+        "close": 807.19,
+        "change": -4.66,
+        "pct": -0.57
+      },
+      "SP500": {
+        "close": 6445.76,
+        "change": 72.31,
+        "pct": 1.13
+      },
+      "NASDAQ": {
+        "close": 21681.9,
+        "change": 296.5,
+        "pct": 1.39
+      },
+      "DOW": {
+        "close": 44458.61,
+        "change": 483.52,
+        "pct": 1.1
+      }
+    },
+    "fx": {
+      "USD_KRW": 1383.09,
+      "JPY_KRW": 9.3592
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-13",
+    "stocks": {
+      "KOSPI": {
+        "close": 3224.37,
+        "change": 34.46,
+        "pct": 1.08
+      },
+      "KOSDAQ": {
+        "close": 814.1,
+        "change": 6.91,
+        "pct": 0.86
+      },
+      "SP500": {
+        "close": 6466.58,
+        "change": 20.82,
+        "pct": 0.32
+      },
+      "NASDAQ": {
+        "close": 21713.14,
+        "change": 31.24,
+        "pct": 0.14
+      },
+      "DOW": {
+        "close": 44922.27,
+        "change": 463.66,
+        "pct": 1.04
+      }
+    },
+    "fx": {
+      "USD_KRW": 1378.78,
+      "JPY_KRW": 9.3702
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-14",
+    "stocks": {
+      "KOSPI": {
+        "close": 3225.66,
+        "change": 1.29,
+        "pct": 0.04
+      },
+      "KOSDAQ": {
+        "close": 815.26,
+        "change": 1.16,
+        "pct": 0.14
+      },
+      "SP500": {
+        "close": 6468.54,
+        "change": 1.96,
+        "pct": 0.03
+      },
+      "NASDAQ": {
+        "close": 21710.67,
+        "change": -2.47,
+        "pct": -0.01
+      },
+      "DOW": {
+        "close": 44911.26,
+        "change": -11.01,
+        "pct": -0.02
+      }
+    },
+    "fx": {
+      "USD_KRW": 1387.87,
+      "JPY_KRW": 9.3967
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-18",
+    "stocks": {
+      "KOSPI": {
+        "close": 3177.28,
+        "change": -48.38,
+        "pct": -1.5
+      },
+      "KOSDAQ": {
+        "close": 798.05,
+        "change": -17.21,
+        "pct": -2.11
+      },
+      "SP500": {
+        "close": 6449.15,
+        "change": -0.65,
+        "pct": -0.01
+      },
+      "NASDAQ": {
+        "close": 21629.77,
+        "change": 6.79,
+        "pct": 0.03
+      },
+      "DOW": {
+        "close": 44911.82,
+        "change": -34.3,
+        "pct": -0.08
+      }
+    },
+    "fx": {
+      "USD_KRW": 1386.91,
+      "JPY_KRW": 9.3758
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-19",
+    "stocks": {
+      "KOSPI": {
+        "close": 3151.56,
+        "change": -25.72,
+        "pct": -0.81
+      },
+      "KOSDAQ": {
+        "close": 787.96,
+        "change": -10.09,
+        "pct": -1.26
+      },
+      "SP500": {
+        "close": 6411.37,
+        "change": -37.78,
+        "pct": -0.59
+      },
+      "NASDAQ": {
+        "close": 21314.95,
+        "change": -314.82,
+        "pct": -1.46
+      },
+      "DOW": {
+        "close": 44922.27,
+        "change": 10.45,
+        "pct": 0.02
+      }
+    },
+    "fx": {
+      "USD_KRW": 1391.34,
+      "JPY_KRW": 9.4176
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-20",
+    "stocks": {
+      "KOSPI": {
+        "close": 3130.09,
+        "change": -21.47,
+        "pct": -0.68
+      },
+      "KOSDAQ": {
+        "close": 777.61,
+        "change": -10.35,
+        "pct": -1.31
+      },
+      "SP500": {
+        "close": 6395.78,
+        "change": -15.59,
+        "pct": -0.24
+      },
+      "NASDAQ": {
+        "close": 21172.86,
+        "change": -142.09,
+        "pct": -0.67
+      },
+      "DOW": {
+        "close": 44938.31,
+        "change": 16.04,
+        "pct": 0.04
+      }
+    },
+    "fx": {
+      "USD_KRW": 1396.91,
+      "JPY_KRW": 9.4805
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-21",
+    "stocks": {
+      "KOSPI": {
+        "close": 3141.74,
+        "change": 11.65,
+        "pct": 0.37
+      },
+      "KOSDAQ": {
+        "close": 777.24,
+        "change": -0.37,
+        "pct": -0.05
+      },
+      "SP500": {
+        "close": 6370.17,
+        "change": -25.61,
+        "pct": -0.4
+      },
+      "NASDAQ": {
+        "close": 21100.31,
+        "change": -72.55,
+        "pct": -0.34
+      },
+      "DOW": {
+        "close": 44785.5,
+        "change": -152.81,
+        "pct": -0.34
+      }
+    },
+    "fx": {
+      "USD_KRW": 1399.61,
+      "JPY_KRW": 9.4317
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-25",
+    "stocks": {
+      "KOSPI": {
+        "close": 3209.86,
+        "change": 41.13,
+        "pct": 1.3
+      },
+      "KOSDAQ": {
+        "close": 798.02,
+        "change": 15.51,
+        "pct": 1.98
+      },
+      "SP500": {
+        "close": 6439.32,
+        "change": -27.59,
+        "pct": -0.43
+      },
+      "NASDAQ": {
+        "close": 21449.29,
+        "change": -47.25,
+        "pct": -0.22
+      },
+      "DOW": {
+        "close": 45282.47,
+        "change": -349.27,
+        "pct": -0.77
+      }
+    },
+    "fx": {
+      "USD_KRW": 1389.05,
+      "JPY_KRW": 9.3951
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-26",
+    "stocks": {
+      "KOSPI": {
+        "close": 3179.36,
+        "change": -30.5,
+        "pct": -0.95
+      },
+      "KOSDAQ": {
+        "close": 801.66,
+        "change": 3.64,
+        "pct": 0.46
+      },
+      "SP500": {
+        "close": 6465.94,
+        "change": 26.62,
+        "pct": 0.41
+      },
+      "NASDAQ": {
+        "close": 21544.27,
+        "change": 94.98,
+        "pct": 0.44
+      },
+      "DOW": {
+        "close": 45418.07,
+        "change": 135.6,
+        "pct": 0.3
+      }
+    },
+    "fx": {
+      "USD_KRW": 1393.95,
+      "JPY_KRW": 9.4529
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-27",
+    "stocks": {
+      "KOSPI": {
+        "close": 3187.16,
+        "change": 7.8,
+        "pct": 0.25
+      },
+      "KOSDAQ": {
+        "close": 801.72,
+        "change": 0.06,
+        "pct": 0.01
+      },
+      "SP500": {
+        "close": 6481.4,
+        "change": 15.46,
+        "pct": 0.24
+      },
+      "NASDAQ": {
+        "close": 21590.14,
+        "change": 45.87,
+        "pct": 0.21
+      },
+      "DOW": {
+        "close": 45565.23,
+        "change": 147.16,
+        "pct": 0.32
+      }
+    },
+    "fx": {
+      "USD_KRW": 1392.75,
+      "JPY_KRW": 9.4535
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-08-28",
+    "stocks": {
+      "KOSPI": {
+        "close": 3196.32,
+        "change": 9.16,
+        "pct": 0.29
+      },
+      "KOSDAQ": {
+        "close": 798.43,
+        "change": -3.29,
+        "pct": -0.41
+      },
+      "SP500": {
+        "close": 6501.86,
+        "change": 20.46,
+        "pct": 0.32
+      },
+      "NASDAQ": {
+        "close": 21705.16,
+        "change": 115.02,
+        "pct": 0.53
+      },
+      "DOW": {
+        "close": 45636.9,
+        "change": 71.67,
+        "pct": 0.16
+      }
+    },
+    "fx": {
+      "USD_KRW": 1384.41,
+      "JPY_KRW": 9.4298
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-01",
+    "stocks": {
+      "KOSPI": {
+        "close": 3142.93,
+        "change": -43.08,
+        "pct": -1.35
+      },
+      "KOSDAQ": {
+        "close": 785.0,
+        "change": -11.91,
+        "pct": -1.49
+      }
+    },
+    "fx": {
+      "USD_KRW": 1392.9399,
+      "JPY_KRW": 9.4705
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-02",
+    "stocks": {
+      "KOSPI": {
+        "close": 3172.35,
+        "change": 29.42,
+        "pct": 0.94
+      },
+      "KOSDAQ": {
+        "close": 794.0,
+        "change": 9.0,
+        "pct": 1.15
+      },
+      "SP500": {
+        "close": 6415.54,
+        "change": -44.72,
+        "pct": -0.69
+      },
+      "NASDAQ": {
+        "close": 21279.63,
+        "change": -175.92,
+        "pct": -0.82
+      },
+      "DOW": {
+        "close": 45295.81,
+        "change": -249.07,
+        "pct": -0.55
+      }
+    },
+    "fx": {
+      "USD_KRW": 1394.5699,
+      "JPY_KRW": 9.3827
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-03",
+    "stocks": {
+      "KOSPI": {
+        "close": 3184.42,
+        "change": 12.07,
+        "pct": 0.38
+      },
+      "KOSDAQ": {
+        "close": 796.81,
+        "change": 2.81,
+        "pct": 0.35
+      },
+      "SP500": {
+        "close": 6448.26,
+        "change": 32.72,
+        "pct": 0.51
+      },
+      "NASDAQ": {
+        "close": 21497.73,
+        "change": 218.1,
+        "pct": 1.02
+      },
+      "DOW": {
+        "close": 45271.23,
+        "change": -24.58,
+        "pct": -0.05
+      }
+    },
+    "fx": {
+      "USD_KRW": 1389.63,
+      "JPY_KRW": 9.3899
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-04",
+    "stocks": {
+      "KOSPI": {
+        "close": 3200.83,
+        "change": 16.41,
+        "pct": 0.52
+      },
+      "KOSDAQ": {
+        "close": 805.42,
+        "change": 8.61,
+        "pct": 1.08
+      },
+      "SP500": {
+        "close": 6502.08,
+        "change": 53.82,
+        "pct": 0.83
+      },
+      "NASDAQ": {
+        "close": 21707.69,
+        "change": 209.96,
+        "pct": 0.98
+      },
+      "DOW": {
+        "close": 45621.29,
+        "change": 350.06,
+        "pct": 0.77
+      }
+    },
+    "fx": {
+      "USD_KRW": 1392.0601,
+      "JPY_KRW": 9.3823
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-08",
+    "stocks": {
+      "KOSPI": {
+        "close": 3219.59,
+        "change": 14.47,
+        "pct": 0.45
+      },
+      "KOSDAQ": {
+        "close": 818.6,
+        "change": 7.2,
+        "pct": 0.89
+      },
+      "SP500": {
+        "close": 6495.15,
+        "change": 13.65,
+        "pct": 0.21
+      },
+      "NASDAQ": {
+        "close": 21798.7,
+        "change": 98.31,
+        "pct": 0.45
+      },
+      "DOW": {
+        "close": 45514.95,
+        "change": 114.09,
+        "pct": 0.25
+      }
+    },
+    "fx": {
+      "USD_KRW": 1385.72,
+      "JPY_KRW": 9.4038
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-09",
+    "stocks": {
+      "KOSPI": {
+        "close": 3260.05,
+        "change": 40.46,
+        "pct": 1.26
+      },
+      "KOSDAQ": {
+        "close": 824.82,
+        "change": 6.22,
+        "pct": 0.76
+      },
+      "SP500": {
+        "close": 6512.61,
+        "change": 17.46,
+        "pct": 0.27
+      },
+      "NASDAQ": {
+        "close": 21879.49,
+        "change": 80.79,
+        "pct": 0.37
+      },
+      "DOW": {
+        "close": 45711.34,
+        "change": 196.39,
+        "pct": 0.43
+      }
+    },
+    "fx": {
+      "USD_KRW": 1387.25,
+      "JPY_KRW": 9.4111
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-10",
+    "stocks": {
+      "KOSPI": {
+        "close": 3314.53,
+        "change": 54.48,
+        "pct": 1.67
+      },
+      "KOSDAQ": {
+        "close": 833.0,
+        "change": 8.18,
+        "pct": 0.99
+      },
+      "SP500": {
+        "close": 6532.04,
+        "change": 19.43,
+        "pct": 0.3
+      },
+      "NASDAQ": {
+        "close": 21886.06,
+        "change": 6.57,
+        "pct": 0.03
+      },
+      "DOW": {
+        "close": 45490.92,
+        "change": -220.42,
+        "pct": -0.48
+      }
+    },
+    "fx": {
+      "USD_KRW": 1387.2,
+      "JPY_KRW": 9.4148
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-11",
+    "stocks": {
+      "KOSPI": {
+        "close": 3344.2,
+        "change": 29.67,
+        "pct": 0.9
+      },
+      "KOSDAQ": {
+        "close": 834.76,
+        "change": 1.76,
+        "pct": 0.21
+      },
+      "SP500": {
+        "close": 6587.47,
+        "change": 55.43,
+        "pct": 0.85
+      },
+      "NASDAQ": {
+        "close": 22043.07,
+        "change": 157.01,
+        "pct": 0.72
+      },
+      "DOW": {
+        "close": 46108.0,
+        "change": 617.08,
+        "pct": 1.36
+      }
+    },
+    "fx": {
+      "USD_KRW": 1389.5,
+      "JPY_KRW": 9.4384
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-15",
+    "stocks": {
+      "KOSPI": {
+        "close": 3407.31,
+        "change": 11.77,
+        "pct": 0.35
+      },
+      "KOSDAQ": {
+        "close": 852.69,
+        "change": 5.61,
+        "pct": 0.66
+      },
+      "SP500": {
+        "close": 6615.28,
+        "change": 30.99,
+        "pct": 0.47
+      },
+      "NASDAQ": {
+        "close": 22348.75,
+        "change": 207.65,
+        "pct": 0.94
+      },
+      "DOW": {
+        "close": 45883.45,
+        "change": 49.23,
+        "pct": 0.11
+      }
+    },
+    "fx": {
+      "USD_KRW": 1385.01,
+      "JPY_KRW": 9.3956
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-16",
+    "stocks": {
+      "KOSPI": {
+        "close": 3449.62,
+        "change": 42.31,
+        "pct": 1.24
+      },
+      "KOSDAQ": {
+        "close": 851.84,
+        "change": -0.85,
+        "pct": -0.1
+      },
+      "SP500": {
+        "close": 6606.76,
+        "change": -8.52,
+        "pct": -0.13
+      },
+      "NASDAQ": {
+        "close": 22333.96,
+        "change": -14.79,
+        "pct": -0.07
+      },
+      "DOW": {
+        "close": 45757.9,
+        "change": -125.55,
+        "pct": -0.27
+      }
+    },
+    "fx": {
+      "USD_KRW": 1377.64,
+      "JPY_KRW": 9.4091
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-17",
+    "stocks": {
+      "KOSPI": {
+        "close": 3413.4,
+        "change": -36.22,
+        "pct": -1.05
+      },
+      "KOSDAQ": {
+        "close": 845.53,
+        "change": -6.31,
+        "pct": -0.74
+      },
+      "SP500": {
+        "close": 6600.35,
+        "change": -6.41,
+        "pct": -0.1
+      },
+      "NASDAQ": {
+        "close": 22261.33,
+        "change": -72.63,
+        "pct": -0.33
+      },
+      "DOW": {
+        "close": 46018.32,
+        "change": 260.42,
+        "pct": 0.57
+      }
+    },
+    "fx": {
+      "USD_KRW": 1378.6899,
+      "JPY_KRW": 9.3861
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-18",
+    "stocks": {
+      "KOSPI": {
+        "close": 3461.3,
+        "change": 47.9,
+        "pct": 1.4
+      },
+      "KOSDAQ": {
+        "close": 857.11,
+        "change": 11.58,
+        "pct": 1.37
+      },
+      "SP500": {
+        "close": 6631.96,
+        "change": 31.61,
+        "pct": 0.48
+      },
+      "NASDAQ": {
+        "close": 22470.72,
+        "change": 209.39,
+        "pct": 0.94
+      },
+      "DOW": {
+        "close": 46142.42,
+        "change": 124.1,
+        "pct": 0.27
+      }
+    },
+    "fx": {
+      "USD_KRW": 1386.75,
+      "JPY_KRW": 9.3734
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-22",
+    "stocks": {
+      "KOSPI": {
+        "close": 3468.65,
+        "change": 23.41,
+        "pct": 0.68
+      },
+      "KOSDAQ": {
+        "close": 874.36,
+        "change": 11.25,
+        "pct": 1.3
+      },
+      "SP500": {
+        "close": 6693.75,
+        "change": 29.39,
+        "pct": 0.44
+      },
+      "NASDAQ": {
+        "close": 22788.98,
+        "change": 157.5,
+        "pct": 0.7
+      },
+      "DOW": {
+        "close": 46381.54,
+        "change": 66.27,
+        "pct": 0.14
+      }
+    },
+    "fx": {
+      "USD_KRW": 1389.39,
+      "JPY_KRW": 9.404
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-23",
+    "stocks": {
+      "KOSPI": {
+        "close": 3486.19,
+        "change": 17.54,
+        "pct": 0.51
+      },
+      "KOSDAQ": {
+        "close": 872.21,
+        "change": -2.15,
+        "pct": -0.25
+      },
+      "SP500": {
+        "close": 6656.92,
+        "change": -36.83,
+        "pct": -0.55
+      },
+      "NASDAQ": {
+        "close": 22573.47,
+        "change": -215.51,
+        "pct": -0.95
+      },
+      "DOW": {
+        "close": 46292.78,
+        "change": -88.76,
+        "pct": -0.19
+      }
+    },
+    "fx": {
+      "USD_KRW": 1391.85,
+      "JPY_KRW": 9.4284
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-24",
+    "stocks": {
+      "KOSPI": {
+        "close": 3472.14,
+        "change": -14.05,
+        "pct": -0.4
+      },
+      "KOSDAQ": {
+        "close": 860.94,
+        "change": -11.27,
+        "pct": -1.29
+      },
+      "SP500": {
+        "close": 6637.97,
+        "change": -18.95,
+        "pct": -0.28
+      },
+      "NASDAQ": {
+        "close": 22497.86,
+        "change": -75.61,
+        "pct": -0.33
+      },
+      "DOW": {
+        "close": 46121.28,
+        "change": -171.5,
+        "pct": -0.37
+      }
+    },
+    "fx": {
+      "USD_KRW": 1403.65,
+      "JPY_KRW": 9.4363
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-25",
+    "stocks": {
+      "KOSPI": {
+        "close": 3471.11,
+        "change": -1.03,
+        "pct": -0.03
+      },
+      "KOSDAQ": {
+        "close": 852.48,
+        "change": -8.46,
+        "pct": -0.98
+      },
+      "SP500": {
+        "close": 6604.72,
+        "change": -33.25,
+        "pct": -0.5
+      },
+      "NASDAQ": {
+        "close": 22384.7,
+        "change": -113.16,
+        "pct": -0.5
+      },
+      "DOW": {
+        "close": 45947.32,
+        "change": -173.96,
+        "pct": -0.38
+      }
+    },
+    "fx": {
+      "USD_KRW": 1408.92,
+      "JPY_KRW": 9.4013
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-29",
+    "stocks": {
+      "KOSPI": {
+        "close": 3431.21,
+        "change": 45.16,
+        "pct": 1.33
+      },
+      "KOSDAQ": {
+        "close": 846.71,
+        "change": 11.52,
+        "pct": 1.38
+      },
+      "SP500": {
+        "close": 6661.21,
+        "change": 17.51,
+        "pct": 0.26
+      },
+      "NASDAQ": {
+        "close": 22591.15,
+        "change": 107.08,
+        "pct": 0.48
+      },
+      "DOW": {
+        "close": 46316.07,
+        "change": 68.78,
+        "pct": 0.15
+      }
+    },
+    "fx": {
+      "USD_KRW": 1399.33,
+      "JPY_KRW": 9.4167
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-09-30",
+    "stocks": {
+      "KOSPI": {
+        "close": 3424.6,
+        "change": -6.61,
+        "pct": -0.19
+      },
+      "KOSDAQ": {
+        "close": 841.99,
+        "change": -4.72,
+        "pct": -0.56
+      },
+      "SP500": {
+        "close": 6688.46,
+        "change": 27.25,
+        "pct": 0.41
+      },
+      "NASDAQ": {
+        "close": 22660.01,
+        "change": 68.86,
+        "pct": 0.3
+      },
+      "DOW": {
+        "close": 46397.89,
+        "change": 81.82,
+        "pct": 0.18
+      }
+    },
+    "fx": {
+      "USD_KRW": 1403.15,
+      "JPY_KRW": 9.4801
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-01",
+    "stocks": {
+      "KOSPI": {
+        "close": 3455.83,
+        "change": 31.23,
+        "pct": 0.91
+      },
+      "KOSDAQ": {
+        "close": 845.34,
+        "change": 3.35,
+        "pct": 0.4
+      },
+      "SP500": {
+        "close": 6711.2,
+        "change": 22.74,
+        "pct": 0.34
+      },
+      "NASDAQ": {
+        "close": 22755.16,
+        "change": 95.15,
+        "pct": 0.42
+      },
+      "DOW": {
+        "close": 46441.1,
+        "change": 43.21,
+        "pct": 0.09
+      }
+    },
+    "fx": {
+      "USD_KRW": 1401.8199,
+      "JPY_KRW": 9.5306
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-02",
+    "stocks": {
+      "KOSPI": {
+        "close": 3549.21,
+        "change": 93.38,
+        "pct": 2.7
+      },
+      "KOSDAQ": {
+        "close": 854.25,
+        "change": 8.91,
+        "pct": 1.05
+      },
+      "SP500": {
+        "close": 6715.35,
+        "change": 4.15,
+        "pct": 0.06
+      },
+      "NASDAQ": {
+        "close": 22844.05,
+        "change": 88.89,
+        "pct": 0.39
+      },
+      "DOW": {
+        "close": 46519.72,
+        "change": 78.62,
+        "pct": 0.17
+      }
+    },
+    "fx": {
+      "USD_KRW": 1405.63,
+      "JPY_KRW": 9.5518
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-06",
+    "stocks": {
+      "SP500": {
+        "close": 6740.28,
+        "change": 24.49,
+        "pct": 0.36
+      },
+      "NASDAQ": {
+        "close": 22941.67,
+        "change": 161.16,
+        "pct": 0.71
+      },
+      "DOW": {
+        "close": 46694.97,
+        "change": -63.31,
+        "pct": -0.14
+      }
+    },
+    "fx": {
+      "USD_KRW": 1409.92,
+      "JPY_KRW": 9.379
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-07",
+    "stocks": {
+      "SP500": {
+        "close": 6714.59,
+        "change": -25.69,
+        "pct": -0.38
+      },
+      "NASDAQ": {
+        "close": 22788.36,
+        "change": -153.31,
+        "pct": -0.67
+      },
+      "DOW": {
+        "close": 46602.98,
+        "change": -91.99,
+        "pct": -0.2
+      }
+    },
+    "fx": {
+      "USD_KRW": 1414.5699,
+      "JPY_KRW": 9.3026
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-08",
+    "stocks": {
+      "SP500": {
+        "close": 6753.72,
+        "change": 39.13,
+        "pct": 0.58
+      },
+      "NASDAQ": {
+        "close": 23043.38,
+        "change": 255.02,
+        "pct": 1.12
+      },
+      "DOW": {
+        "close": 46601.78,
+        "change": -1.2,
+        "pct": -0.0
+      }
+    },
+    "fx": {
+      "USD_KRW": 1422.52,
+      "JPY_KRW": 9.3166
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-09",
+    "stocks": {
+      "SP500": {
+        "close": 6735.11,
+        "change": -18.61,
+        "pct": -0.28
+      },
+      "NASDAQ": {
+        "close": 23024.63,
+        "change": -18.75,
+        "pct": -0.08
+      },
+      "DOW": {
+        "close": 46358.42,
+        "change": -243.36,
+        "pct": -0.52
+      }
+    },
+    "fx": {
+      "USD_KRW": 1421.51,
+      "JPY_KRW": 9.2929
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-13",
+    "stocks": {
+      "KOSPI": {
+        "close": 3584.55,
+        "change": -26.05,
+        "pct": -0.72
+      },
+      "KOSDAQ": {
+        "close": 860.49,
+        "change": 1.0,
+        "pct": 0.12
+      },
+      "SP500": {
+        "close": 6654.72,
+        "change": 102.21,
+        "pct": 1.56
+      },
+      "NASDAQ": {
+        "close": 22694.61,
+        "change": 490.18,
+        "pct": 2.21
+      },
+      "DOW": {
+        "close": 46067.58,
+        "change": 587.98,
+        "pct": 1.29
+      }
+    },
+    "fx": {
+      "USD_KRW": 1426.0699,
+      "JPY_KRW": 9.3494
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-14",
+    "stocks": {
+      "KOSPI": {
+        "close": 3561.81,
+        "change": -22.74,
+        "pct": -0.63
+      },
+      "KOSDAQ": {
+        "close": 847.96,
+        "change": -12.53,
+        "pct": -1.46
+      },
+      "SP500": {
+        "close": 6644.31,
+        "change": -10.41,
+        "pct": -0.16
+      },
+      "NASDAQ": {
+        "close": 22521.7,
+        "change": -172.91,
+        "pct": -0.76
+      },
+      "DOW": {
+        "close": 46270.46,
+        "change": 202.88,
+        "pct": 0.44
+      }
+    },
+    "fx": {
+      "USD_KRW": 1429.4301,
+      "JPY_KRW": 9.4202
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-15",
+    "stocks": {
+      "KOSPI": {
+        "close": 3657.28,
+        "change": 95.47,
+        "pct": 2.68
+      },
+      "KOSDAQ": {
+        "close": 864.72,
+        "change": 16.76,
+        "pct": 1.98
+      },
+      "SP500": {
+        "close": 6671.06,
+        "change": 26.75,
+        "pct": 0.4
+      },
+      "NASDAQ": {
+        "close": 22670.08,
+        "change": 148.38,
+        "pct": 0.66
+      },
+      "DOW": {
+        "close": 46253.31,
+        "change": -17.15,
+        "pct": -0.04
+      }
+    },
+    "fx": {
+      "USD_KRW": 1420.09,
+      "JPY_KRW": 9.4062
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-16",
+    "stocks": {
+      "KOSPI": {
+        "close": 3748.37,
+        "change": 91.09,
+        "pct": 2.49
+      },
+      "KOSDAQ": {
+        "close": 865.41,
+        "change": 0.69,
+        "pct": 0.08
+      },
+      "SP500": {
+        "close": 6629.07,
+        "change": -41.99,
+        "pct": -0.63
+      },
+      "NASDAQ": {
+        "close": 22562.54,
+        "change": -107.54,
+        "pct": -0.47
+      },
+      "DOW": {
+        "close": 45952.24,
+        "change": -301.07,
+        "pct": -0.65
+      }
+    },
+    "fx": {
+      "USD_KRW": 1415.72,
+      "JPY_KRW": 9.4304
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-20",
+    "stocks": {
+      "KOSPI": {
+        "close": 3814.69,
+        "change": 65.8,
+        "pct": 1.76
+      },
+      "KOSDAQ": {
+        "close": 875.77,
+        "change": 16.23,
+        "pct": 1.89
+      },
+      "SP500": {
+        "close": 6735.13,
+        "change": 71.12,
+        "pct": 1.07
+      },
+      "NASDAQ": {
+        "close": 22990.54,
+        "change": 310.57,
+        "pct": 1.37
+      },
+      "DOW": {
+        "close": 46706.58,
+        "change": 515.97,
+        "pct": 1.12
+      }
+    },
+    "fx": {
+      "USD_KRW": 1419.74,
+      "JPY_KRW": 9.4165
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-21",
+    "stocks": {
+      "KOSPI": {
+        "close": 3823.84,
+        "change": 9.15,
+        "pct": 0.24
+      },
+      "KOSDAQ": {
+        "close": 872.5,
+        "change": -3.27,
+        "pct": -0.37
+      },
+      "SP500": {
+        "close": 6735.35,
+        "change": 0.22,
+        "pct": 0.0
+      },
+      "NASDAQ": {
+        "close": 22953.67,
+        "change": -36.87,
+        "pct": -0.16
+      },
+      "DOW": {
+        "close": 46924.74,
+        "change": 218.16,
+        "pct": 0.47
+      }
+    },
+    "fx": {
+      "USD_KRW": 1430.74,
+      "JPY_KRW": 9.4184
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-22",
+    "stocks": {
+      "KOSPI": {
+        "close": 3883.68,
+        "change": 59.84,
+        "pct": 1.56
+      },
+      "KOSDAQ": {
+        "close": 879.15,
+        "change": 6.65,
+        "pct": 0.76
+      },
+      "SP500": {
+        "close": 6699.4,
+        "change": -35.95,
+        "pct": -0.53
+      },
+      "NASDAQ": {
+        "close": 22740.4,
+        "change": -213.27,
+        "pct": -0.93
+      },
+      "DOW": {
+        "close": 46590.41,
+        "change": -334.33,
+        "pct": -0.71
+      }
+    },
+    "fx": {
+      "USD_KRW": 1430.4,
+      "JPY_KRW": 9.4127
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-23",
+    "stocks": {
+      "KOSPI": {
+        "close": 3845.56,
+        "change": -38.12,
+        "pct": -0.98
+      },
+      "KOSDAQ": {
+        "close": 872.03,
+        "change": -7.12,
+        "pct": -0.81
+      },
+      "SP500": {
+        "close": 6738.44,
+        "change": 39.04,
+        "pct": 0.58
+      },
+      "NASDAQ": {
+        "close": 22941.8,
+        "change": 201.4,
+        "pct": 0.89
+      },
+      "DOW": {
+        "close": 46734.61,
+        "change": 144.2,
+        "pct": 0.31
+      }
+    },
+    "fx": {
+      "USD_KRW": 1435.84,
+      "JPY_KRW": 9.4082
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-27",
+    "stocks": {
+      "KOSPI": {
+        "close": 4042.83,
+        "change": 101.24,
+        "pct": 2.57
+      },
+      "KOSDAQ": {
+        "close": 902.7,
+        "change": 19.62,
+        "pct": 2.22
+      },
+      "SP500": {
+        "close": 6875.16,
+        "change": 83.47,
+        "pct": 1.23
+      },
+      "NASDAQ": {
+        "close": 23637.46,
+        "change": 432.59,
+        "pct": 1.86
+      },
+      "DOW": {
+        "close": 47544.59,
+        "change": 337.47,
+        "pct": 0.71
+      }
+    },
+    "fx": {
+      "USD_KRW": 1436.97,
+      "JPY_KRW": 9.3876
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-28",
+    "stocks": {
+      "KOSPI": {
+        "close": 4010.41,
+        "change": -32.42,
+        "pct": -0.8
+      },
+      "KOSDAQ": {
+        "close": 903.3,
+        "change": 0.6,
+        "pct": 0.07
+      },
+      "SP500": {
+        "close": 6890.89,
+        "change": 15.73,
+        "pct": 0.23
+      },
+      "NASDAQ": {
+        "close": 23827.49,
+        "change": 190.03,
+        "pct": 0.8
+      },
+      "DOW": {
+        "close": 47706.37,
+        "change": 161.78,
+        "pct": 0.34
+      }
+    },
+    "fx": {
+      "USD_KRW": 1430.97,
+      "JPY_KRW": 9.3703
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-29",
+    "stocks": {
+      "KOSPI": {
+        "close": 4081.15,
+        "change": 70.74,
+        "pct": 1.76
+      },
+      "KOSDAQ": {
+        "close": 901.59,
+        "change": -1.71,
+        "pct": -0.19
+      },
+      "SP500": {
+        "close": 6890.59,
+        "change": -0.3,
+        "pct": -0.0
+      },
+      "NASDAQ": {
+        "close": 23958.47,
+        "change": 130.98,
+        "pct": 0.55
+      },
+      "DOW": {
+        "close": 47632.0,
+        "change": -74.37,
+        "pct": -0.16
+      }
+    },
+    "fx": {
+      "USD_KRW": 1425.97,
+      "JPY_KRW": 9.3913
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-30",
+    "stocks": {
+      "KOSPI": {
+        "close": 4086.89,
+        "change": 5.74,
+        "pct": 0.14
+      },
+      "KOSDAQ": {
+        "close": 890.86,
+        "change": -10.73,
+        "pct": -1.19
+      },
+      "SP500": {
+        "close": 6822.34,
+        "change": -68.25,
+        "pct": -0.99
+      },
+      "NASDAQ": {
+        "close": 23581.14,
+        "change": -377.33,
+        "pct": -1.57
+      },
+      "DOW": {
+        "close": 47522.12,
+        "change": -109.88,
+        "pct": -0.23
+      }
+    },
+    "fx": {
+      "USD_KRW": 1424.01,
+      "JPY_KRW": 9.3234
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-10-31",
+    "stocks": {
+      "KOSPI": {
+        "close": 4107.5,
+        "change": 20.61,
+        "pct": 0.5
+      },
+      "KOSDAQ": {
+        "close": 900.42,
+        "change": 9.56,
+        "pct": 1.07
+      },
+      "SP500": {
+        "close": 6840.2,
+        "change": 17.86,
+        "pct": 0.26
+      },
+      "NASDAQ": {
+        "close": 23724.96,
+        "change": 143.82,
+        "pct": 0.61
+      },
+      "DOW": {
+        "close": 47562.87,
+        "change": 40.75,
+        "pct": 0.09
+      }
+    },
+    "fx": {
+      "USD_KRW": 1424.02,
+      "JPY_KRW": 9.2524
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-03",
+    "stocks": {
+      "KOSPI": {
+        "close": 4221.87,
+        "change": 114.37,
+        "pct": 2.78
+      },
+      "KOSDAQ": {
+        "close": 914.55,
+        "change": 14.13,
+        "pct": 1.57
+      },
+      "SP500": {
+        "close": 6851.97,
+        "change": 11.77,
+        "pct": 0.17
+      },
+      "NASDAQ": {
+        "close": 23834.72,
+        "change": 109.76,
+        "pct": 0.46
+      },
+      "DOW": {
+        "close": 47336.68,
+        "change": -226.19,
+        "pct": -0.48
+      }
+    },
+    "fx": {
+      "USD_KRW": 1427.17,
+      "JPY_KRW": 9.2734
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-04",
+    "stocks": {
+      "KOSPI": {
+        "close": 4121.74,
+        "change": -100.13,
+        "pct": -2.37
+      },
+      "KOSDAQ": {
+        "close": 926.57,
+        "change": 12.02,
+        "pct": 1.31
+      },
+      "SP500": {
+        "close": 6771.55,
+        "change": -80.42,
+        "pct": -1.17
+      },
+      "NASDAQ": {
+        "close": 23348.64,
+        "change": -486.08,
+        "pct": -2.04
+      },
+      "DOW": {
+        "close": 47085.24,
+        "change": -251.44,
+        "pct": -0.53
+      }
+    },
+    "fx": {
+      "USD_KRW": 1428.97,
+      "JPY_KRW": 9.2662
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-05",
+    "stocks": {
+      "KOSPI": {
+        "close": 4004.42,
+        "change": -117.32,
+        "pct": -2.85
+      },
+      "KOSDAQ": {
+        "close": 901.89,
+        "change": -24.68,
+        "pct": -2.66
+      },
+      "SP500": {
+        "close": 6796.29,
+        "change": 24.74,
+        "pct": 0.37
+      },
+      "NASDAQ": {
+        "close": 23499.8,
+        "change": 151.16,
+        "pct": 0.65
+      },
+      "DOW": {
+        "close": 47311.0,
+        "change": 225.76,
+        "pct": 0.48
+      }
+    },
+    "fx": {
+      "USD_KRW": 1439.8101,
+      "JPY_KRW": 9.3764
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-06",
+    "stocks": {
+      "KOSPI": {
+        "close": 4026.45,
+        "change": 22.03,
+        "pct": 0.55
+      },
+      "KOSDAQ": {
+        "close": 898.17,
+        "change": -3.72,
+        "pct": -0.41
+      },
+      "SP500": {
+        "close": 6720.32,
+        "change": -75.97,
+        "pct": -1.12
+      },
+      "NASDAQ": {
+        "close": 23053.99,
+        "change": -445.81,
+        "pct": -1.9
+      },
+      "DOW": {
+        "close": 46912.3,
+        "change": -398.7,
+        "pct": -0.84
+      }
+    },
+    "fx": {
+      "USD_KRW": 1439.74,
+      "JPY_KRW": 9.3448
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-07",
+    "stocks": {
+      "KOSPI": {
+        "close": 3953.76,
+        "change": -72.69,
+        "pct": -1.81
+      },
+      "KOSDAQ": {
+        "close": 876.81,
+        "change": -21.36,
+        "pct": -2.38
+      },
+      "SP500": {
+        "close": 6728.8,
+        "change": 8.48,
+        "pct": 0.13
+      },
+      "NASDAQ": {
+        "close": 23004.54,
+        "change": -49.45,
+        "pct": -0.21
+      },
+      "DOW": {
+        "close": 46987.1,
+        "change": 74.8,
+        "pct": 0.16
+      }
+    },
+    "fx": {
+      "USD_KRW": 1447.9,
+      "JPY_KRW": 9.4655
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-10",
+    "stocks": {
+      "KOSPI": {
+        "close": 4073.24,
+        "change": 119.48,
+        "pct": 3.02
+      },
+      "KOSDAQ": {
+        "close": 888.35,
+        "change": 11.54,
+        "pct": 1.32
+      },
+      "SP500": {
+        "close": 6832.43,
+        "change": 103.63,
+        "pct": 1.54
+      },
+      "NASDAQ": {
+        "close": 23527.17,
+        "change": 522.63,
+        "pct": 2.27
+      },
+      "DOW": {
+        "close": 47368.63,
+        "change": 381.53,
+        "pct": 0.81
+      }
+    },
+    "fx": {
+      "USD_KRW": 1454.0,
+      "JPY_KRW": 9.4519
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-11",
+    "stocks": {
+      "KOSPI": {
+        "close": 4106.39,
+        "change": 33.15,
+        "pct": 0.81
+      },
+      "KOSDAQ": {
+        "close": 884.27,
+        "change": -4.08,
+        "pct": -0.46
+      },
+      "SP500": {
+        "close": 6846.61,
+        "change": 14.18,
+        "pct": 0.21
+      },
+      "NASDAQ": {
+        "close": 23468.3,
+        "change": -58.87,
+        "pct": -0.25
+      },
+      "DOW": {
+        "close": 47927.96,
+        "change": 559.33,
+        "pct": 1.18
+      }
+    },
+    "fx": {
+      "USD_KRW": 1456.09,
+      "JPY_KRW": 9.4457
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-12",
+    "stocks": {
+      "KOSPI": {
+        "close": 4150.39,
+        "change": 44.0,
+        "pct": 1.07
+      },
+      "KOSDAQ": {
+        "close": 906.51,
+        "change": 22.24,
+        "pct": 2.52
+      },
+      "SP500": {
+        "close": 6850.92,
+        "change": 4.31,
+        "pct": 0.06
+      },
+      "NASDAQ": {
+        "close": 23406.46,
+        "change": -61.84,
+        "pct": -0.26
+      },
+      "DOW": {
+        "close": 48254.82,
+        "change": 326.86,
+        "pct": 0.68
+      }
+    },
+    "fx": {
+      "USD_KRW": 1459.84,
+      "JPY_KRW": 9.4743
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-13",
+    "stocks": {
+      "KOSPI": {
+        "close": 4170.63,
+        "change": 20.24,
+        "pct": 0.49
+      },
+      "KOSDAQ": {
+        "close": 918.37,
+        "change": 11.86,
+        "pct": 1.31
+      },
+      "SP500": {
+        "close": 6737.49,
+        "change": -113.43,
+        "pct": -1.66
+      },
+      "NASDAQ": {
+        "close": 22870.36,
+        "change": -536.1,
+        "pct": -2.29
+      },
+      "DOW": {
+        "close": 47457.22,
+        "change": -797.6,
+        "pct": -1.65
+      }
+    },
+    "fx": {
+      "USD_KRW": 1468.02,
+      "JPY_KRW": 9.4881
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-14",
+    "stocks": {
+      "KOSPI": {
+        "close": 4011.57,
+        "change": -159.06,
+        "pct": -3.81
+      },
+      "KOSDAQ": {
+        "close": 897.9,
+        "change": -20.47,
+        "pct": -2.23
+      },
+      "SP500": {
+        "close": 6734.11,
+        "change": -3.38,
+        "pct": -0.05
+      },
+      "NASDAQ": {
+        "close": 22900.59,
+        "change": 30.23,
+        "pct": 0.13
+      },
+      "DOW": {
+        "close": 47147.48,
+        "change": -309.74,
+        "pct": -0.65
+      }
+    },
+    "fx": {
+      "USD_KRW": 1468.71,
+      "JPY_KRW": 9.4976
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-17",
+    "stocks": {
+      "KOSPI": {
+        "close": 4089.25,
+        "change": 77.68,
+        "pct": 1.94
+      },
+      "KOSDAQ": {
+        "close": 902.67,
+        "change": 4.77,
+        "pct": 0.53
+      },
+      "SP500": {
+        "close": 6672.41,
+        "change": -61.7,
+        "pct": -0.92
+      },
+      "NASDAQ": {
+        "close": 22708.07,
+        "change": -192.52,
+        "pct": -0.84
+      },
+      "DOW": {
+        "close": 46590.24,
+        "change": -557.24,
+        "pct": -1.18
+      }
+    },
+    "fx": {
+      "USD_KRW": 1446.53,
+      "JPY_KRW": 9.3562
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-18",
+    "stocks": {
+      "KOSPI": {
+        "close": 3953.62,
+        "change": -135.63,
+        "pct": -3.32
+      },
+      "KOSDAQ": {
+        "close": 878.7,
+        "change": -23.97,
+        "pct": -2.66
+      },
+      "SP500": {
+        "close": 6617.32,
+        "change": -55.09,
+        "pct": -0.83
+      },
+      "NASDAQ": {
+        "close": 22432.85,
+        "change": -275.22,
+        "pct": -1.21
+      },
+      "DOW": {
+        "close": 46091.74,
+        "change": -498.5,
+        "pct": -1.07
+      }
+    },
+    "fx": {
+      "USD_KRW": 1461.6899,
+      "JPY_KRW": 9.4138
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-19",
+    "stocks": {
+      "KOSPI": {
+        "close": 3929.51,
+        "change": -24.11,
+        "pct": -0.61
+      },
+      "KOSDAQ": {
+        "close": 871.32,
+        "change": -7.38,
+        "pct": -0.84
+      },
+      "SP500": {
+        "close": 6642.16,
+        "change": 24.84,
+        "pct": 0.38
+      },
+      "NASDAQ": {
+        "close": 22564.23,
+        "change": 131.38,
+        "pct": 0.59
+      },
+      "DOW": {
+        "close": 46138.77,
+        "change": 47.03,
+        "pct": 0.1
+      }
+    },
+    "fx": {
+      "USD_KRW": 1456.55,
+      "JPY_KRW": 9.364
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-20",
+    "stocks": {
+      "KOSPI": {
+        "close": 4004.85,
+        "change": 75.34,
+        "pct": 1.92
+      },
+      "KOSDAQ": {
+        "close": 891.94,
+        "change": 20.62,
+        "pct": 2.37
+      },
+      "SP500": {
+        "close": 6538.76,
+        "change": -103.4,
+        "pct": -1.56
+      },
+      "NASDAQ": {
+        "close": 22078.05,
+        "change": -486.18,
+        "pct": -2.15
+      },
+      "DOW": {
+        "close": 45752.26,
+        "change": -386.51,
+        "pct": -0.84
+      }
+    },
+    "fx": {
+      "USD_KRW": 1466.13,
+      "JPY_KRW": 9.3389
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-21",
+    "stocks": {
+      "KOSPI": {
+        "close": 3853.26,
+        "change": -151.59,
+        "pct": -3.79
+      },
+      "KOSDAQ": {
+        "close": 863.95,
+        "change": -27.99,
+        "pct": -3.14
+      },
+      "SP500": {
+        "close": 6602.99,
+        "change": 64.23,
+        "pct": 0.98
+      },
+      "NASDAQ": {
+        "close": 22273.08,
+        "change": 195.03,
+        "pct": 0.88
+      },
+      "DOW": {
+        "close": 46245.41,
+        "change": 493.15,
+        "pct": 1.08
+      }
+    },
+    "fx": {
+      "USD_KRW": 1473.25,
+      "JPY_KRW": 9.3625
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-24",
+    "stocks": {
+      "KOSPI": {
+        "close": 3846.06,
+        "change": -7.2,
+        "pct": -0.19
+      },
+      "KOSDAQ": {
+        "close": 856.44,
+        "change": -7.51,
+        "pct": -0.87
+      },
+      "SP500": {
+        "close": 6705.12,
+        "change": 102.13,
+        "pct": 1.55
+      },
+      "NASDAQ": {
+        "close": 22872.01,
+        "change": 598.93,
+        "pct": 2.69
+      },
+      "DOW": {
+        "close": 46448.27,
+        "change": 202.86,
+        "pct": 0.44
+      }
+    },
+    "fx": {
+      "USD_KRW": 1467.73,
+      "JPY_KRW": 9.3666
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-25",
+    "stocks": {
+      "KOSPI": {
+        "close": 3857.78,
+        "change": 11.72,
+        "pct": 0.3
+      },
+      "KOSDAQ": {
+        "close": 856.03,
+        "change": -0.41,
+        "pct": -0.05
+      },
+      "SP500": {
+        "close": 6765.88,
+        "change": 60.76,
+        "pct": 0.91
+      },
+      "NASDAQ": {
+        "close": 23025.59,
+        "change": 153.58,
+        "pct": 0.67
+      },
+      "DOW": {
+        "close": 47112.45,
+        "change": 664.18,
+        "pct": 1.43
+      }
+    },
+    "fx": {
+      "USD_KRW": 1474.86,
+      "JPY_KRW": 9.3984
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-26",
+    "stocks": {
+      "KOSPI": {
+        "close": 3960.87,
+        "change": 103.09,
+        "pct": 2.67
+      },
+      "KOSDAQ": {
+        "close": 877.32,
+        "change": 21.29,
+        "pct": 2.49
+      },
+      "SP500": {
+        "close": 6812.61,
+        "change": 46.73,
+        "pct": 0.69
+      },
+      "NASDAQ": {
+        "close": 23214.69,
+        "change": 189.1,
+        "pct": 0.82
+      },
+      "DOW": {
+        "close": 47427.12,
+        "change": 314.67,
+        "pct": 0.67
+      }
+    },
+    "fx": {
+      "USD_KRW": 1464.92,
+      "JPY_KRW": 9.3718
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-27",
+    "stocks": {
+      "KOSPI": {
+        "close": 3986.91,
+        "change": 26.04,
+        "pct": 0.66
+      },
+      "KOSDAQ": {
+        "close": 880.06,
+        "change": 2.74,
+        "pct": 0.31
+      }
+    },
+    "fx": {
+      "USD_KRW": 1470.59,
+      "JPY_KRW": 9.4116
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-11-28",
+    "stocks": {
+      "KOSPI": {
+        "close": 3926.59,
+        "change": -60.32,
+        "pct": -1.51
+      },
+      "KOSDAQ": {
+        "close": 912.67,
+        "change": 32.61,
+        "pct": 3.71
+      },
+      "SP500": {
+        "close": 6849.09,
+        "change": 36.48,
+        "pct": 0.54
+      },
+      "NASDAQ": {
+        "close": 23365.69,
+        "change": 151.0,
+        "pct": 0.65
+      },
+      "DOW": {
+        "close": 47716.42,
+        "change": 289.3,
+        "pct": 0.61
+      }
+    },
+    "fx": {
+      "USD_KRW": 1461.4,
+      "JPY_KRW": 9.3503
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-01",
+    "stocks": {
+      "KOSPI": {
+        "close": 3920.37,
+        "change": -6.22,
+        "pct": -0.16
+      },
+      "KOSDAQ": {
+        "close": 922.38,
+        "change": 9.71,
+        "pct": 1.06
+      },
+      "SP500": {
+        "close": 6812.63,
+        "change": -36.46,
+        "pct": -0.53
+      },
+      "NASDAQ": {
+        "close": 23275.92,
+        "change": -89.77,
+        "pct": -0.38
+      },
+      "DOW": {
+        "close": 47289.33,
+        "change": -427.09,
+        "pct": -0.9
+      }
+    },
+    "fx": {
+      "USD_KRW": 1465.62,
+      "JPY_KRW": 9.3997
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-02",
+    "stocks": {
+      "KOSPI": {
+        "close": 3994.93,
+        "change": 74.56,
+        "pct": 1.9
+      },
+      "KOSDAQ": {
+        "close": 928.42,
+        "change": 6.04,
+        "pct": 0.65
+      },
+      "SP500": {
+        "close": 6829.37,
+        "change": 16.74,
+        "pct": 0.25
+      },
+      "NASDAQ": {
+        "close": 23413.67,
+        "change": 137.75,
+        "pct": 0.59
+      },
+      "DOW": {
+        "close": 47474.46,
+        "change": 185.13,
+        "pct": 0.39
+      }
+    },
+    "fx": {
+      "USD_KRW": 1470.17,
+      "JPY_KRW": 9.4506
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-03",
+    "stocks": {
+      "KOSPI": {
+        "close": 4036.3,
+        "change": 41.37,
+        "pct": 1.04
+      },
+      "KOSDAQ": {
+        "close": 932.01,
+        "change": 3.59,
+        "pct": 0.39
+      },
+      "SP500": {
+        "close": 6849.72,
+        "change": 20.35,
+        "pct": 0.3
+      },
+      "NASDAQ": {
+        "close": 23454.09,
+        "change": 40.42,
+        "pct": 0.17
+      },
+      "DOW": {
+        "close": 47882.9,
+        "change": 408.44,
+        "pct": 0.86
+      }
+    },
+    "fx": {
+      "USD_KRW": 1467.36,
+      "JPY_KRW": 9.4179
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-04",
+    "stocks": {
+      "KOSPI": {
+        "close": 4028.51,
+        "change": -7.79,
+        "pct": -0.19
+      },
+      "KOSDAQ": {
+        "close": 929.83,
+        "change": -2.18,
+        "pct": -0.23
+      },
+      "SP500": {
+        "close": 6857.12,
+        "change": 7.4,
+        "pct": 0.11
+      },
+      "NASDAQ": {
+        "close": 23505.14,
+        "change": 51.05,
+        "pct": 0.22
+      },
+      "DOW": {
+        "close": 47850.94,
+        "change": -31.96,
+        "pct": -0.07
+      }
+    },
+    "fx": {
+      "USD_KRW": 1465.03,
+      "JPY_KRW": 9.4462
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-05",
+    "stocks": {
+      "KOSPI": {
+        "close": 4100.05,
+        "change": 71.54,
+        "pct": 1.78
+      },
+      "KOSDAQ": {
+        "close": 924.74,
+        "change": -5.09,
+        "pct": -0.55
+      },
+      "SP500": {
+        "close": 6870.4,
+        "change": 13.28,
+        "pct": 0.19
+      },
+      "NASDAQ": {
+        "close": 23578.13,
+        "change": 72.99,
+        "pct": 0.31
+      },
+      "DOW": {
+        "close": 47954.99,
+        "change": 104.05,
+        "pct": 0.22
+      }
+    },
+    "fx": {
+      "USD_KRW": 1472.38,
+      "JPY_KRW": 9.4909
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-08",
+    "stocks": {
+      "KOSPI": {
+        "close": 4154.85,
+        "change": 54.8,
+        "pct": 1.34
+      },
+      "KOSDAQ": {
+        "close": 927.79,
+        "change": 3.05,
+        "pct": 0.33
+      },
+      "SP500": {
+        "close": 6846.51,
+        "change": -23.89,
+        "pct": -0.35
+      },
+      "NASDAQ": {
+        "close": 23545.9,
+        "change": -32.23,
+        "pct": -0.14
+      },
+      "DOW": {
+        "close": 47739.32,
+        "change": -215.67,
+        "pct": -0.45
+      }
+    },
+    "fx": {
+      "USD_KRW": 1471.8101,
+      "JPY_KRW": 9.4736
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-09",
+    "stocks": {
+      "KOSPI": {
+        "close": 4143.55,
+        "change": -11.3,
+        "pct": -0.27
+      },
+      "KOSDAQ": {
+        "close": 931.35,
+        "change": 3.56,
+        "pct": 0.38
+      },
+      "SP500": {
+        "close": 6840.51,
+        "change": -6.0,
+        "pct": -0.09
+      },
+      "NASDAQ": {
+        "close": 23576.49,
+        "change": 30.59,
+        "pct": 0.13
+      },
+      "DOW": {
+        "close": 47560.29,
+        "change": -179.03,
+        "pct": -0.38
+      }
+    },
+    "fx": {
+      "USD_KRW": 1468.51,
+      "JPY_KRW": 9.4224
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-10",
+    "stocks": {
+      "KOSPI": {
+        "close": 4135.0,
+        "change": -8.55,
+        "pct": -0.21
+      },
+      "KOSDAQ": {
+        "close": 935.0,
+        "change": 3.65,
+        "pct": 0.39
+      },
+      "SP500": {
+        "close": 6886.68,
+        "change": 46.17,
+        "pct": 0.67
+      },
+      "NASDAQ": {
+        "close": 23654.15,
+        "change": 77.66,
+        "pct": 0.33
+      },
+      "DOW": {
+        "close": 48057.75,
+        "change": 497.46,
+        "pct": 1.05
+      }
+    },
+    "fx": {
+      "USD_KRW": 1467.9301,
+      "JPY_KRW": 9.3599
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-11",
+    "stocks": {
+      "KOSPI": {
+        "close": 4110.62,
+        "change": -24.38,
+        "pct": -0.59
+      },
+      "KOSDAQ": {
+        "close": 934.64,
+        "change": -0.36,
+        "pct": -0.04
+      },
+      "SP500": {
+        "close": 6901.0,
+        "change": 14.32,
+        "pct": 0.21
+      },
+      "NASDAQ": {
+        "close": 23593.86,
+        "change": -60.29,
+        "pct": -0.25
+      },
+      "DOW": {
+        "close": 48704.01,
+        "change": 646.26,
+        "pct": 1.34
+      }
+    },
+    "fx": {
+      "USD_KRW": 1469.04,
+      "JPY_KRW": 9.4291
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-12",
+    "stocks": {
+      "KOSPI": {
+        "close": 4167.16,
+        "change": 56.54,
+        "pct": 1.38
+      },
+      "KOSDAQ": {
+        "close": 937.34,
+        "change": 2.7,
+        "pct": 0.29
+      },
+      "SP500": {
+        "close": 6827.41,
+        "change": -73.59,
+        "pct": -1.07
+      },
+      "NASDAQ": {
+        "close": 23195.17,
+        "change": -398.69,
+        "pct": -1.69
+      },
+      "DOW": {
+        "close": 48458.05,
+        "change": -245.96,
+        "pct": -0.51
+      }
+    },
+    "fx": {
+      "USD_KRW": 1470.85,
+      "JPY_KRW": 9.4542
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-15",
+    "stocks": {
+      "KOSPI": {
+        "close": 4090.59,
+        "change": -76.57,
+        "pct": -1.84
+      },
+      "KOSDAQ": {
+        "close": 938.83,
+        "change": 1.49,
+        "pct": 0.16
+      },
+      "SP500": {
+        "close": 6816.51,
+        "change": -10.9,
+        "pct": -0.16
+      },
+      "NASDAQ": {
+        "close": 23057.41,
+        "change": -137.76,
+        "pct": -0.59
+      },
+      "DOW": {
+        "close": 48416.56,
+        "change": -41.49,
+        "pct": -0.09
+      }
+    },
+    "fx": {
+      "USD_KRW": 1472.91,
+      "JPY_KRW": 9.4485
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-16",
+    "stocks": {
+      "KOSPI": {
+        "close": 3999.13,
+        "change": -91.46,
+        "pct": -2.24
+      },
+      "KOSDAQ": {
+        "close": 916.11,
+        "change": -22.72,
+        "pct": -2.42
+      },
+      "SP500": {
+        "close": 6800.26,
+        "change": -16.25,
+        "pct": -0.24
+      },
+      "NASDAQ": {
+        "close": 23111.46,
+        "change": 54.05,
+        "pct": 0.23
+      },
+      "DOW": {
+        "close": 48114.26,
+        "change": -302.3,
+        "pct": -0.62
+      }
+    },
+    "fx": {
+      "USD_KRW": 1467.48,
+      "JPY_KRW": 9.4661
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-17",
+    "stocks": {
+      "KOSPI": {
+        "close": 4056.41,
+        "change": 57.28,
+        "pct": 1.43
+      },
+      "KOSDAQ": {
+        "close": 911.07,
+        "change": -5.04,
+        "pct": -0.55
+      },
+      "SP500": {
+        "close": 6721.43,
+        "change": -78.83,
+        "pct": -1.16
+      },
+      "NASDAQ": {
+        "close": 22693.32,
+        "change": -418.14,
+        "pct": -1.81
+      },
+      "DOW": {
+        "close": 47885.97,
+        "change": -228.29,
+        "pct": -0.47
+      }
+    },
+    "fx": {
+      "USD_KRW": 1471.74,
+      "JPY_KRW": 9.5084
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-18",
+    "stocks": {
+      "KOSPI": {
+        "close": 3994.51,
+        "change": -61.9,
+        "pct": -1.53
+      },
+      "KOSDAQ": {
+        "close": 901.33,
+        "change": -9.74,
+        "pct": -1.07
+      },
+      "SP500": {
+        "close": 6774.76,
+        "change": 53.33,
+        "pct": 0.79
+      },
+      "NASDAQ": {
+        "close": 23006.36,
+        "change": 313.04,
+        "pct": 1.38
+      },
+      "DOW": {
+        "close": 47951.85,
+        "change": 65.88,
+        "pct": 0.14
+      }
+    },
+    "fx": {
+      "USD_KRW": 1474.0,
+      "JPY_KRW": 9.4795
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-19",
+    "stocks": {
+      "KOSPI": {
+        "close": 4020.55,
+        "change": 26.04,
+        "pct": 0.65
+      },
+      "KOSDAQ": {
+        "close": 915.27,
+        "change": 13.94,
+        "pct": 1.55
+      },
+      "SP500": {
+        "close": 6834.5,
+        "change": 59.74,
+        "pct": 0.88
+      },
+      "NASDAQ": {
+        "close": 23307.62,
+        "change": 301.26,
+        "pct": 1.31
+      },
+      "DOW": {
+        "close": 48134.89,
+        "change": 183.04,
+        "pct": 0.38
+      }
+    },
+    "fx": {
+      "USD_KRW": 1474.36,
+      "JPY_KRW": 9.4749
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-22",
+    "stocks": {
+      "KOSPI": {
+        "close": 4105.93,
+        "change": 85.38,
+        "pct": 2.12
+      },
+      "KOSDAQ": {
+        "close": 929.14,
+        "change": 13.87,
+        "pct": 1.52
+      },
+      "SP500": {
+        "close": 6878.49,
+        "change": 43.99,
+        "pct": 0.64
+      },
+      "NASDAQ": {
+        "close": 23428.83,
+        "change": 121.21,
+        "pct": 0.52
+      },
+      "DOW": {
+        "close": 48362.68,
+        "change": 227.79,
+        "pct": 0.47
+      }
+    },
+    "fx": {
+      "USD_KRW": 1473.72,
+      "JPY_KRW": 9.3458
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-23",
+    "stocks": {
+      "KOSPI": {
+        "close": 4117.32,
+        "change": 11.39,
+        "pct": 0.28
+      },
+      "KOSDAQ": {
+        "close": 919.56,
+        "change": -9.58,
+        "pct": -1.03
+      },
+      "SP500": {
+        "close": 6909.79,
+        "change": 31.3,
+        "pct": 0.46
+      },
+      "NASDAQ": {
+        "close": 23561.84,
+        "change": 133.01,
+        "pct": 0.57
+      },
+      "DOW": {
+        "close": 48442.41,
+        "change": 79.73,
+        "pct": 0.16
+      }
+    },
+    "fx": {
+      "USD_KRW": 1476.84,
+      "JPY_KRW": 9.4128
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-24",
+    "stocks": {
+      "KOSPI": {
+        "close": 4108.62,
+        "change": -8.7,
+        "pct": -0.21
+      },
+      "KOSDAQ": {
+        "close": 915.2,
+        "change": -4.36,
+        "pct": -0.47
+      },
+      "SP500": {
+        "close": 6932.05,
+        "change": 22.26,
+        "pct": 0.32
+      },
+      "NASDAQ": {
+        "close": 23613.31,
+        "change": 51.47,
+        "pct": 0.22
+      },
+      "DOW": {
+        "close": 48731.16,
+        "change": 288.75,
+        "pct": 0.6
+      }
+    },
+    "fx": {
+      "USD_KRW": 1478.67,
+      "JPY_KRW": 9.4687
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-26",
+    "stocks": {
+      "KOSPI": {
+        "close": 4129.68,
+        "change": 21.06,
+        "pct": 0.51
+      },
+      "KOSDAQ": {
+        "close": 919.67,
+        "change": 4.47,
+        "pct": 0.49
+      },
+      "SP500": {
+        "close": 6929.94,
+        "change": -2.11,
+        "pct": -0.03
+      },
+      "NASDAQ": {
+        "close": 23593.1,
+        "change": -20.21,
+        "pct": -0.09
+      },
+      "DOW": {
+        "close": 48710.97,
+        "change": -20.19,
+        "pct": -0.04
+      }
+    },
+    "fx": {
+      "USD_KRW": 1446.52,
+      "JPY_KRW": 9.2667
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-29",
+    "stocks": {
+      "KOSPI": {
+        "close": 4220.56,
+        "change": 90.88,
+        "pct": 2.2
+      },
+      "KOSDAQ": {
+        "close": 932.59,
+        "change": 12.92,
+        "pct": 1.4
+      },
+      "SP500": {
+        "close": 6905.74,
+        "change": -24.2,
+        "pct": -0.35
+      },
+      "NASDAQ": {
+        "close": 23474.35,
+        "change": -118.75,
+        "pct": -0.5
+      },
+      "DOW": {
+        "close": 48461.93,
+        "change": -249.04,
+        "pct": -0.51
+      }
+    },
+    "fx": {
+      "USD_KRW": 1441.33,
+      "JPY_KRW": 9.2371
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-30",
+    "stocks": {
+      "KOSPI": {
+        "close": 4214.17,
+        "change": -6.39,
+        "pct": -0.15
+      },
+      "KOSDAQ": {
+        "close": 925.47,
+        "change": -7.12,
+        "pct": -0.76
+      },
+      "SP500": {
+        "close": 6896.24,
+        "change": -9.5,
+        "pct": -0.14
+      },
+      "NASDAQ": {
+        "close": 23419.08,
+        "change": -55.27,
+        "pct": -0.24
+      },
+      "DOW": {
+        "close": 48367.06,
+        "change": -94.87,
+        "pct": -0.2
+      }
+    },
+    "fx": {
+      "USD_KRW": 1434.71,
+      "JPY_KRW": 9.1891
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2025-12-31",
+    "stocks": {
+      "SP500": {
+        "close": 6845.5,
+        "change": -50.74,
+        "pct": -0.74
+      },
+      "NASDAQ": {
+        "close": 23241.99,
+        "change": -177.09,
+        "pct": -0.76
+      },
+      "DOW": {
+        "close": 48063.29,
+        "change": -303.77,
+        "pct": -0.63
+      }
+    },
+    "fx": {
+      "USD_KRW": 1437.91,
+      "JPY_KRW": 9.1935
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-02",
+    "stocks": {
+      "KOSPI": {
+        "close": 4309.63,
+        "change": 95.46,
+        "pct": 2.27
+      },
+      "KOSDAQ": {
+        "close": 945.57,
+        "change": 20.1,
+        "pct": 2.17
+      },
+      "SP500": {
+        "close": 6858.47,
+        "change": 12.97,
+        "pct": 0.19
+      },
+      "NASDAQ": {
+        "close": 23235.63,
+        "change": -6.36,
+        "pct": -0.03
+      },
+      "DOW": {
+        "close": 48382.39,
+        "change": 319.1,
+        "pct": 0.66
+      }
+    },
+    "fx": {
+      "USD_KRW": 1443.64,
+      "JPY_KRW": 8.9614
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-05",
+    "stocks": {
+      "KOSPI": {
+        "close": 4457.52,
+        "change": 147.89,
+        "pct": 3.43
+      },
+      "KOSDAQ": {
+        "close": 957.5,
+        "change": 11.93,
+        "pct": 1.26
+      },
+      "SP500": {
+        "close": 6902.05,
+        "change": 43.58,
+        "pct": 0.64
+      },
+      "NASDAQ": {
+        "close": 23395.82,
+        "change": 160.19,
+        "pct": 0.69
+      },
+      "DOW": {
+        "close": 48977.18,
+        "change": 594.79,
+        "pct": 1.23
+      }
+    },
+    "fx": {
+      "USD_KRW": 1440.48,
+      "JPY_KRW": 9.1751
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-06",
+    "stocks": {
+      "KOSPI": {
+        "close": 4525.48,
+        "change": 67.96,
+        "pct": 1.52
+      },
+      "KOSDAQ": {
+        "close": 955.97,
+        "change": -1.53,
+        "pct": -0.16
+      },
+      "SP500": {
+        "close": 6944.82,
+        "change": 42.77,
+        "pct": 0.62
+      },
+      "NASDAQ": {
+        "close": 23547.17,
+        "change": 151.35,
+        "pct": 0.65
+      },
+      "DOW": {
+        "close": 49462.08,
+        "change": 484.9,
+        "pct": 0.99
+      }
+    },
+    "fx": {
+      "USD_KRW": 1445.5601,
+      "JPY_KRW": 9.229
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-07",
+    "stocks": {
+      "KOSPI": {
+        "close": 4551.06,
+        "change": 25.58,
+        "pct": 0.57
+      },
+      "KOSDAQ": {
+        "close": 947.39,
+        "change": -8.58,
+        "pct": -0.9
+      },
+      "SP500": {
+        "close": 6920.93,
+        "change": -23.89,
+        "pct": -0.34
+      },
+      "NASDAQ": {
+        "close": 23584.28,
+        "change": 37.11,
+        "pct": 0.16
+      },
+      "DOW": {
+        "close": 48996.08,
+        "change": -466.0,
+        "pct": -0.94
+      }
+    },
+    "fx": {
+      "USD_KRW": 1444.96,
+      "JPY_KRW": 9.2219
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-08",
+    "stocks": {
+      "KOSPI": {
+        "close": 4552.37,
+        "change": 1.31,
+        "pct": 0.03
+      },
+      "KOSDAQ": {
+        "close": 944.06,
+        "change": -3.33,
+        "pct": -0.35
+      },
+      "SP500": {
+        "close": 6921.46,
+        "change": 0.53,
+        "pct": 0.01
+      },
+      "NASDAQ": {
+        "close": 23480.02,
+        "change": -104.26,
+        "pct": -0.44
+      },
+      "DOW": {
+        "close": 49266.11,
+        "change": 270.03,
+        "pct": 0.55
+      }
+    },
+    "fx": {
+      "USD_KRW": 1446.14,
+      "JPY_KRW": 9.2269
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-09",
+    "stocks": {
+      "KOSPI": {
+        "close": 4586.32,
+        "change": 33.95,
+        "pct": 0.75
+      },
+      "KOSDAQ": {
+        "close": 947.92,
+        "change": 3.86,
+        "pct": 0.41
+      },
+      "SP500": {
+        "close": 6966.28,
+        "change": 44.82,
+        "pct": 0.65
+      },
+      "NASDAQ": {
+        "close": 23671.35,
+        "change": 191.33,
+        "pct": 0.81
+      },
+      "DOW": {
+        "close": 49504.07,
+        "change": 237.96,
+        "pct": 0.48
+      }
+    },
+    "fx": {
+      "USD_KRW": 1450.08,
+      "JPY_KRW": 9.2429
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-12",
+    "stocks": {
+      "KOSPI": {
+        "close": 4624.79,
+        "change": 38.47,
+        "pct": 0.84
+      },
+      "KOSDAQ": {
+        "close": 949.81,
+        "change": 1.89,
+        "pct": 0.2
+      },
+      "SP500": {
+        "close": 6977.27,
+        "change": 10.99,
+        "pct": 0.16
+      },
+      "NASDAQ": {
+        "close": 23733.9,
+        "change": 62.55,
+        "pct": 0.26
+      },
+      "DOW": {
+        "close": 49590.2,
+        "change": 86.13,
+        "pct": 0.17
+      }
+    },
+    "fx": {
+      "USD_KRW": 1455.24,
+      "JPY_KRW": 9.2013
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-13",
+    "stocks": {
+      "KOSPI": {
+        "close": 4692.64,
+        "change": 67.85,
+        "pct": 1.47
+      },
+      "KOSDAQ": {
+        "close": 948.98,
+        "change": -0.83,
+        "pct": -0.09
+      },
+      "SP500": {
+        "close": 6963.74,
+        "change": -13.53,
+        "pct": -0.19
+      },
+      "NASDAQ": {
+        "close": 23709.87,
+        "change": -24.03,
+        "pct": -0.1
+      },
+      "DOW": {
+        "close": 49191.99,
+        "change": -398.21,
+        "pct": -0.8
+      }
+    },
+    "fx": {
+      "USD_KRW": 1464.9301,
+      "JPY_KRW": 9.2721
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-14",
+    "stocks": {
+      "KOSPI": {
+        "close": 4723.1,
+        "change": 30.46,
+        "pct": 0.65
+      },
+      "KOSDAQ": {
+        "close": 942.18,
+        "change": -6.8,
+        "pct": -0.72
+      },
+      "SP500": {
+        "close": 6926.6,
+        "change": -37.14,
+        "pct": -0.53
+      },
+      "NASDAQ": {
+        "close": 23471.75,
+        "change": -238.12,
+        "pct": -1.0
+      },
+      "DOW": {
+        "close": 49149.63,
+        "change": -42.36,
+        "pct": -0.09
+      }
+    },
+    "fx": {
+      "USD_KRW": 1473.01,
+      "JPY_KRW": 9.2536
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-15",
+    "stocks": {
+      "KOSPI": {
+        "close": 4797.55,
+        "change": 74.45,
+        "pct": 1.58
+      },
+      "KOSDAQ": {
+        "close": 951.16,
+        "change": 8.98,
+        "pct": 0.95
+      },
+      "SP500": {
+        "close": 6944.47,
+        "change": 17.87,
+        "pct": 0.26
+      },
+      "NASDAQ": {
+        "close": 23530.02,
+        "change": 58.27,
+        "pct": 0.25
+      },
+      "DOW": {
+        "close": 49442.44,
+        "change": 292.81,
+        "pct": 0.6
+      }
+    },
+    "fx": {
+      "USD_KRW": 1462.9,
+      "JPY_KRW": 9.2348
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-16",
+    "stocks": {
+      "KOSPI": {
+        "close": 4840.74,
+        "change": 43.19,
+        "pct": 0.9
+      },
+      "KOSDAQ": {
+        "close": 954.59,
+        "change": 3.43,
+        "pct": 0.36
+      },
+      "SP500": {
+        "close": 6940.01,
+        "change": -4.46,
+        "pct": -0.06
+      },
+      "NASDAQ": {
+        "close": 23515.39,
+        "change": -14.63,
+        "pct": -0.06
+      },
+      "DOW": {
+        "close": 49359.33,
+        "change": -83.11,
+        "pct": -0.17
+      }
+    },
+    "fx": {
+      "USD_KRW": 1468.84,
+      "JPY_KRW": 9.2609
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-19",
+    "stocks": {
+      "KOSPI": {
+        "close": 4904.66,
+        "change": 63.92,
+        "pct": 1.32
+      },
+      "KOSDAQ": {
+        "close": 968.36,
+        "change": 13.77,
+        "pct": 1.44
+      }
+    },
+    "fx": {
+      "USD_KRW": 1471.58,
+      "JPY_KRW": 9.3406
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-20",
+    "stocks": {
+      "KOSPI": {
+        "close": 4885.75,
+        "change": -18.91,
+        "pct": -0.39
+      },
+      "KOSDAQ": {
+        "close": 976.37,
+        "change": 8.01,
+        "pct": 0.83
+      },
+      "SP500": {
+        "close": 6796.86,
+        "change": -143.15,
+        "pct": -2.06
+      },
+      "NASDAQ": {
+        "close": 22954.32,
+        "change": -561.07,
+        "pct": -2.39
+      },
+      "DOW": {
+        "close": 48488.59,
+        "change": -870.74,
+        "pct": -1.76
+      }
+    },
+    "fx": {
+      "USD_KRW": 1471.52,
+      "JPY_KRW": 9.3023
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-21",
+    "stocks": {
+      "KOSPI": {
+        "close": 4909.93,
+        "change": 24.18,
+        "pct": 0.49
+      },
+      "KOSDAQ": {
+        "close": 951.29,
+        "change": -25.08,
+        "pct": -2.57
+      },
+      "SP500": {
+        "close": 6875.62,
+        "change": 78.76,
+        "pct": 1.16
+      },
+      "NASDAQ": {
+        "close": 23224.82,
+        "change": 270.5,
+        "pct": 1.18
+      },
+      "DOW": {
+        "close": 49077.23,
+        "change": 588.64,
+        "pct": 1.21
+      }
+    },
+    "fx": {
+      "USD_KRW": 1477.78,
+      "JPY_KRW": 9.3443
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-22",
+    "stocks": {
+      "KOSPI": {
+        "close": 4952.53,
+        "change": 42.6,
+        "pct": 0.87
+      },
+      "KOSDAQ": {
+        "close": 970.35,
+        "change": 19.06,
+        "pct": 2.0
+      },
+      "SP500": {
+        "close": 6913.35,
+        "change": 37.73,
+        "pct": 0.55
+      },
+      "NASDAQ": {
+        "close": 23436.02,
+        "change": 211.2,
+        "pct": 0.91
+      },
+      "DOW": {
+        "close": 49384.01,
+        "change": 306.78,
+        "pct": 0.63
+      }
+    },
+    "fx": {
+      "USD_KRW": 1464.83,
+      "JPY_KRW": 9.2471
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-23",
+    "stocks": {
+      "KOSPI": {
+        "close": 4990.07,
+        "change": 37.54,
+        "pct": 0.76
+      },
+      "KOSDAQ": {
+        "close": 993.93,
+        "change": 23.58,
+        "pct": 2.43
+      },
+      "SP500": {
+        "close": 6915.61,
+        "change": 2.26,
+        "pct": 0.03
+      },
+      "NASDAQ": {
+        "close": 23501.24,
+        "change": 65.22,
+        "pct": 0.28
+      },
+      "DOW": {
+        "close": 49098.71,
+        "change": -285.3,
+        "pct": -0.58
+      }
+    },
+    "fx": {
+      "USD_KRW": 1463.26,
+      "JPY_KRW": 9.2327
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-26",
+    "stocks": {
+      "KOSPI": {
+        "close": 4949.59,
+        "change": -40.48,
+        "pct": -0.81
+      },
+      "KOSDAQ": {
+        "close": 1064.41,
+        "change": 70.48,
+        "pct": 7.09
+      },
+      "SP500": {
+        "close": 6950.23,
+        "change": 34.62,
+        "pct": 0.5
+      },
+      "NASDAQ": {
+        "close": 23601.36,
+        "change": 100.12,
+        "pct": 0.43
+      },
+      "DOW": {
+        "close": 49412.4,
+        "change": 313.69,
+        "pct": 0.64
+      }
+    },
+    "fx": {
+      "USD_KRW": 1444.8101,
+      "JPY_KRW": 9.307
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-27",
+    "stocks": {
+      "KOSPI": {
+        "close": 5084.85,
+        "change": 135.26,
+        "pct": 2.73
+      },
+      "KOSDAQ": {
+        "close": 1082.59,
+        "change": 18.18,
+        "pct": 1.71
+      },
+      "SP500": {
+        "close": 6978.6,
+        "change": 28.37,
+        "pct": 0.41
+      },
+      "NASDAQ": {
+        "close": 23817.1,
+        "change": 215.74,
+        "pct": 0.91
+      },
+      "DOW": {
+        "close": 49003.41,
+        "change": -408.99,
+        "pct": -0.83
+      }
+    },
+    "fx": {
+      "USD_KRW": 1440.98,
+      "JPY_KRW": 9.3365
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-28",
+    "stocks": {
+      "KOSPI": {
+        "close": 5170.81,
+        "change": 85.96,
+        "pct": 1.69
+      },
+      "KOSDAQ": {
+        "close": 1133.52,
+        "change": 50.93,
+        "pct": 4.7
+      },
+      "SP500": {
+        "close": 6978.03,
+        "change": -0.57,
+        "pct": -0.01
+      },
+      "NASDAQ": {
+        "close": 23857.45,
+        "change": 40.35,
+        "pct": 0.17
+      },
+      "DOW": {
+        "close": 49015.6,
+        "change": 12.19,
+        "pct": 0.02
+      }
+    },
+    "fx": {
+      "USD_KRW": 1432.51,
+      "JPY_KRW": 9.3962
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-29",
+    "stocks": {
+      "KOSPI": {
+        "close": 5221.25,
+        "change": 50.44,
+        "pct": 0.98
+      },
+      "KOSDAQ": {
+        "close": 1164.41,
+        "change": 30.89,
+        "pct": 2.73
+      },
+      "SP500": {
+        "close": 6969.01,
+        "change": -9.02,
+        "pct": -0.13
+      },
+      "NASDAQ": {
+        "close": 23685.12,
+        "change": -172.33,
+        "pct": -0.72
+      },
+      "DOW": {
+        "close": 49071.56,
+        "change": 55.96,
+        "pct": 0.11
+      }
+    },
+    "fx": {
+      "USD_KRW": 1429.27,
+      "JPY_KRW": 9.3365
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-01-30",
+    "stocks": {
+      "KOSPI": {
+        "close": 5224.36,
+        "change": 3.11,
+        "pct": 0.06
+      },
+      "KOSDAQ": {
+        "close": 1149.44,
+        "change": -14.97,
+        "pct": -1.29
+      },
+      "SP500": {
+        "close": 6939.03,
+        "change": -29.98,
+        "pct": -0.43
+      },
+      "NASDAQ": {
+        "close": 23461.82,
+        "change": -223.3,
+        "pct": -0.94
+      },
+      "DOW": {
+        "close": 48892.47,
+        "change": -179.09,
+        "pct": -0.36
+      }
+    },
+    "fx": {
+      "USD_KRW": 1428.76,
+      "JPY_KRW": 9.3281
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-02",
+    "stocks": {
+      "KOSPI": {
+        "close": 4949.67,
+        "change": -274.69,
+        "pct": -5.26
+      },
+      "KOSDAQ": {
+        "close": 1098.36,
+        "change": -51.08,
+        "pct": -4.44
+      },
+      "SP500": {
+        "close": 6976.44,
+        "change": 37.41,
+        "pct": 0.54
+      },
+      "NASDAQ": {
+        "close": 23592.11,
+        "change": 130.29,
+        "pct": 0.56
+      },
+      "DOW": {
+        "close": 49407.66,
+        "change": 515.19,
+        "pct": 1.05
+      }
+    },
+    "fx": {
+      "USD_KRW": 1448.8,
+      "JPY_KRW": 9.3332
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-03",
+    "stocks": {
+      "KOSPI": {
+        "close": 5288.08,
+        "change": 338.41,
+        "pct": 6.84
+      },
+      "KOSDAQ": {
+        "close": 1144.33,
+        "change": 45.97,
+        "pct": 4.19
+      },
+      "SP500": {
+        "close": 6917.81,
+        "change": -58.63,
+        "pct": -0.84
+      },
+      "NASDAQ": {
+        "close": 23255.19,
+        "change": -336.92,
+        "pct": -1.43
+      },
+      "DOW": {
+        "close": 49240.99,
+        "change": -166.67,
+        "pct": -0.34
+      }
+    },
+    "fx": {
+      "USD_KRW": 1452.54,
+      "JPY_KRW": 9.3466
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-04",
+    "stocks": {
+      "KOSPI": {
+        "close": 5371.1,
+        "change": 83.02,
+        "pct": 1.57
+      },
+      "KOSDAQ": {
+        "close": 1149.43,
+        "change": 5.1,
+        "pct": 0.45
+      },
+      "SP500": {
+        "close": 6882.72,
+        "change": -35.09,
+        "pct": -0.51
+      },
+      "NASDAQ": {
+        "close": 22904.58,
+        "change": -350.61,
+        "pct": -1.51
+      },
+      "DOW": {
+        "close": 49501.3,
+        "change": 260.31,
+        "pct": 0.53
+      }
+    },
+    "fx": {
+      "USD_KRW": 1446.6801,
+      "JPY_KRW": 9.2857
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-05",
+    "stocks": {
+      "KOSPI": {
+        "close": 5163.57,
+        "change": -207.53,
+        "pct": -3.86
+      },
+      "KOSDAQ": {
+        "close": 1108.41,
+        "change": -41.02,
+        "pct": -3.57
+      },
+      "SP500": {
+        "close": 6798.4,
+        "change": -84.32,
+        "pct": -1.23
+      },
+      "NASDAQ": {
+        "close": 22540.59,
+        "change": -363.99,
+        "pct": -1.59
+      },
+      "DOW": {
+        "close": 48908.72,
+        "change": -592.58,
+        "pct": -1.2
+      }
+    },
+    "fx": {
+      "USD_KRW": 1460.11,
+      "JPY_KRW": 9.3054
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-06",
+    "stocks": {
+      "KOSPI": {
+        "close": 5089.14,
+        "change": -74.43,
+        "pct": -1.44
+      },
+      "KOSDAQ": {
+        "close": 1080.77,
+        "change": -27.64,
+        "pct": -2.49
+      },
+      "SP500": {
+        "close": 6932.3,
+        "change": 133.9,
+        "pct": 1.97
+      },
+      "NASDAQ": {
+        "close": 23031.21,
+        "change": 490.62,
+        "pct": 2.18
+      },
+      "DOW": {
+        "close": 50115.67,
+        "change": 1206.95,
+        "pct": 2.47
+      }
+    },
+    "fx": {
+      "USD_KRW": 1470.6801,
+      "JPY_KRW": 9.3811
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-09",
+    "stocks": {
+      "KOSPI": {
+        "close": 5298.04,
+        "change": 208.9,
+        "pct": 4.1
+      },
+      "KOSDAQ": {
+        "close": 1127.55,
+        "change": 46.78,
+        "pct": 4.33
+      },
+      "SP500": {
+        "close": 6964.82,
+        "change": 32.52,
+        "pct": 0.47
+      },
+      "NASDAQ": {
+        "close": 23238.67,
+        "change": 207.46,
+        "pct": 0.9
+      },
+      "DOW": {
+        "close": 50135.87,
+        "change": 20.2,
+        "pct": 0.04
+      }
+    },
+    "fx": {
+      "USD_KRW": 1462.4,
+      "JPY_KRW": 9.2944
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-10",
+    "stocks": {
+      "KOSPI": {
+        "close": 5301.69,
+        "change": 3.65,
+        "pct": 0.07
+      },
+      "KOSDAQ": {
+        "close": 1115.2,
+        "change": -12.35,
+        "pct": -1.1
+      },
+      "SP500": {
+        "close": 6941.81,
+        "change": -23.01,
+        "pct": -0.33
+      },
+      "NASDAQ": {
+        "close": 23102.47,
+        "change": -136.2,
+        "pct": -0.59
+      },
+      "DOW": {
+        "close": 50188.14,
+        "change": 52.27,
+        "pct": 0.1
+      }
+    },
+    "fx": {
+      "USD_KRW": 1458.54,
+      "JPY_KRW": 9.3412
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-11",
+    "stocks": {
+      "KOSPI": {
+        "close": 5354.49,
+        "change": 52.8,
+        "pct": 1.0
+      },
+      "KOSDAQ": {
+        "close": 1114.87,
+        "change": -0.33,
+        "pct": -0.03
+      },
+      "SP500": {
+        "close": 6941.47,
+        "change": -0.34,
+        "pct": -0.0
+      },
+      "NASDAQ": {
+        "close": 23066.47,
+        "change": -36.0,
+        "pct": -0.16
+      },
+      "DOW": {
+        "close": 50121.4,
+        "change": -66.74,
+        "pct": -0.13
+      }
+    },
+    "fx": {
+      "USD_KRW": 1455.33,
+      "JPY_KRW": 9.4203
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-12",
+    "stocks": {
+      "KOSPI": {
+        "close": 5522.27,
+        "change": 167.78,
+        "pct": 3.13
+      },
+      "KOSDAQ": {
+        "close": 1125.99,
+        "change": 11.12,
+        "pct": 1.0
+      },
+      "SP500": {
+        "close": 6832.76,
+        "change": -108.71,
+        "pct": -1.57
+      },
+      "NASDAQ": {
+        "close": 22597.15,
+        "change": -469.32,
+        "pct": -2.03
+      },
+      "DOW": {
+        "close": 49451.98,
+        "change": -669.42,
+        "pct": -1.34
+      }
+    },
+    "fx": {
+      "USD_KRW": 1444.1899,
+      "JPY_KRW": 9.4225
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-13",
+    "stocks": {
+      "KOSPI": {
+        "close": 5507.01,
+        "change": -15.26,
+        "pct": -0.28
+      },
+      "KOSDAQ": {
+        "close": 1106.08,
+        "change": -19.91,
+        "pct": -1.77
+      },
+      "SP500": {
+        "close": 6836.17,
+        "change": 3.41,
+        "pct": 0.05
+      },
+      "NASDAQ": {
+        "close": 22546.67,
+        "change": -50.48,
+        "pct": -0.22
+      },
+      "DOW": {
+        "close": 49500.93,
+        "change": 48.95,
+        "pct": 0.1
+      }
+    },
+    "fx": {
+      "USD_KRW": 1440.9,
+      "JPY_KRW": 9.4264
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-17",
+    "stocks": {
+      "SP500": {
+        "close": 6843.22,
+        "change": 7.05,
+        "pct": 0.1
+      },
+      "NASDAQ": {
+        "close": 22578.38,
+        "change": 31.71,
+        "pct": 0.14
+      },
+      "DOW": {
+        "close": 49533.19,
+        "change": 32.26,
+        "pct": 0.07
+      }
+    },
+    "fx": {
+      "USD_KRW": 1440.23,
+      "JPY_KRW": 9.3752
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-18",
+    "stocks": {
+      "SP500": {
+        "close": 6881.31,
+        "change": 38.09,
+        "pct": 0.56
+      },
+      "NASDAQ": {
+        "close": 22753.63,
+        "change": 175.25,
+        "pct": 0.78
+      },
+      "DOW": {
+        "close": 49662.66,
+        "change": 129.47,
+        "pct": 0.26
+      }
+    },
+    "fx": {
+      "USD_KRW": 1439.97,
+      "JPY_KRW": 9.4006
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-19",
+    "stocks": {
+      "KOSPI": {
+        "close": 5677.25,
+        "change": 170.24,
+        "pct": 3.09
+      },
+      "KOSDAQ": {
+        "close": 1160.71,
+        "change": 54.63,
+        "pct": 4.94
+      },
+      "SP500": {
+        "close": 6861.89,
+        "change": -19.42,
+        "pct": -0.28
+      },
+      "NASDAQ": {
+        "close": 22682.73,
+        "change": -70.9,
+        "pct": -0.31
+      },
+      "DOW": {
+        "close": 49395.16,
+        "change": -267.5,
+        "pct": -0.54
+      }
+    },
+    "fx": {
+      "USD_KRW": 1440.16,
+      "JPY_KRW": 9.3091
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-20",
+    "stocks": {
+      "KOSPI": {
+        "close": 5808.53,
+        "change": 131.28,
+        "pct": 2.31
+      },
+      "KOSDAQ": {
+        "close": 1154.0,
+        "change": -6.71,
+        "pct": -0.58
+      },
+      "SP500": {
+        "close": 6909.51,
+        "change": 47.62,
+        "pct": 0.69
+      },
+      "NASDAQ": {
+        "close": 22886.07,
+        "change": 203.34,
+        "pct": 0.9
+      },
+      "DOW": {
+        "close": 49625.97,
+        "change": 230.81,
+        "pct": 0.47
+      }
+    },
+    "fx": {
+      "USD_KRW": 1447.75,
+      "JPY_KRW": 9.3303
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-23",
+    "stocks": {
+      "KOSPI": {
+        "close": 5846.09,
+        "change": 37.56,
+        "pct": 0.65
+      },
+      "KOSDAQ": {
+        "close": 1151.99,
+        "change": -2.01,
+        "pct": -0.17
+      },
+      "SP500": {
+        "close": 6837.75,
+        "change": -71.76,
+        "pct": -1.04
+      },
+      "NASDAQ": {
+        "close": 22627.27,
+        "change": -258.8,
+        "pct": -1.13
+      },
+      "DOW": {
+        "close": 48804.06,
+        "change": -821.91,
+        "pct": -1.66
+      }
+    },
+    "fx": {
+      "USD_KRW": 1443.4399,
+      "JPY_KRW": 9.3569
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-24",
+    "stocks": {
+      "KOSPI": {
+        "close": 5969.64,
+        "change": 123.55,
+        "pct": 2.11
+      },
+      "KOSDAQ": {
+        "close": 1165.0,
+        "change": 13.01,
+        "pct": 1.13
+      },
+      "SP500": {
+        "close": 6890.07,
+        "change": 52.32,
+        "pct": 0.77
+      },
+      "NASDAQ": {
+        "close": 22863.68,
+        "change": 236.41,
+        "pct": 1.04
+      },
+      "DOW": {
+        "close": 49174.5,
+        "change": 370.44,
+        "pct": 0.76
+      }
+    },
+    "fx": {
+      "USD_KRW": 1442.2,
+      "JPY_KRW": 9.3248
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-25",
+    "stocks": {
+      "KOSPI": {
+        "close": 6083.86,
+        "change": 114.22,
+        "pct": 1.91
+      },
+      "KOSDAQ": {
+        "close": 1165.25,
+        "change": 0.25,
+        "pct": 0.02
+      },
+      "SP500": {
+        "close": 6946.13,
+        "change": 56.06,
+        "pct": 0.81
+      },
+      "NASDAQ": {
+        "close": 23152.08,
+        "change": 288.4,
+        "pct": 1.26
+      },
+      "DOW": {
+        "close": 49482.15,
+        "change": 307.65,
+        "pct": 0.63
+      }
+    },
+    "fx": {
+      "USD_KRW": 1439.99,
+      "JPY_KRW": 9.2375
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-26",
+    "stocks": {
+      "KOSPI": {
+        "close": 6307.27,
+        "change": 223.41,
+        "pct": 3.67
+      },
+      "KOSDAQ": {
+        "close": 1188.15,
+        "change": 22.9,
+        "pct": 1.97
+      },
+      "SP500": {
+        "close": 6908.86,
+        "change": -37.27,
+        "pct": -0.54
+      },
+      "NASDAQ": {
+        "close": 22878.38,
+        "change": -273.7,
+        "pct": -1.18
+      },
+      "DOW": {
+        "close": 49499.2,
+        "change": 17.05,
+        "pct": 0.03
+      }
+    },
+    "fx": {
+      "USD_KRW": 1426.9301,
+      "JPY_KRW": 9.1347
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-02-27",
+    "stocks": {
+      "KOSPI": {
+        "close": 6244.13,
+        "change": -63.14,
+        "pct": -1.0
+      },
+      "KOSDAQ": {
+        "close": 1192.78,
+        "change": 4.63,
+        "pct": 0.39
+      },
+      "SP500": {
+        "close": 6878.88,
+        "change": -29.98,
+        "pct": -0.43
+      },
+      "NASDAQ": {
+        "close": 22668.21,
+        "change": -210.17,
+        "pct": -0.92
+      },
+      "DOW": {
+        "close": 48977.92,
+        "change": -521.28,
+        "pct": -1.05
+      }
+    },
+    "fx": {
+      "USD_KRW": 1432.3199,
+      "JPY_KRW": 9.1907
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-02",
+    "stocks": {
+      "SP500": {
+        "close": 6881.62,
+        "change": 2.74,
+        "pct": 0.04
+      },
+      "NASDAQ": {
+        "close": 22748.86,
+        "change": 80.65,
+        "pct": 0.36
+      },
+      "DOW": {
+        "close": 48904.78,
+        "change": -73.14,
+        "pct": -0.15
+      }
+    },
+    "fx": {
+      "USD_KRW": 1438.5,
+      "JPY_KRW": 9.179
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-03",
+    "stocks": {
+      "KOSPI": {
+        "close": 5791.91,
+        "change": -452.22,
+        "pct": -7.24
+      },
+      "KOSDAQ": {
+        "close": 1137.7,
+        "change": -55.08,
+        "pct": -4.62
+      },
+      "SP500": {
+        "close": 6816.63,
+        "change": -64.99,
+        "pct": -0.94
+      },
+      "NASDAQ": {
+        "close": 22516.69,
+        "change": -232.17,
+        "pct": -1.02
+      },
+      "DOW": {
+        "close": 48501.27,
+        "change": -403.51,
+        "pct": -0.83
+      }
+    },
+    "fx": {
+      "USD_KRW": 1452.27,
+      "JPY_KRW": 9.2349
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-04",
+    "stocks": {
+      "KOSPI": {
+        "close": 5093.54,
+        "change": -698.37,
+        "pct": -12.06
+      },
+      "KOSDAQ": {
+        "close": 978.44,
+        "change": -159.26,
+        "pct": -14.0
+      },
+      "SP500": {
+        "close": 6869.5,
+        "change": 52.87,
+        "pct": 0.78
+      },
+      "NASDAQ": {
+        "close": 22807.48,
+        "change": 290.79,
+        "pct": 1.29
+      },
+      "DOW": {
+        "close": 48739.41,
+        "change": 238.14,
+        "pct": 0.49
+      }
+    },
+    "fx": {
+      "USD_KRW": 1483.0699,
+      "JPY_KRW": 9.4006
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-05",
+    "stocks": {
+      "KOSPI": {
+        "close": 5583.9,
+        "change": 490.36,
+        "pct": 9.63
+      },
+      "KOSDAQ": {
+        "close": 1116.41,
+        "change": 137.97,
+        "pct": 14.1
+      },
+      "SP500": {
+        "close": 6830.71,
+        "change": -38.79,
+        "pct": -0.56
+      },
+      "NASDAQ": {
+        "close": 22748.99,
+        "change": -58.49,
+        "pct": -0.26
+      },
+      "DOW": {
+        "close": 47954.74,
+        "change": -784.67,
+        "pct": -1.61
+      }
+    },
+    "fx": {
+      "USD_KRW": 1460.75,
+      "JPY_KRW": 9.3057
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-06",
+    "stocks": {
+      "KOSPI": {
+        "close": 5584.87,
+        "change": 0.97,
+        "pct": 0.02
+      },
+      "KOSDAQ": {
+        "close": 1154.67,
+        "change": 38.26,
+        "pct": 3.43
+      },
+      "SP500": {
+        "close": 6740.02,
+        "change": -90.69,
+        "pct": -1.33
+      },
+      "NASDAQ": {
+        "close": 22387.68,
+        "change": -361.31,
+        "pct": -1.59
+      },
+      "DOW": {
+        "close": 47501.55,
+        "change": -453.19,
+        "pct": -0.95
+      }
+    },
+    "fx": {
+      "USD_KRW": 1479.51,
+      "JPY_KRW": 9.3927
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-09",
+    "stocks": {
+      "KOSPI": {
+        "close": 5251.87,
+        "change": -333.0,
+        "pct": -5.96
+      },
+      "KOSDAQ": {
+        "close": 1102.28,
+        "change": -52.39,
+        "pct": -4.54
+      },
+      "SP500": {
+        "close": 6795.99,
+        "change": 55.97,
+        "pct": 0.83
+      },
+      "NASDAQ": {
+        "close": 22695.95,
+        "change": 308.27,
+        "pct": 1.38
+      },
+      "DOW": {
+        "close": 47740.8,
+        "change": 239.25,
+        "pct": 0.5
+      }
+    },
+    "fx": {
+      "USD_KRW": 1483.89,
+      "JPY_KRW": 9.3591
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-10",
+    "stocks": {
+      "KOSPI": {
+        "close": 5532.59,
+        "change": 280.72,
+        "pct": 5.35
+      },
+      "KOSDAQ": {
+        "close": 1137.68,
+        "change": 35.4,
+        "pct": 3.21
+      },
+      "SP500": {
+        "close": 6781.48,
+        "change": -14.51,
+        "pct": -0.21
+      },
+      "NASDAQ": {
+        "close": 22697.1,
+        "change": 1.15,
+        "pct": 0.01
+      },
+      "DOW": {
+        "close": 47706.51,
+        "change": -34.29,
+        "pct": -0.07
+      }
+    },
+    "fx": {
+      "USD_KRW": 1464.47,
+      "JPY_KRW": 9.2804
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-11",
+    "stocks": {
+      "KOSPI": {
+        "close": 5609.95,
+        "change": 77.36,
+        "pct": 1.4
+      },
+      "KOSDAQ": {
+        "close": 1136.83,
+        "change": -0.85,
+        "pct": -0.07
+      },
+      "SP500": {
+        "close": 6775.8,
+        "change": -5.68,
+        "pct": -0.08
+      },
+      "NASDAQ": {
+        "close": 22716.13,
+        "change": 19.03,
+        "pct": 0.08
+      },
+      "DOW": {
+        "close": 47417.27,
+        "change": -289.24,
+        "pct": -0.61
+      }
+    },
+    "fx": {
+      "USD_KRW": 1472.78,
+      "JPY_KRW": 9.3135
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-12",
+    "stocks": {
+      "KOSPI": {
+        "close": 5583.25,
+        "change": -26.7,
+        "pct": -0.48
+      },
+      "KOSDAQ": {
+        "close": 1148.4,
+        "change": 11.57,
+        "pct": 1.02
+      },
+      "SP500": {
+        "close": 6672.62,
+        "change": -103.18,
+        "pct": -1.52
+      },
+      "NASDAQ": {
+        "close": 22311.98,
+        "change": -404.15,
+        "pct": -1.78
+      },
+      "DOW": {
+        "close": 46677.85,
+        "change": -739.42,
+        "pct": -1.56
+      }
+    },
+    "fx": {
+      "USD_KRW": 1475.34,
+      "JPY_KRW": 9.2775
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-13",
+    "stocks": {
+      "KOSPI": {
+        "close": 5487.24,
+        "change": -96.01,
+        "pct": -1.72
+      },
+      "KOSDAQ": {
+        "close": 1152.96,
+        "change": 4.56,
+        "pct": 0.4
+      },
+      "SP500": {
+        "close": 6632.19,
+        "change": -40.43,
+        "pct": -0.61
+      },
+      "NASDAQ": {
+        "close": 22105.36,
+        "change": -206.62,
+        "pct": -0.93
+      },
+      "DOW": {
+        "close": 46558.47,
+        "change": -119.38,
+        "pct": -0.26
+      }
+    },
+    "fx": {
+      "USD_KRW": 1470.58,
+      "JPY_KRW": 9.345
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-16",
+    "stocks": {
+      "KOSPI": {
+        "close": 5549.85,
+        "change": 62.61,
+        "pct": 1.14
+      },
+      "KOSDAQ": {
+        "close": 1138.29,
+        "change": -14.67,
+        "pct": -1.27
+      },
+      "SP500": {
+        "close": 6699.38,
+        "change": 67.19,
+        "pct": 1.01
+      },
+      "NASDAQ": {
+        "close": 22374.18,
+        "change": 268.82,
+        "pct": 1.22
+      },
+      "DOW": {
+        "close": 46946.41,
+        "change": 387.94,
+        "pct": 0.83
+      }
+    },
+    "fx": {
+      "USD_KRW": 1501.75,
+      "JPY_KRW": 9.4148
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-17",
+    "stocks": {
+      "KOSPI": {
+        "close": 5640.48,
+        "change": 90.63,
+        "pct": 1.63
+      },
+      "KOSDAQ": {
+        "close": 1136.94,
+        "change": -1.35,
+        "pct": -0.12
+      },
+      "SP500": {
+        "close": 6716.09,
+        "change": 16.71,
+        "pct": 0.25
+      },
+      "NASDAQ": {
+        "close": 22479.53,
+        "change": 105.35,
+        "pct": 0.47
+      },
+      "DOW": {
+        "close": 46993.26,
+        "change": 46.85,
+        "pct": 0.1
+      }
+    },
+    "fx": {
+      "USD_KRW": 1488.91,
+      "JPY_KRW": 9.3609
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-18",
+    "stocks": {
+      "KOSPI": {
+        "close": 5925.03,
+        "change": 284.55,
+        "pct": 5.04
+      },
+      "KOSDAQ": {
+        "close": 1164.38,
+        "change": 27.44,
+        "pct": 2.41
+      },
+      "SP500": {
+        "close": 6624.7,
+        "change": -91.39,
+        "pct": -1.36
+      },
+      "NASDAQ": {
+        "close": 22152.42,
+        "change": -327.11,
+        "pct": -1.46
+      },
+      "DOW": {
+        "close": 46225.15,
+        "change": -768.11,
+        "pct": -1.63
+      }
+    },
+    "fx": {
+      "USD_KRW": 1484.87,
+      "JPY_KRW": 9.3385
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-19",
+    "stocks": {
+      "KOSPI": {
+        "close": 5763.22,
+        "change": -161.81,
+        "pct": -2.73
+      },
+      "KOSDAQ": {
+        "close": 1143.48,
+        "change": -20.9,
+        "pct": -1.79
+      },
+      "SP500": {
+        "close": 6606.49,
+        "change": -18.21,
+        "pct": -0.27
+      },
+      "NASDAQ": {
+        "close": 22090.69,
+        "change": -61.73,
+        "pct": -0.28
+      },
+      "DOW": {
+        "close": 46021.43,
+        "change": -203.72,
+        "pct": -0.44
+      }
+    },
+    "fx": {
+      "USD_KRW": 1505.25,
+      "JPY_KRW": 9.4225
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-20",
+    "stocks": {
+      "KOSPI": {
+        "close": 5781.2,
+        "change": 17.98,
+        "pct": 0.31
+      },
+      "KOSDAQ": {
+        "close": 1161.52,
+        "change": 18.04,
+        "pct": 1.58
+      },
+      "SP500": {
+        "close": 6506.48,
+        "change": -100.01,
+        "pct": -1.51
+      },
+      "NASDAQ": {
+        "close": 21647.61,
+        "change": -443.08,
+        "pct": -2.01
+      },
+      "DOW": {
+        "close": 45577.47,
+        "change": -443.96,
+        "pct": -0.96
+      }
+    },
+    "fx": {
+      "USD_KRW": 1489.84,
+      "JPY_KRW": 9.4338
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-23",
+    "stocks": {
+      "KOSPI": {
+        "close": 5405.75,
+        "change": -375.45,
+        "pct": -6.49
+      },
+      "KOSDAQ": {
+        "close": 1096.89,
+        "change": -64.63,
+        "pct": -5.56
+      },
+      "SP500": {
+        "close": 6581.0,
+        "change": 74.52,
+        "pct": 1.15
+      },
+      "NASDAQ": {
+        "close": 21946.76,
+        "change": 299.15,
+        "pct": 1.38
+      },
+      "DOW": {
+        "close": 46208.47,
+        "change": 631.0,
+        "pct": 1.38
+      }
+    },
+    "fx": {
+      "USD_KRW": 1504.21,
+      "JPY_KRW": 9.4475
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-24",
+    "stocks": {
+      "KOSPI": {
+        "close": 5553.92,
+        "change": 148.17,
+        "pct": 2.74
+      },
+      "KOSDAQ": {
+        "close": 1121.44,
+        "change": 24.55,
+        "pct": 2.24
+      },
+      "SP500": {
+        "close": 6556.37,
+        "change": -24.63,
+        "pct": -0.37
+      },
+      "NASDAQ": {
+        "close": 21761.89,
+        "change": -184.87,
+        "pct": -0.84
+      },
+      "DOW": {
+        "close": 46124.06,
+        "change": -84.41,
+        "pct": -0.18
+      }
+    },
+    "fx": {
+      "USD_KRW": 1485.36,
+      "JPY_KRW": 9.366
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-25",
+    "stocks": {
+      "KOSPI": {
+        "close": 5642.21,
+        "change": 88.29,
+        "pct": 1.59
+      },
+      "KOSDAQ": {
+        "close": 1159.55,
+        "change": 38.11,
+        "pct": 3.4
+      },
+      "SP500": {
+        "close": 6591.9,
+        "change": 35.53,
+        "pct": 0.54
+      },
+      "NASDAQ": {
+        "close": 21929.82,
+        "change": 167.93,
+        "pct": 0.77
+      },
+      "DOW": {
+        "close": 46429.49,
+        "change": 305.43,
+        "pct": 0.66
+      }
+    },
+    "fx": {
+      "USD_KRW": 1497.3101,
+      "JPY_KRW": 9.4286
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-26",
+    "stocks": {
+      "KOSPI": {
+        "close": 5460.46,
+        "change": -181.75,
+        "pct": -3.22
+      },
+      "KOSDAQ": {
+        "close": 1136.64,
+        "change": -22.91,
+        "pct": -1.98
+      },
+      "SP500": {
+        "close": 6477.16,
+        "change": -114.74,
+        "pct": -1.74
+      },
+      "NASDAQ": {
+        "close": 21408.08,
+        "change": -521.74,
+        "pct": -2.38
+      },
+      "DOW": {
+        "close": 45960.11,
+        "change": -469.38,
+        "pct": -1.01
+      }
+    },
+    "fx": {
+      "USD_KRW": 1500.97,
+      "JPY_KRW": 9.4175
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-27",
+    "stocks": {
+      "KOSPI": {
+        "close": 5438.87,
+        "change": -21.59,
+        "pct": -0.4
+      },
+      "KOSDAQ": {
+        "close": 1141.51,
+        "change": 4.87,
+        "pct": 0.43
+      },
+      "SP500": {
+        "close": 6368.85,
+        "change": -108.31,
+        "pct": -1.67
+      },
+      "NASDAQ": {
+        "close": 20948.36,
+        "change": -459.72,
+        "pct": -2.15
+      },
+      "DOW": {
+        "close": 45166.64,
+        "change": -793.47,
+        "pct": -1.73
+      }
+    },
+    "fx": {
+      "USD_KRW": 1508.36,
+      "JPY_KRW": 9.4439
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-30",
+    "stocks": {
+      "KOSPI": {
+        "close": 5277.3,
+        "change": -161.57,
+        "pct": -2.97
+      },
+      "KOSDAQ": {
+        "close": 1107.05,
+        "change": -34.46,
+        "pct": -3.02
+      },
+      "SP500": {
+        "close": 6343.72,
+        "change": -25.13,
+        "pct": -0.39
+      },
+      "NASDAQ": {
+        "close": 20794.64,
+        "change": -153.72,
+        "pct": -0.73
+      },
+      "DOW": {
+        "close": 45216.14,
+        "change": 49.5,
+        "pct": 0.11
+      }
+    },
+    "fx": {
+      "USD_KRW": 1516.13,
+      "JPY_KRW": 9.4849
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-03-31",
+    "stocks": {
+      "KOSPI": {
+        "close": 5052.46,
+        "change": -224.84,
+        "pct": -4.26
+      },
+      "KOSDAQ": {
+        "close": 1052.39,
+        "change": -54.66,
+        "pct": -4.94
+      },
+      "SP500": {
+        "close": 6528.52,
+        "change": 184.8,
+        "pct": 2.91
+      },
+      "NASDAQ": {
+        "close": 21590.63,
+        "change": 795.99,
+        "pct": 3.83
+      },
+      "DOW": {
+        "close": 46341.51,
+        "change": 1125.37,
+        "pct": 2.49
+      }
+    },
+    "fx": {
+      "USD_KRW": 1503.33,
+      "JPY_KRW": 9.48
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-01",
+    "stocks": {
+      "KOSPI": {
+        "close": 5478.7,
+        "change": 426.24,
+        "pct": 8.44
+      },
+      "KOSDAQ": {
+        "close": 1116.18,
+        "change": 63.79,
+        "pct": 6.06
+      },
+      "SP500": {
+        "close": 6575.32,
+        "change": 46.8,
+        "pct": 0.72
+      },
+      "NASDAQ": {
+        "close": 21840.95,
+        "change": 250.32,
+        "pct": 1.16
+      },
+      "DOW": {
+        "close": 46565.74,
+        "change": 224.23,
+        "pct": 0.48
+      }
+    },
+    "fx": {
+      "USD_KRW": 1512.09,
+      "JPY_KRW": 9.5272
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-02",
+    "stocks": {
+      "KOSPI": {
+        "close": 5234.05,
+        "change": -244.65,
+        "pct": -4.47
+      },
+      "KOSDAQ": {
+        "close": 1056.34,
+        "change": -59.84,
+        "pct": -5.36
+      },
+      "SP500": {
+        "close": 6582.69,
+        "change": 7.37,
+        "pct": 0.11
+      },
+      "NASDAQ": {
+        "close": 21879.18,
+        "change": 38.23,
+        "pct": 0.18
+      },
+      "DOW": {
+        "close": 46504.67,
+        "change": -61.07,
+        "pct": -0.13
+      }
+    },
+    "fx": {
+      "USD_KRW": 1509.22,
+      "JPY_KRW": 9.4624
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-06",
+    "stocks": {
+      "KOSPI": {
+        "close": 5450.33,
+        "change": 73.03,
+        "pct": 1.36
+      },
+      "KOSDAQ": {
+        "close": 1047.37,
+        "change": -16.38,
+        "pct": -1.54
+      },
+      "SP500": {
+        "close": 6611.83,
+        "change": 29.14,
+        "pct": 0.44
+      },
+      "NASDAQ": {
+        "close": 21996.34,
+        "change": 117.16,
+        "pct": 0.54
+      },
+      "DOW": {
+        "close": 46669.88,
+        "change": 165.21,
+        "pct": 0.36
+      }
+    },
+    "fx": {
+      "USD_KRW": 1507.85,
+      "JPY_KRW": 9.4419
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-07",
+    "stocks": {
+      "KOSPI": {
+        "close": 5494.78,
+        "change": 44.45,
+        "pct": 0.82
+      },
+      "KOSDAQ": {
+        "close": 1036.73,
+        "change": -10.64,
+        "pct": -1.02
+      },
+      "SP500": {
+        "close": 6616.85,
+        "change": 5.02,
+        "pct": 0.08
+      },
+      "NASDAQ": {
+        "close": 22017.85,
+        "change": 21.51,
+        "pct": 0.1
+      },
+      "DOW": {
+        "close": 46584.46,
+        "change": -85.42,
+        "pct": -0.18
+      }
+    },
+    "fx": {
+      "USD_KRW": 1499.13,
+      "JPY_KRW": 9.4446
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-08",
+    "stocks": {
+      "KOSPI": {
+        "close": 5872.34,
+        "change": 377.56,
+        "pct": 6.87
+      },
+      "KOSDAQ": {
+        "close": 1089.85,
+        "change": 53.12,
+        "pct": 5.12
+      },
+      "SP500": {
+        "close": 6782.81,
+        "change": 165.96,
+        "pct": 2.51
+      },
+      "NASDAQ": {
+        "close": 22634.99,
+        "change": 617.14,
+        "pct": 2.8
+      },
+      "DOW": {
+        "close": 47909.92,
+        "change": 1325.46,
+        "pct": 2.85
+      }
+    },
+    "fx": {
+      "USD_KRW": 1477.6,
+      "JPY_KRW": 9.3133
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-09",
+    "stocks": {
+      "KOSPI": {
+        "close": 5778.01,
+        "change": -94.33,
+        "pct": -1.61
+      },
+      "KOSDAQ": {
+        "close": 1076.0,
+        "change": -13.85,
+        "pct": -1.27
+      },
+      "SP500": {
+        "close": 6824.66,
+        "change": 41.85,
+        "pct": 0.62
+      },
+      "NASDAQ": {
+        "close": 22822.42,
+        "change": 187.43,
+        "pct": 0.83
+      },
+      "DOW": {
+        "close": 48185.8,
+        "change": 275.88,
+        "pct": 0.58
+      }
+    },
+    "fx": {
+      "USD_KRW": 1473.28,
+      "JPY_KRW": 9.2593
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-13",
+    "stocks": {
+      "KOSPI": {
+        "close": 5808.62,
+        "change": -50.25,
+        "pct": -0.86
+      },
+      "KOSDAQ": {
+        "close": 1099.84,
+        "change": 6.21,
+        "pct": 0.57
+      },
+      "SP500": {
+        "close": 6886.24,
+        "change": 69.35,
+        "pct": 1.02
+      },
+      "NASDAQ": {
+        "close": 23183.74,
+        "change": 280.85,
+        "pct": 1.23
+      },
+      "DOW": {
+        "close": 48218.25,
+        "change": 301.68,
+        "pct": 0.63
+      }
+    },
+    "fx": {
+      "USD_KRW": 1476.84,
+      "JPY_KRW": 9.2759
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-14",
+    "stocks": {
+      "KOSPI": {
+        "close": 5967.75,
+        "change": 159.13,
+        "pct": 2.74
+      },
+      "KOSDAQ": {
+        "close": 1121.88,
+        "change": 22.04,
+        "pct": 2.0
+      },
+      "SP500": {
+        "close": 6967.38,
+        "change": 81.14,
+        "pct": 1.18
+      },
+      "NASDAQ": {
+        "close": 23639.08,
+        "change": 455.34,
+        "pct": 1.96
+      },
+      "DOW": {
+        "close": 48535.99,
+        "change": 317.74,
+        "pct": 0.66
+      }
+    },
+    "fx": {
+      "USD_KRW": 1469.42,
+      "JPY_KRW": 9.2532
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-15",
+    "stocks": {
+      "KOSPI": {
+        "close": 6091.39,
+        "change": 123.64,
+        "pct": 2.07
+      },
+      "KOSDAQ": {
+        "close": 1152.43,
+        "change": 30.55,
+        "pct": 2.72
+      },
+      "SP500": {
+        "close": 7022.95,
+        "change": 55.57,
+        "pct": 0.8
+      },
+      "NASDAQ": {
+        "close": 24016.02,
+        "change": 376.94,
+        "pct": 1.59
+      },
+      "DOW": {
+        "close": 48463.72,
+        "change": -72.27,
+        "pct": -0.15
+      }
+    },
+    "fx": {
+      "USD_KRW": 1474.0601,
+      "JPY_KRW": 9.2813
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-16",
+    "stocks": {
+      "KOSPI": {
+        "close": 6226.05,
+        "change": 134.66,
+        "pct": 2.21
+      },
+      "KOSDAQ": {
+        "close": 1162.97,
+        "change": 10.54,
+        "pct": 0.91
+      },
+      "SP500": {
+        "close": 7041.28,
+        "change": 18.33,
+        "pct": 0.26
+      },
+      "NASDAQ": {
+        "close": 24102.7,
+        "change": 86.68,
+        "pct": 0.36
+      },
+      "DOW": {
+        "close": 48578.72,
+        "change": 115.0,
+        "pct": 0.24
+      }
+    },
+    "fx": {
+      "USD_KRW": 1477.92,
+      "JPY_KRW": 9.2833
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-20",
+    "stocks": {
+      "KOSPI": {
+        "close": 6219.09,
+        "change": 27.17,
+        "pct": 0.44
+      },
+      "KOSDAQ": {
+        "close": 1174.85,
+        "change": 4.81,
+        "pct": 0.41
+      },
+      "SP500": {
+        "close": 7109.14,
+        "change": -16.92,
+        "pct": -0.24
+      },
+      "NASDAQ": {
+        "close": 24404.39,
+        "change": -64.09,
+        "pct": -0.26
+      },
+      "DOW": {
+        "close": 49442.56,
+        "change": -4.87,
+        "pct": -0.01
+      }
+    },
+    "fx": {
+      "USD_KRW": 1469.26,
+      "JPY_KRW": 9.249
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-21",
+    "stocks": {
+      "KOSPI": {
+        "close": 6388.47,
+        "change": 169.38,
+        "pct": 2.72
+      },
+      "KOSDAQ": {
+        "close": 1179.03,
+        "change": 4.18,
+        "pct": 0.36
+      },
+      "SP500": {
+        "close": 7064.01,
+        "change": -45.13,
+        "pct": -0.63
+      },
+      "NASDAQ": {
+        "close": 24259.96,
+        "change": -144.43,
+        "pct": -0.59
+      },
+      "DOW": {
+        "close": 49149.38,
+        "change": -293.18,
+        "pct": -0.59
+      }
+    },
+    "fx": {
+      "USD_KRW": 1485.8,
+      "JPY_KRW": 9.3228
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-22",
+    "stocks": {
+      "KOSPI": {
+        "close": 6417.93,
+        "change": 29.46,
+        "pct": 0.46
+      },
+      "KOSDAQ": {
+        "close": 1181.12,
+        "change": 2.09,
+        "pct": 0.18
+      },
+      "SP500": {
+        "close": 7137.9,
+        "change": 73.89,
+        "pct": 1.05
+      },
+      "NASDAQ": {
+        "close": 24657.57,
+        "change": 397.61,
+        "pct": 1.64
+      },
+      "DOW": {
+        "close": 49490.03,
+        "change": 340.65,
+        "pct": 0.69
+      }
+    },
+    "fx": {
+      "USD_KRW": 1477.96,
+      "JPY_KRW": 9.2669
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-23",
+    "stocks": {
+      "KOSPI": {
+        "close": 6475.81,
+        "change": 57.88,
+        "pct": 0.9
+      },
+      "KOSDAQ": {
+        "close": 1174.31,
+        "change": -6.81,
+        "pct": -0.58
+      },
+      "SP500": {
+        "close": 7108.4,
+        "change": -29.5,
+        "pct": -0.41
+      },
+      "NASDAQ": {
+        "close": 24438.5,
+        "change": -219.07,
+        "pct": -0.89
+      },
+      "DOW": {
+        "close": 49310.32,
+        "change": -179.71,
+        "pct": -0.36
+      }
+    },
+    "fx": {
+      "USD_KRW": 1479.95,
+      "JPY_KRW": 9.2629
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-27",
+    "stocks": {
+      "KOSPI": {
+        "close": 6615.03,
+        "change": 139.4,
+        "pct": 2.15
+      },
+      "KOSDAQ": {
+        "close": 1226.18,
+        "change": 22.34,
+        "pct": 1.86
+      },
+      "SP500": {
+        "close": 7173.91,
+        "change": 8.83,
+        "pct": 0.12
+      },
+      "NASDAQ": {
+        "close": 24887.1,
+        "change": 50.5,
+        "pct": 0.2
+      },
+      "DOW": {
+        "close": 49167.79,
+        "change": -62.92,
+        "pct": -0.13
+      }
+    },
+    "fx": {
+      "USD_KRW": 1473.0,
+      "JPY_KRW": 9.2428
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-28",
+    "stocks": {
+      "KOSPI": {
+        "close": 6641.02,
+        "change": 25.99,
+        "pct": 0.39
+      },
+      "KOSDAQ": {
+        "close": 1215.58,
+        "change": -10.6,
+        "pct": -0.86
+      },
+      "SP500": {
+        "close": 7138.8,
+        "change": -35.11,
+        "pct": -0.49
+      },
+      "NASDAQ": {
+        "close": 24663.8,
+        "change": -223.3,
+        "pct": -0.9
+      },
+      "DOW": {
+        "close": 49141.93,
+        "change": -25.86,
+        "pct": -0.05
+      }
+    },
+    "fx": {
+      "USD_KRW": 1471.99,
+      "JPY_KRW": 9.2258
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-29",
+    "stocks": {
+      "KOSPI": {
+        "close": 6690.9,
+        "change": 49.88,
+        "pct": 0.75
+      },
+      "KOSDAQ": {
+        "close": 1220.26,
+        "change": 4.68,
+        "pct": 0.39
+      },
+      "SP500": {
+        "close": 7135.95,
+        "change": -2.85,
+        "pct": -0.04
+      },
+      "NASDAQ": {
+        "close": 24673.24,
+        "change": 9.44,
+        "pct": 0.04
+      },
+      "DOW": {
+        "close": 48861.81,
+        "change": -280.12,
+        "pct": -0.57
+      }
+    },
+    "fx": {
+      "USD_KRW": 1487.38,
+      "JPY_KRW": 9.285
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-04-30",
+    "stocks": {
+      "KOSPI": {
+        "close": 6598.87,
+        "change": -92.03,
+        "pct": -1.38
+      },
+      "KOSDAQ": {
+        "close": 1192.35,
+        "change": -27.91,
+        "pct": -2.29
+      },
+      "SP500": {
+        "close": 7209.01,
+        "change": 73.06,
+        "pct": 1.02
+      },
+      "NASDAQ": {
+        "close": 24892.31,
+        "change": 219.07,
+        "pct": 0.89
+      },
+      "DOW": {
+        "close": 49652.14,
+        "change": 790.33,
+        "pct": 1.62
+      }
+    },
+    "fx": {
+      "USD_KRW": 1474.01,
+      "JPY_KRW": 9.3893
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-04",
+    "stocks": {
+      "KOSPI": {
+        "close": 6936.99,
+        "change": 338.12,
+        "pct": 5.12
+      },
+      "KOSDAQ": {
+        "close": 1213.74,
+        "change": 21.39,
+        "pct": 1.79
+      },
+      "SP500": {
+        "close": 7200.75,
+        "change": -29.37,
+        "pct": -0.41
+      },
+      "NASDAQ": {
+        "close": 25067.8,
+        "change": -46.64,
+        "pct": -0.19
+      },
+      "DOW": {
+        "close": 48941.9,
+        "change": -557.37,
+        "pct": -1.13
+      }
+    },
+    "fx": {
+      "USD_KRW": 1476.05,
+      "JPY_KRW": 9.3898
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-05",
+    "stocks": {
+      "SP500": {
+        "close": 7259.22,
+        "change": 58.47,
+        "pct": 0.81
+      },
+      "NASDAQ": {
+        "close": 25326.13,
+        "change": 258.33,
+        "pct": 1.03
+      },
+      "DOW": {
+        "close": 49298.25,
+        "change": 356.35,
+        "pct": 0.73
+      }
+    },
+    "fx": {
+      "USD_KRW": 1473.96,
+      "JPY_KRW": 9.3463
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-06",
+    "stocks": {
+      "KOSPI": {
+        "close": 7384.56,
+        "change": 447.57,
+        "pct": 6.45
+      },
+      "KOSDAQ": {
+        "close": 1210.17,
+        "change": -3.57,
+        "pct": -0.29
+      },
+      "SP500": {
+        "close": 7365.12,
+        "change": 105.9,
+        "pct": 1.46
+      },
+      "NASDAQ": {
+        "close": 25838.94,
+        "change": 512.81,
+        "pct": 2.02
+      },
+      "DOW": {
+        "close": 49910.59,
+        "change": 612.34,
+        "pct": 1.24
+      }
+    },
+    "fx": {
+      "USD_KRW": 1444.45,
+      "JPY_KRW": 9.2299
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-07",
+    "stocks": {
+      "KOSPI": {
+        "close": 7490.05,
+        "change": 105.49,
+        "pct": 1.43
+      },
+      "KOSDAQ": {
+        "close": 1199.18,
+        "change": -10.99,
+        "pct": -0.91
+      },
+      "SP500": {
+        "close": 7337.11,
+        "change": -28.01,
+        "pct": -0.38
+      },
+      "NASDAQ": {
+        "close": 25806.2,
+        "change": -32.74,
+        "pct": -0.13
+      },
+      "DOW": {
+        "close": 49596.97,
+        "change": -313.62,
+        "pct": -0.63
+      }
+    },
+    "fx": {
+      "USD_KRW": 1454.79,
+      "JPY_KRW": 9.2756
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-11",
+    "stocks": {
+      "KOSPI": {
+        "close": 7822.24,
+        "change": 324.24,
+        "pct": 4.32
+      },
+      "KOSDAQ": {
+        "close": 1207.34,
+        "change": -0.38,
+        "pct": -0.03
+      },
+      "SP500": {
+        "close": 7412.84,
+        "change": 13.91,
+        "pct": 0.19
+      },
+      "NASDAQ": {
+        "close": 26274.13,
+        "change": 27.05,
+        "pct": 0.1
+      },
+      "DOW": {
+        "close": 49704.47,
+        "change": 95.31,
+        "pct": 0.19
+      }
+    },
+    "fx": {
+      "USD_KRW": 1474.45,
+      "JPY_KRW": 9.3711
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-12",
+    "stocks": {
+      "KOSPI": {
+        "close": 7643.15,
+        "change": -179.09,
+        "pct": -2.29
+      },
+      "KOSDAQ": {
+        "close": 1179.29,
+        "change": -28.05,
+        "pct": -2.32
+      },
+      "SP500": {
+        "close": 7400.96,
+        "change": -11.88,
+        "pct": -0.16
+      },
+      "NASDAQ": {
+        "close": 26088.2,
+        "change": -185.93,
+        "pct": -0.71
+      },
+      "DOW": {
+        "close": 49760.56,
+        "change": 56.09,
+        "pct": 0.11
+      }
+    },
+    "fx": {
+      "USD_KRW": 1492.99,
+      "JPY_KRW": 9.4708
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-13",
+    "stocks": {
+      "KOSPI": {
+        "close": 7844.01,
+        "change": 200.86,
+        "pct": 2.63
+      },
+      "KOSDAQ": {
+        "close": 1176.93,
+        "change": -2.36,
+        "pct": -0.2
+      },
+      "SP500": {
+        "close": 7444.25,
+        "change": 43.29,
+        "pct": 0.58
+      },
+      "NASDAQ": {
+        "close": 26402.34,
+        "change": 314.14,
+        "pct": 1.2
+      },
+      "DOW": {
+        "close": 49693.2,
+        "change": -67.36,
+        "pct": -0.14
+      }
+    },
+    "fx": {
+      "USD_KRW": 1489.84,
+      "JPY_KRW": 9.4372
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-14",
+    "stocks": {
+      "KOSPI": {
+        "close": 7981.41,
+        "change": 137.4,
+        "pct": 1.75
+      },
+      "KOSDAQ": {
+        "close": 1191.09,
+        "change": 14.16,
+        "pct": 1.2
+      },
+      "SP500": {
+        "close": 7501.24,
+        "change": 56.99,
+        "pct": 0.77
+      },
+      "NASDAQ": {
+        "close": 26635.22,
+        "change": 232.88,
+        "pct": 0.88
+      },
+      "DOW": {
+        "close": 50063.46,
+        "change": 370.26,
+        "pct": 0.75
+      }
+    },
+    "fx": {
+      "USD_KRW": 1493.34,
+      "JPY_KRW": 9.4318
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-18",
+    "stocks": {
+      "KOSPI": {
+        "close": 7516.04,
+        "change": 22.86,
+        "pct": 0.31
+      },
+      "KOSDAQ": {
+        "close": 1111.09,
+        "change": -18.73,
+        "pct": -1.66
+      },
+      "SP500": {
+        "close": 7403.05,
+        "change": -5.45,
+        "pct": -0.07
+      },
+      "NASDAQ": {
+        "close": 26090.73,
+        "change": -134.41,
+        "pct": -0.51
+      },
+      "DOW": {
+        "close": 49686.12,
+        "change": 159.95,
+        "pct": 0.32
+      }
+    },
+    "fx": {
+      "USD_KRW": 1492.3199,
+      "JPY_KRW": 9.3903
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-19",
+    "stocks": {
+      "KOSPI": {
+        "close": 7271.66,
+        "change": -244.38,
+        "pct": -3.25
+      },
+      "KOSDAQ": {
+        "close": 1084.36,
+        "change": -26.73,
+        "pct": -2.41
+      },
+      "SP500": {
+        "close": 7353.61,
+        "change": -49.44,
+        "pct": -0.67
+      },
+      "NASDAQ": {
+        "close": 25870.71,
+        "change": -220.02,
+        "pct": -0.84
+      },
+      "DOW": {
+        "close": 49363.88,
+        "change": -322.24,
+        "pct": -0.65
+      }
+    },
+    "fx": {
+      "USD_KRW": 1507.85,
+      "JPY_KRW": 9.4805
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-20",
+    "stocks": {
+      "KOSPI": {
+        "close": 7208.95,
+        "change": -62.71,
+        "pct": -0.86
+      },
+      "KOSDAQ": {
+        "close": 1056.07,
+        "change": -28.29,
+        "pct": -2.61
+      },
+      "SP500": {
+        "close": 7432.97,
+        "change": 79.36,
+        "pct": 1.08
+      },
+      "NASDAQ": {
+        "close": 26270.36,
+        "change": 399.65,
+        "pct": 1.54
+      },
+      "DOW": {
+        "close": 50009.35,
+        "change": 645.47,
+        "pct": 1.31
+      }
+    },
+    "fx": {
+      "USD_KRW": 1499.77,
+      "JPY_KRW": 9.4407
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-21",
+    "stocks": {
+      "KOSPI": {
+        "close": 7815.59,
+        "change": 606.64,
+        "pct": 8.42
+      },
+      "KOSDAQ": {
+        "close": 1105.97,
+        "change": 49.9,
+        "pct": 4.73
+      },
+      "SP500": {
+        "close": 7445.72,
+        "change": 12.75,
+        "pct": 0.17
+      },
+      "NASDAQ": {
+        "close": 26293.1,
+        "change": 22.74,
+        "pct": 0.09
+      },
+      "DOW": {
+        "close": 50285.66,
+        "change": 276.31,
+        "pct": 0.55
+      }
+    },
+    "fx": {
+      "USD_KRW": 1504.4,
+      "JPY_KRW": 9.4555
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-26",
+    "stocks": {
+      "KOSPI": {
+        "close": 8047.51,
+        "change": 199.8,
+        "pct": 2.55
+      },
+      "KOSDAQ": {
+        "close": 1172.52,
+        "change": 11.39,
+        "pct": 0.98
+      },
+      "SP500": {
+        "close": 7519.12,
+        "change": 45.65,
+        "pct": 0.61
+      },
+      "NASDAQ": {
+        "close": 26656.18,
+        "change": 312.21,
+        "pct": 1.19
+      },
+      "DOW": {
+        "close": 50461.68,
+        "change": -118.02,
+        "pct": -0.23
+      }
+    },
+    "fx": {
+      "USD_KRW": 1505.4399,
+      "JPY_KRW": 9.4574
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-27",
+    "stocks": {
+      "KOSPI": {
+        "close": 8228.7,
+        "change": 181.19,
+        "pct": 2.25
+      },
+      "KOSDAQ": {
+        "close": 1133.13,
+        "change": -39.39,
+        "pct": -3.36
+      },
+      "SP500": {
+        "close": 7520.36,
+        "change": 1.24,
+        "pct": 0.02
+      },
+      "NASDAQ": {
+        "close": 26674.73,
+        "change": 18.55,
+        "pct": 0.07
+      },
+      "DOW": {
+        "close": 50644.28,
+        "change": 182.6,
+        "pct": 0.36
+      }
+    },
+    "fx": {
+      "USD_KRW": 1503.11,
+      "JPY_KRW": 9.4147
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-05-28",
+    "stocks": {
+      "KOSPI": {
+        "close": 8185.29,
+        "change": -43.41,
+        "pct": -0.53
+      },
+      "KOSDAQ": {
+        "close": 1104.36,
+        "change": -28.77,
+        "pct": -2.54
+      },
+      "SP500": {
+        "close": 7563.63,
+        "change": 43.27,
+        "pct": 0.58
+      },
+      "NASDAQ": {
+        "close": 26917.47,
+        "change": 242.74,
+        "pct": 0.91
+      },
+      "DOW": {
+        "close": 50668.97,
+        "change": 24.69,
+        "pct": 0.05
+      }
+    },
+    "fx": {
+      "USD_KRW": 1495.29,
+      "JPY_KRW": 9.3831
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-01",
+    "stocks": {
+      "KOSPI": {
+        "close": 8788.38,
+        "change": 312.23,
+        "pct": 3.68
+      },
+      "KOSDAQ": {
+        "close": 1050.03,
+        "change": -24.77,
+        "pct": -2.3
+      },
+      "SP500": {
+        "close": 7599.96,
+        "change": 19.9,
+        "pct": 0.26
+      },
+      "NASDAQ": {
+        "close": 27086.81,
+        "change": 114.19,
+        "pct": 0.42
+      },
+      "DOW": {
+        "close": 51078.88,
+        "change": 46.42,
+        "pct": 0.09
+      }
+    },
+    "fx": {
+      "USD_KRW": 1511.27,
+      "JPY_KRW": 9.4658
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-02",
+    "stocks": {
+      "KOSPI": {
+        "close": 8801.49,
+        "change": 13.11,
+        "pct": 0.15
+      },
+      "KOSDAQ": {
+        "close": 1026.03,
+        "change": -24.0,
+        "pct": -2.29
+      },
+      "SP500": {
+        "close": 7609.78,
+        "change": 9.82,
+        "pct": 0.13
+      },
+      "NASDAQ": {
+        "close": 27093.9,
+        "change": 7.09,
+        "pct": 0.03
+      },
+      "DOW": {
+        "close": 51307.79,
+        "change": 228.91,
+        "pct": 0.45
+      }
+    },
+    "fx": {
+      "USD_KRW": 1516.6,
+      "JPY_KRW": 9.4805
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-03",
+    "stocks": {
+      "SP500": {
+        "close": 7553.68,
+        "change": -56.1,
+        "pct": -0.74
+      },
+      "NASDAQ": {
+        "close": 26853.98,
+        "change": -239.92,
+        "pct": -0.89
+      },
+      "DOW": {
+        "close": 50687.07,
+        "change": -620.72,
+        "pct": -1.21
+      }
+    },
+    "fx": {
+      "USD_KRW": 1530.11,
+      "JPY_KRW": 9.5656
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-04",
+    "stocks": {
+      "KOSPI": {
+        "close": 8639.41,
+        "change": -162.08,
+        "pct": -1.84
+      },
+      "KOSDAQ": {
+        "close": 1049.73,
+        "change": 23.7,
+        "pct": 2.31
+      },
+      "SP500": {
+        "close": 7584.31,
+        "change": 30.63,
+        "pct": 0.41
+      },
+      "NASDAQ": {
+        "close": 26830.96,
+        "change": -23.02,
+        "pct": -0.09
+      },
+      "DOW": {
+        "close": 51561.93,
+        "change": 874.86,
+        "pct": 1.73
+      }
+    },
+    "fx": {
+      "USD_KRW": 1533.0699,
+      "JPY_KRW": 9.5799
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-08",
+    "stocks": {
+      "KOSPI": {
+        "close": 7484.41,
+        "change": -676.18,
+        "pct": -8.29
+      },
+      "KOSDAQ": {
+        "close": 911.39,
+        "change": -91.05,
+        "pct": -9.08
+      },
+      "SP500": {
+        "close": 7405.73,
+        "change": 21.99,
+        "pct": 0.3
+      },
+      "NASDAQ": {
+        "close": 25929.66,
+        "change": 220.23,
+        "pct": 0.86
+      },
+      "DOW": {
+        "close": 50786.01,
+        "change": -80.77,
+        "pct": -0.16
+      }
+    },
+    "fx": {
+      "USD_KRW": 1528.88,
+      "JPY_KRW": 9.5426
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-09",
+    "stocks": {
+      "KOSPI": {
+        "close": 8096.93,
+        "change": 612.52,
+        "pct": 8.18
+      },
+      "KOSDAQ": {
+        "close": 967.81,
+        "change": 56.42,
+        "pct": 6.19
+      },
+      "SP500": {
+        "close": 7386.65,
+        "change": -19.08,
+        "pct": -0.26
+      },
+      "NASDAQ": {
+        "close": 25678.82,
+        "change": -250.84,
+        "pct": -0.97
+      },
+      "DOW": {
+        "close": 50872.11,
+        "change": 86.1,
+        "pct": 0.17
+      }
+    },
+    "fx": {
+      "USD_KRW": 1525.8101,
+      "JPY_KRW": 9.513
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-10",
+    "stocks": {
+      "KOSPI": {
+        "close": 7730.82,
+        "change": -366.11,
+        "pct": -4.52
+      },
+      "KOSDAQ": {
+        "close": 951.63,
+        "change": -16.18,
+        "pct": -1.67
+      },
+      "SP500": {
+        "close": 7266.99,
+        "change": -119.66,
+        "pct": -1.62
+      },
+      "NASDAQ": {
+        "close": 25169.5,
+        "change": -509.32,
+        "pct": -1.98
+      },
+      "DOW": {
+        "close": 49918.78,
+        "change": -953.33,
+        "pct": -1.87
+      }
+    },
+    "fx": {
+      "USD_KRW": 1525.05,
+      "JPY_KRW": 9.4998
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-11",
+    "stocks": {
+      "KOSPI": {
+        "close": 7763.95,
+        "change": 33.13,
+        "pct": 0.43
+      },
+      "KOSDAQ": {
+        "close": 996.93,
+        "change": 45.3,
+        "pct": 4.76
+      },
+      "SP500": {
+        "close": 7394.3,
+        "change": 127.31,
+        "pct": 1.75
+      },
+      "NASDAQ": {
+        "close": 25809.66,
+        "change": 640.16,
+        "pct": 2.54
+      },
+      "DOW": {
+        "close": 50848.75,
+        "change": 929.97,
+        "pct": 1.86
+      }
+    },
+    "fx": {
+      "USD_KRW": 1517.38,
+      "JPY_KRW": 9.4786
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-15",
+    "stocks": {
+      "KOSPI": {
+        "close": 8545.98,
+        "change": 422.36,
+        "pct": 5.2
+      },
+      "KOSDAQ": {
+        "close": 1034.03,
+        "change": 4.98,
+        "pct": 0.48
+      },
+      "SP500": {
+        "close": 7554.29,
+        "change": 122.83,
+        "pct": 1.65
+      },
+      "NASDAQ": {
+        "close": 26683.94,
+        "change": 795.1,
+        "pct": 3.07
+      },
+      "DOW": {
+        "close": 51671.03,
+        "change": 468.77,
+        "pct": 0.92
+      }
+    },
+    "fx": {
+      "USD_KRW": 1513.3101,
+      "JPY_KRW": 9.43
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-16",
+    "stocks": {
+      "KOSPI": {
+        "close": 8726.6,
+        "change": 180.62,
+        "pct": 2.11
+      },
+      "KOSDAQ": {
+        "close": 1018.68,
+        "change": -15.35,
+        "pct": -1.48
+      },
+      "SP500": {
+        "close": 7511.35,
+        "change": -42.94,
+        "pct": -0.57
+      },
+      "NASDAQ": {
+        "close": 26376.34,
+        "change": -307.6,
+        "pct": -1.15
+      },
+      "DOW": {
+        "close": 51999.67,
+        "change": 328.64,
+        "pct": 0.64
+      }
+    },
+    "fx": {
+      "USD_KRW": 1510.96,
+      "JPY_KRW": 9.4184
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-17",
+    "stocks": {
+      "KOSPI": {
+        "close": 8864.24,
+        "change": 137.64,
+        "pct": 1.58
+      },
+      "KOSDAQ": {
+        "close": 1031.96,
+        "change": 13.28,
+        "pct": 1.3
+      },
+      "SP500": {
+        "close": 7420.1,
+        "change": -91.25,
+        "pct": -1.21
+      },
+      "NASDAQ": {
+        "close": 26021.66,
+        "change": -354.68,
+        "pct": -1.34
+      },
+      "DOW": {
+        "close": 51492.55,
+        "change": -507.12,
+        "pct": -0.98
+      }
+    },
+    "fx": {
+      "USD_KRW": 1525.42,
+      "JPY_KRW": 9.4999
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-18",
+    "stocks": {
+      "KOSPI": {
+        "close": 9063.84,
+        "change": 199.6,
+        "pct": 2.25
+      },
+      "KOSDAQ": {
+        "close": 1000.93,
+        "change": -31.03,
+        "pct": -3.01
       },
       "SP500": {
         "close": 7500.58,
@@ -29,177 +8231,33 @@
       }
     },
     "fx": {
-      "USD_KRW": 1531.004518,
-      "JPY_KRW": 9.5
+      "USD_KRW": 1537.5601,
+      "JPY_KRW": 9.5314
     },
-    "news": {
-      "economy": [
-        {
-          "title": "“증시로 떠나는 돈 붙잡아라”…공제회, 4%대 금리로 회원 자금 방어",
-          "desc": "“증시로 떠나는 돈 붙잡아라”…공제회, 4%대 금리로 회원 자금 방어 한국경제"
-        },
-        {
-          "title": "연준 매파적 동결에 美 증시 약세 [글로벌 머니플로우]",
-          "desc": "연준 매파적 동결에 美 증시 약세 [글로벌 머니플로우] v.daum.net"
-        },
-        {
-          "title": "日 금리 인상, '엔 캐리 청산' 우려 넘어설 韓 경제 기회는",
-          "desc": "日 금리 인상, '엔 캐리 청산' 우려 넘어설 韓 경제 기회는 오피니언뉴스"
-        },
-        {
-          "title": "기름값·금리·증시 다 움직인다… 19일 미·이란 서명이 바꿀 한국 경제 4가지 [중동전쟁]",
-          "desc": "기름값·금리·증시 다 움직인다… 19일 미·이란 서명이 바꿀 한국 경제 4가지 [중동전쟁] 솔루션뉴스"
-        },
-        {
-          "title": "日, 기준금리 1.0%로 인상...31년만에 최고",
-          "desc": "日, 기준금리 1.0%로 인상...31년만에 최고 한국경제TV"
-        },
-        {
-          "title": "FOMC 앞둔 뉴욕증시,금리 동결 예상하며 혼조세",
-          "desc": "FOMC 앞둔 뉴욕증시,금리 동결 예상하며 혼조세 네이트"
-        }
-      ],
-      "realestate": [
-        {
-          "title": "상승폭 둔화했지만… 매매든 전세든 서울 아파트 가격 또 올랐다 [주말 Q&A]",
-          "desc": "상승폭 둔화했지만… 매매든 전세든 서울 아파트 가격 또 올랐다 [주말 Q&A] 더스쿠프"
-        },
-        {
-          "title": "인천 아파트 거래 늘었지만 집값은 제자리",
-          "desc": "인천 아파트 거래 늘었지만 집값은 제자리 인천일보"
-        },
-        {
-          "title": "[부동산] 서울 아파트 확실한 상승세",
-          "desc": "[부동산] 서울 아파트 확실한 상승세 starnewskorea.com"
-        },
-        {
-          "title": "[6월 3주] 충남 아파트값 나홀로 하락...대전·세종은 상승",
-          "desc": "[6월 3주] 충남 아파트값 나홀로 하락...대전·세종은 상승 충남일보"
-        },
-        {
-          "title": "삼전닉스가 부동산 시장도 흔드나…화성 동탄 아파트 1주새 2.22%↑",
-          "desc": "삼전닉스가 부동산 시장도 흔드나…화성 동탄 아파트 1주새 2.22%↑ 디지털데일리"
-        },
-        {
-          "title": "부동산원, 6월 3주 주간 아파트가격 동향",
-          "desc": "부동산원, 6월 3주 주간 아파트가격 동향 경남대학교 교육방송국"
-        }
-      ],
-      "global": [
-        {
-          "title": "[글로벌 포커스] 이란전쟁이 키운 지정학의 변동성",
-          "desc": "[글로벌 포커스] 이란전쟁이 키운 지정학의 변동성 중앙일보"
-        },
-        {
-          "title": "[외신 에스프레소] 스페이스X·오픈AI '상장 광풍'…지정학 위기 속 요동치는 글로벌 경제",
-          "desc": "[외신 에스프레소] 스페이스X·오픈AI '상장 광풍'…지정학 위기 속 요동치는 글로벌 경제 한국경제"
-        },
-        {
-          "title": "[글로벌 경제 불확실성 시리즈 3편: 지정학적 분쟁과 글로벌 공급망의 변화] “전쟁이 바꾼 공급망 지도”…지정학 리스크 속 글로벌 산업 재편 가속",
-          "desc": "[글로벌 경제 불확실성 시리즈 3편: 지정학적 분쟁과 글로벌 공급망의 변화] “전쟁이 바꾼 공급망 지도”…지정학 리스크 속 글로벌 산업 재편 가속 코리아포스트 한글판"
-        },
-        {
-          "title": "지정학이 글로벌 기업의 경영을 뒤흔든다",
-          "desc": "지정학이 글로벌 기업의 경영을 뒤흔든다 pado.kr"
-        },
-        {
-          "title": "[주간 국제 정세]AI 패권 경쟁과 지정학의 충돌… ‘각자도생’의 세계 질서",
-          "desc": "[주간 국제 정세]AI 패권 경쟁과 지정학의 충돌… ‘각자도생’의 세계 질서 외교저널"
-        },
-        {
-          "title": "\"옛 미국은 돌아오지 않는다…한국, 각자도생 세상 서둘러 준비하라\"",
-          "desc": "\"옛 미국은 돌아오지 않는다…한국, 각자도생 세상 서둘러 준비하라\" 조선일보"
-        }
-      ],
-      "usnews": [
-        {
-          "title": "중동 전쟁 확전 시 국제유가 ‘174달러’…환율 1500원대 장기화 가능성도",
-          "desc": "중동 전쟁 확전 시 국제유가 ‘174달러’…환율 1500원대 장기화 가능성도 농민신문"
-        },
-        {
-          "title": "미·이란 종전합의 기대가 흔든 한은의 물가 셈법",
-          "desc": "미·이란 종전합의 기대가 흔든 한은의 물가 셈법 메트로신문"
-        },
-        {
-          "title": "국제유가 급등에…원-달러 환율 1500원 훌쩍 넘어",
-          "desc": "국제유가 급등에…원-달러 환율 1500원 훌쩍 넘어 한겨레"
-        },
-        {
-          "title": "[환율 전망] 이제는 놀랍지 않은 1,500원",
-          "desc": "[환율 전망] 이제는 놀랍지 않은 1,500원 KB Think"
-        },
-        {
-          "title": "미국·이란 협상 교착에 국제유가 100달러 돌파",
-          "desc": "미국·이란 협상 교착에 국제유가 100달러 돌파 중기이코노미"
-        },
-        {
-          "title": "내려올 줄 모르는 국제 유가…4거래일 연속 배럴당 100달러 웃돌았다",
-          "desc": "내려올 줄 모르는 국제 유가…4거래일 연속 배럴당 100달러 웃돌았다 조선일보"
-        }
-      ]
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
+  },
+  {
+    "date": "2026-06-19",
+    "stocks": {
+      "KOSPI": {
+        "close": 9052.42,
+        "change": -11.42,
+        "pct": -0.13
+      },
+      "KOSDAQ": {
+        "close": 966.59,
+        "change": -34.34,
+        "pct": -3.43
+      }
     },
-    "portfolio": {
-      "holdings": [
-        {
-          "ticker": "JOBY",
-          "name": "조비 에비에이션",
-          "shares": 243.401791,
-          "avg_price": 10.73,
-          "current_price": 10.0,
-          "value": 2434.01791,
-          "cost": 2611.7012174300003,
-          "pnl": -177.68330743000024,
-          "pnl_pct": -6.803355079217156
-        },
-        {
-          "ticker": "QQQ",
-          "name": "QQQ",
-          "shares": 2.916851,
-          "avg_price": 627.49,
-          "current_price": 740.62,
-          "value": 2160.2781876199997,
-          "cost": 1830.29483399,
-          "pnl": 329.9833536299998,
-          "pnl_pct": 18.02897257326809
-        },
-        {
-          "ticker": "GOOGL",
-          "name": "알파벳 A",
-          "shares": 5.214141,
-          "avg_price": 282.56,
-          "current_price": 368.03,
-          "value": 1918.9603122299998,
-          "cost": 1473.30768096,
-          "pnl": 445.6526312699998,
-          "pnl_pct": 30.248442808607006
-        },
-        {
-          "ticker": "BLDR",
-          "name": "빌더스 퍼스트소스",
-          "shares": 11.69439,
-          "avg_price": 92.22,
-          "current_price": 80.59,
-          "value": 942.4508901,
-          "cost": 1078.4566458,
-          "pnl": -136.0057556999999,
-          "pnl_pct": -12.61114725656039
-        },
-        {
-          "ticker": "NOW",
-          "name": "서비스나우",
-          "shares": 1.0,
-          "avg_price": 106.55,
-          "current_price": 95.04,
-          "value": 95.04,
-          "cost": 106.55,
-          "pnl": -11.509999999999991,
-          "pnl_pct": -10.802440168934764
-        }
-      ],
-      "total_value": 7550.747299949999,
-      "total_cost": 7100.31037818,
-      "total_pnl": 450.43692176999866,
-      "total_pnl_pct": 6.343904671466738
-    }
+    "fx": {
+      "USD_KRW": 1529.89,
+      "JPY_KRW": 9.463
+    },
+    "news": {},
+    "portfolio": null,
+    "portfolio_news": {}
   }
 ]

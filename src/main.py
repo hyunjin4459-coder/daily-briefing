@@ -107,7 +107,7 @@ def save_data(stocks: dict, fx: dict, news: dict, portfolio: dict | None = None,
     existing = json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else []
     existing = [e for e in existing if e["date"] != today]
     existing.append(entry)
-    existing = existing[-90:]
+    existing = existing[-365:]
     DATA_FILE.write_text(json.dumps(existing, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"[main] 데이터 저장 완료 ({len(existing)}일치)")
 
