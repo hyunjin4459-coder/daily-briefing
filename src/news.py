@@ -1,11 +1,23 @@
+import re
 import feedparser
 
 _BASE = "https://news.google.com/rss/search?hl=ko&gl=KR&ceid=KR:ko&q={q}"
 
 
-def _fetch(query: str, count: int = 5) -> list[str]:
+def _clean(text: str) -> str:
+    return re.sub(r"<[^>]+>", "", text).strip()
+
+
+def _fetch(query: str, count: int = 6) -> list[dict]:
     feed = feedparser.parse(_BASE.format(q=query))
-    return [e.title for e in feed.entries[:count]]
+    results = []
+    for e in feed.entries[:count]:
+        desc = _clean(getattr(e, "summary", ""))
+        results.append({
+            "title": e.title,
+            "desc": desc[:300] if desc and desc != e.title else "",
+        })
+    return results
 
 
 def get_news() -> dict:

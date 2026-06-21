@@ -22,9 +22,11 @@ def format_message(stocks: dict, fx: dict, news: dict, summary: str) -> str:
     lines = [f"📊 오늘의 시장 브리핑 [{today}]", ""]
 
     if summary:
-        lines.append("🤖 AI 분석")
-        for line in summary.splitlines():
-            lines.append(f"  {line}")
+        lines.append("🔍 오늘 꼭 알아야 할 뉴스")
+        lines.append("")
+        lines.append(summary)
+        lines.append("")
+        lines.append("─" * 20)
         lines.append("")
 
     lines.append("📈 국내 증시")
