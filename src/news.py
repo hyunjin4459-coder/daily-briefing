@@ -1,22 +1,33 @@
+import html
 import re
 import feedparser
 
 _BASE = "https://news.google.com/rss/search?hl=ko&gl=KR&ceid=KR:ko&q={q}"
 
 
-def _clean(text: str) -> str:
-    return re.sub(r"<[^>]+>", "", text).strip()
+def _clean_title(text: str) -> str:
+    text = html.unescape(text)               # &nbsp; &amp; 등 HTML 엔티티 변환
+    text = re.sub(r"<[^>]+>", "", text)      # <b> </b> 등 HTML 태그 제거
+    text = re.sub(r"\s*-\s*[^-]+$", "", text)  # "- 다음넷", "- 연합뉴스" 등 언론사명 제거
+    return text.strip()
+
+
+def _clean_desc(text: str) -> str:
+    text = html.unescape(text)
+    text = re.sub(r"<[^>]+>", "", text)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
 
 
 def _fetch(query: str, count: int = 6) -> list[dict]:
     feed = feedparser.parse(_BASE.format(q=query))
     results = []
     for e in feed.entries[:count]:
-        desc = _clean(getattr(e, "summary", ""))
-        results.append({
-            "title": e.title,
-            "desc": desc[:300] if desc and desc != e.title else "",
-        })
+        title = _clean_title(e.title)
+        desc = _clean_desc(getattr(e, "summary", ""))
+        if desc == title:
+            desc = ""
+        results.append({"title": title, "desc": desc[:250] if desc else ""})
     return results
 
 
