@@ -2,7 +2,8 @@ import html
 import re
 import feedparser
 
-_BASE = "https://news.google.com/rss/search?hl=ko&gl=KR&ceid=KR:ko&q={q}"
+_BASE    = "https://news.google.com/rss/search?hl=ko&gl=KR&ceid=KR:ko&q={q}"
+_BASE_EN = "https://news.google.com/rss/search?hl=en&gl=US&ceid=US:en&q={q}"
 
 
 def _clean_title(text: str) -> str:
@@ -29,6 +30,29 @@ def _fetch(query: str, count: int = 6) -> list[dict]:
             desc = ""
         results.append({"title": title, "desc": desc[:250] if desc else ""})
     return results
+
+
+def _fetch_en(query: str, count: int = 2) -> list[dict]:
+    feed = feedparser.parse(_BASE_EN.format(q=query))
+    results = []
+    for e in feed.entries[:count]:
+        title = _clean_title(e.title)
+        desc = _clean_desc(getattr(e, "summary", ""))
+        if desc == title:
+            desc = ""
+        results.append({"title": title, "desc": desc[:250] if desc else ""})
+    return results
+
+
+def get_portfolio_news(holdings: list[dict]) -> dict:
+    """보유 종목별 최신 뉴스 2건씩 조회"""
+    result = {}
+    for h in holdings:
+        ticker = h["ticker"]
+        items = _fetch_en(f"{ticker}+stock", count=2)
+        if items:
+            result[ticker] = {"name": h["name"], "items": items}
+    return result
 
 
 def get_news() -> dict:

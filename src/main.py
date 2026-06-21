@@ -5,7 +5,7 @@ import pathlib
 
 from src.fx import get_exchange_rates
 from src.stock import get_stock_data
-from src.news import get_news
+from src.news import get_news, get_portfolio_news
 from src.summary import summarize_news
 from src.portfolio import get_portfolio
 from src.kakao import refresh_access_token, send_message
@@ -17,7 +17,7 @@ def _arrow(change: float) -> str:
     return "▲" if change >= 0 else "▼"
 
 
-def format_message(stocks: dict, fx: dict, news: dict, summary: str, portfolio: dict | None = None) -> str:
+def format_message(stocks: dict, fx: dict, news: dict, summary: str, portfolio: dict | None = None, portfolio_news: dict | None = None) -> str:
     today = datetime.date.today().strftime("%Y-%m-%d")
 
     lines = [f"📊 오늘의 시장 브리핑 [{today}]", ""]
@@ -76,6 +76,17 @@ def format_message(stocks: dict, fx: dict, news: dict, summary: str, portfolio: 
         lines.append("─" * 20)
         lines.append("")
 
+    if portfolio_news:
+        lines.append("📰 종목별 뉴스")
+        lines.append("")
+        for ticker, data in portfolio_news.items():
+            lines.append(f"  [{ticker}] {data['name']}")
+            for i, item in enumerate(data["items"], 1):
+                lines.append(f"    {i}. {item['title']}")
+            lines.append("")
+        lines.append("─" * 20)
+        lines.append("")
+
     def news_section(label: str, items: list):
         lines.append(label)
         for i, h in enumerate(items, 1):
@@ -123,11 +134,14 @@ def run():
     print("💼 포트폴리오 조회 중...")
     portfolio = get_portfolio()
 
+    print("📰 종목별 뉴스 조회 중...")
+    portfolio_news = get_portfolio_news(portfolio.get("holdings", []))
+
     print("🤖 Claude AI 뉴스 요약 중...")
     summary = summarize_news(news)
 
     print("📝 메시지 포맷 중...")
-    message = format_message(stocks, fx, news, summary, portfolio)
+    message = format_message(stocks, fx, news, summary, portfolio, portfolio_news)
 
     print("📁 대시보드 데이터 저장 중...")
     save_data(stocks, fx, news, summary, portfolio)
