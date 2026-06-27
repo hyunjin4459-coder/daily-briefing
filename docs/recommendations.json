@@ -58,5 +58,17 @@
     "outcome_date": null,
     "outcome_return": null,
     "outcome_days": null
+  },
+  {
+    "date": "2026-06-27",
+    "signal": "BUY",
+    "score": 52,
+    "sp500_entry": 7357.49,
+    "sp500_tp": 7725.36,
+    "sp500_sl": 7136.77,
+    "outcome": null,
+    "outcome_date": null,
+    "outcome_return": null,
+    "outcome_days": null
   }
 ]
