@@ -82,5 +82,17 @@
     "outcome_date": null,
     "outcome_return": null,
     "outcome_days": null
+  },
+  {
+    "date": "2026-06-29",
+    "signal": "HOLD",
+    "score": 48,
+    "sp500_entry": 7409.44,
+    "sp500_tp": 7779.91,
+    "sp500_sl": 7187.16,
+    "outcome": null,
+    "outcome_date": null,
+    "outcome_return": null,
+    "outcome_days": null
   }
 ]
