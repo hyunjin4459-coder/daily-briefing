@@ -546,10 +546,10 @@
     "sp500_entry": 7723.55,
     "sp500_tp": 8109.73,
     "sp500_sl": 7491.84,
-    "outcome": null,
-    "outcome_date": null,
-    "outcome_return": null,
-    "outcome_days": null
+    "outcome": "NEUTRAL",
+    "outcome_date": "2026-08-16",
+    "outcome_return": 0.81,
+    "outcome_days": 10
   },
   {
     "date": "2026-08-07",
@@ -651,6 +651,18 @@
     "date": "2026-08-15",
     "signal": "HOLD",
     "score": 56,
+    "sp500_entry": 7785.76,
+    "sp500_tp": 8175.05,
+    "sp500_sl": 7552.19,
+    "outcome": null,
+    "outcome_date": null,
+    "outcome_return": null,
+    "outcome_days": null
+  },
+  {
+    "date": "2026-08-16",
+    "signal": "HOLD",
+    "score": 58,
     "sp500_entry": 7785.76,
     "sp500_tp": 8175.05,
     "sp500_sl": 7552.19,
