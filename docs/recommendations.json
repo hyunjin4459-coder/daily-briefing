@@ -1530,10 +1530,10 @@
     "sp500_entry": 7676.77,
     "sp500_tp": 8060.61,
     "sp500_sl": 7446.47,
-    "outcome": null,
-    "outcome_date": null,
-    "outcome_return": null,
-    "outcome_days": null
+    "outcome": "LOSS",
+    "outcome_date": "2026-11-06",
+    "outcome_return": -4.21,
+    "outcome_days": 10
   },
   {
     "date": "2026-10-28",
@@ -1542,10 +1542,10 @@
     "sp500_entry": 7722.6,
     "sp500_tp": 8108.73,
     "sp500_sl": 7490.92,
-    "outcome": null,
-    "outcome_date": null,
-    "outcome_return": null,
-    "outcome_days": null
+    "outcome": "LOSS",
+    "outcome_date": "2026-11-06",
+    "outcome_return": -4.78,
+    "outcome_days": 9
   },
   {
     "date": "2026-10-29",
@@ -1554,10 +1554,10 @@
     "sp500_entry": 7743.98,
     "sp500_tp": 8131.18,
     "sp500_sl": 7511.66,
-    "outcome": null,
-    "outcome_date": null,
-    "outcome_return": null,
-    "outcome_days": null
+    "outcome": "LOSS",
+    "outcome_date": "2026-11-06",
+    "outcome_return": -5.04,
+    "outcome_days": 8
   },
   {
     "date": "2026-10-30",
@@ -1566,10 +1566,10 @@
     "sp500_entry": 7720.39,
     "sp500_tp": 8106.41,
     "sp500_sl": 7488.78,
-    "outcome": null,
-    "outcome_date": null,
-    "outcome_return": null,
-    "outcome_days": null
+    "outcome": "LOSS",
+    "outcome_date": "2026-11-06",
+    "outcome_return": -4.75,
+    "outcome_days": 7
   },
   {
     "date": "2026-10-31",
@@ -1638,6 +1638,18 @@
     "sp500_entry": 7688.62,
     "sp500_tp": 8073.05,
     "sp500_sl": 7457.96,
+    "outcome": "LOSS",
+    "outcome_date": "2026-11-06",
+    "outcome_return": -4.36,
+    "outcome_days": 1
+  },
+  {
+    "date": "2026-11-06",
+    "signal": "HOLD",
+    "score": 45,
+    "sp500_entry": 7353.73,
+    "sp500_tp": 7721.42,
+    "sp500_sl": 7133.12,
     "outcome": null,
     "outcome_date": null,
     "outcome_return": null,
